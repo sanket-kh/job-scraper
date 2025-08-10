@@ -1,0 +1,12 @@
+Scraper/.DS_Store
+.DS_Store
+Scraper/job_portals_scraper/jobs.xml
+*.pyc
+/.idea
+Scraper/job_portal_extractor/data/logs/*.log
+Scraper/job_portal_extractor/output.json
+Scraper/job_portal_extractor/indeed_uk_jobs.json
+Scraper/job_portal_extractor/reed_jobs.json
+Scraper/job_portal_extractor/sample.html
+Scraper/job_portal_extractor/sample.json
+Scraper/job_portal_extractor/totaljobs_combined.json
