@@ -2,6 +2,8 @@ import requests
 import pandas as pd
 import re
 from rapidfuzz import process
+
+from Scraper.job_portal_extractor.utils.common_utils import html_to_text_with_breaks, get_posted_date
 from utils.notification import notify_success,notify_failure,send_message
 
 from utils.dbUtils import init_db, insert_jobs_to_db , delete_jobs_by_source;
@@ -54,7 +56,7 @@ def scrape_glassdoor_jobs(cookies, headers, url):
         'keyword': '',
         'locationId': 7287,
         'locationType': 'STATE',
-        'numJobsToShow': 30,
+        'numJobsToShow': 5,
         'originalPageUrl': url,
         'parameterUrlInput': 'IL.0,10_IS7287',
         'pageType': 'SERP',
@@ -166,7 +168,7 @@ def scrape_glassdoor_jobs(cookies, headers, url):
         next_cursor = initial_cursor
         page_number = initial_page_number
 
-        while True:
+        while page_number<3:
             data = fetch_jobs(next_cursor, page_number)
 
             if not data:
@@ -251,11 +253,11 @@ def scrape_glassdoor_jobs(cookies, headers, url):
                             "company_name": company_name,
                             "company_logo": company_logo,
                             "salary": salary,
-                            "posted_date": f"{header.get('ageInDays', '')} days ago",
+                            "posted_date": get_posted_date(header.get('ageInDays', '')),
                             "experience": None,
                             "location": header.get('locationName', ''),
                             "apply_link": url,
-                            "description": description,
+                            "description": html_to_text_with_breaks(description),
                             "data_source": "glassdoor"
                         }
                         

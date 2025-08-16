@@ -1,9 +1,10 @@
+import csv
 from datetime import date, datetime
 
 from jobspy2 import scrape_jobs
 import time
 from selenium import webdriver
-from selenium.common import TimeoutException
+from selenium.common import TimeoutException, NoSuchElementException
 from selenium.webdriver import Keys
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
@@ -12,6 +13,8 @@ from selenium.webdriver.support import expected_conditions as ec
 from selenium.webdriver.support.wait import WebDriverWait
 from webdriver_manager.chrome import ChromeDriverManager
 
+from Scraper.job_portal_extractor.utils.notification import notify_success
+from Scraper.job_portal_extractor.utils.supaDb import insert_jobs
 from utils.config import load_company_list
 from utils.match_company import is_company_match_above_70
 
@@ -32,7 +35,6 @@ def open_job_url_and_handle_popup(company_url):
     try:
         driver.get(company_url)
 
-        wait = WebDriverWait(driver, 15)
         try:
             driver.find_element(By.TAG_NAME, 'body').send_keys(Keys.ESCAPE)
             print("Attempted to close popup with Escape key")
@@ -41,25 +43,31 @@ def open_job_url_and_handle_popup(company_url):
 
         time.sleep(2)
 
+        wait = WebDriverWait(driver, 15)
         img_element = wait.until(
             ec.presence_of_element_located(
-                (By.CSS_SELECTOR, ".contextual-sign-in-modal__screen img.contextual-sign-in-modal__img")
+                (By.CSS_SELECTOR, "img.artdeco-entity-image")
             )
         )
-        # Wait for the salary element to be present
-        salary_element = wait.until(
-            ec.presence_of_element_located((By.CSS_SELECTOR, "div.salary.compensation__salary"))
-        )
-
-        salary_map = {'min': None, 'max': None}
-        if salary_element:
-            salary_text = salary_element.text.strip()
-            salary_map = {
-                'min': salary_text.split('-')[0].strip(),
-                'max': salary_text.split('-')[1].strip()
-            }
 
         logo_url = img_element.get_attribute("src")
+
+        # Wait for the salary element to be present
+        salary_map = {'min': None, 'max': None}
+        try:
+            salary_elem = WebDriverWait(driver, 5).until(
+                ec.presence_of_element_located((By.CSS_SELECTOR, ".salary.compensation__salary"))
+            )
+            salary_text = salary_elem.text.strip()
+            if "-" in salary_text:
+                min_salary, max_salary = salary_text.split("-", 1)
+                salary_map['min'] = min_salary.strip()
+                salary_map['max'] = max_salary.strip()
+            else:
+                salary_map['min'] = salary_text
+        except (TimeoutException, NoSuchElementException):
+            # No salary element found, leave salary_map as None values
+            pass
         return logo_url, salary_map
 
     except TimeoutException:
@@ -78,7 +86,7 @@ try:
         linkedin_fetch_description=True,
         distance=25,
         # results_wanted=2500,
-        results_wanted=5,  # For Testing
+        results_wanted=10,  # For Testing
         # hours_old=168,
         # enforce_annual_salary = True,
         country_indeed='UK',
@@ -90,8 +98,8 @@ try:
     all_jobs_dicts = jobs.to_dict(orient="records")
 
     for job in all_jobs_dicts:
-        if not (is_company_match_above_70(job.get("company", ""), companies_list)):
-            continue
+        # if not (is_company_match_above_70(job.get("company", ""), companies_list)):
+        #     continue
         print(job)
         logo_url, salary_map = open_job_url_and_handle_popup(job.get("job_url"))
         transformed_job = {
@@ -104,7 +112,7 @@ try:
                     "date_posted") or datetime.now().isoformat()),
             "experience": job.get("experience_range", None),  # Optional, fill if available
             "location": job.get("location", None),
-            "apply_link": job.get("job_url_direct", "") or job.get("job_url", ""),
+            "apply_link": str(job.get("job_url_direct", "")).startswith('https') or job.get("job_url", ""),
             "description": job.get("description", None),  # Optional, fill if available
         }
         # print(job.get("job_url_direct"), job.get("job_url"))
@@ -116,11 +124,11 @@ except Exception as e:
 
 print(transformed_results)
 print(f"Found {len(transformed_results)} jobs from Linkedin")
-# if(len(transformed_results)>0):
-# inserted, deleted = insert_jobs(transformed_results, data_source="linkedin")
-# print(f"Inserted {inserted} jobs to Database , and deleted {deleted} existing jobs")
-# notify_success(f"🎉 Linkedin Job scraping done successfully! {inserted} jobs processed.")
-# notify_success(f"🎉 Linkedin Job scraping done successfully! {len(transformed_results)} jobs processed.")
-
-## print(jobs.head())
-# jobs.to_csv("jobs.csv", quoting=csv.QUOTE_NONNUMERIC, escapechar="\\", index=False) # to_excel
+if (len(transformed_results) > 0):
+    inserted, deleted = insert_jobs(transformed_results, data_source="linkedin")
+    print(f"Inserted {inserted} jobs to Database , and deleted {deleted} existing jobs")
+    notify_success(f"🎉 Linkedin Job scraping done successfully! {inserted} jobs processed.")
+    notify_success(f"🎉 Linkedin Job scraping done successfully! {len(transformed_results)} jobs processed.")
+#
+# print(jobs.head())
+jobs.to_csv("jobs.csv", quoting=csv.QUOTE_NONNUMERIC, escapechar="\\", index=False)  # to_excel

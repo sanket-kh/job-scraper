@@ -1,0 +1,580 @@
+"id","site","job_url","job_url_direct","title","company","location","date_posted","job_type","salary_source","interval","min_amount","max_amount","currency","is_remote","job_level","job_function","listing_type","emails","description","company_industry","company_url","company_logo","company_url_direct","company_addresses","company_num_employees","company_revenue","company_description"
+"li-4284448887","linkedin","https://www.linkedin.com/jobs/view/4284448887","https://jobs.ashbyhq.com/taktile/68bc7d86-a68a-42ed-93f5-13cf219fde0c/application?utm_source=9ZvWNnZ8qq&urlHash=YeTT","Full-stack Engineer - Team Decide","Taktile","London, England, UK","2025-08-13","fulltime","","","","","","","entry level","","","[]","**About The Role**
+Taktile is a high-growth, post product-market-fit start-up, on a fast trajectory to becoming market leader in the field of automated decisioning. We are looking for a Full-stack Engineer to join the Decide Team tasked with owning our core decision execution engine at Taktile, complex back-end systems involved in feature computation, as well as the overall decision flow canvas. If you’re ambitious, have strong engineering fundamentals, love doing the simple things exceptionally well, and enjoy propelling a small, dynamic team forward, this role is for you!
+  
+  
+**What You'll Do**
+
+* Build customer facing data interfaces with React to manage decision logic.
+* Work on backend components written in Python / FastAPI, hosted on an AWS serverless architecture: Build and enhance our execution engine, our feature computation back-end and other complex subsystems; review pull requests with depth, and optimize CI/CD pipelines.
+* Collaborate with cross-functional teams to translate business requirements into technical solutions. Engage actively in team rituals such as daily syncs, planning sessions, demos, and technical deep-dive discussions.
+* Grow as an individual and accelerate your career by learning from our experienced team, contributing to a foundational layer of the product.
+
+**Requirements**
+
+* Strong engineering fundamentals with a passion for simplicity and precision.
+* Experience with frontend development (e.g., React or similar frameworks).
+* Fluency in English, both written and spoken, is crucial to lead communication in our globally distributed environment.
+
+**Ideal, But Not Required**
+
+* Prior industry experience with Python.
+* Expertise in data engineering topics, SQL, parquet.
+* Experience with AWS services and serverless architectures.
+
+**What we offer**
+
+* Work with colleagues that lift you up, challenge you, celebrate you and help you grow. We come from many different backgrounds, but what we have in common is the desire to operate at the very top of our fields. If you are similarly capable, caring, and driven, you'll find yourself at home here.
+* Make an impact and meaningfully shape an early-stage company.
+* Experience a truly flat hierarchy and communicate directly with founding team members. Having an opinion and voicing your ideas is not only welcome but encouraged, especially when they challenge the status quo.
+* Learn from experienced mentors and achieve tremendous personal and professional growth. Get to know and leverage our network of leading tech investors and advisors around the globe.
+* Receive a top-of-market equity and cash compensation package.
+* Get access to a self-development budget you can use to e.g. attend conferences, buy books or take classes.
+* Receive a new Apple MacBook Pro, as well as meaningful home office set-up.
+
+**Our Stance**
+
+* We're eager to meet talented and driven candidates regardless of whether they tick all the boxes. We're looking for someone who will add to our culture, not just fit within it. We strongly encourage individuals from groups traditionally underestimated and underrepresented in tech to apply
+* We seek to actively recognize and combat racism, sexism, ableism and ageism. We embrace and support all gender identities and expressions, and celebrate love in its many forms. We won't inquire about how you identify or if you've experienced discrimination, but if you want to tell your story, we are all ears
+
+**About Us**
+Taktile is building the world's leading software platform for running critical and highly-automated decisions. Our customers use our product to catch fraudsters, prevent money laundering, and expand access to credit for small businesses, among many other use cases. Taktile is already making millions of such decisions across the globe every day.
+  
+  
+Taktile is based in Berlin, London and New York City. It was founded by machine learning and data science veterans with extensive experience building and running production ML in financial services. Our team consists of engineers, entrepreneurs, and researchers with a diverse set of backgrounds. Some of us attended top universities such as Harvard, Oxford, and Stanford and some of us have no degree at all. We have accumulated extensive work experience at leading tech companies, startups, and the enterprise software sphere.
+  
+  
+Our backers include Y Combinator, Index Ventures, and stellar angels such as the founders of Looker, GitHub, Mulesoft, Datadog and UiPath.","Software Development","https://www.linkedin.com/company/taktile1","","","","","",""
+"li-4282141256","linkedin","https://www.linkedin.com/jobs/view/4282141256","https://job-boards.greenhouse.io/elwoodtechnologies/jobs/5615941004&urlHash=rLw-","Graduate Software Engineer","Elwood","London, England, UK","2025-08-08","fulltime","","","","","","","internship","","","[]","**Job Title: Graduate Software Engineer**
+Starting Salary: £50,000
+  
+  
+Location: London
+  
+  
+Elwood Technologies is a FCA regulated firm that provides end-to-end institutional-grade digital asset Execution, Liquidity Access and Portfolio Monitoring & Risk Management Software. Built with institutions for institutions, Elwood’s EMS offers best available price execution, smart order routing and algorithmic tooling alongside a traditional finance grade Portfolio Management System.
+  
+  
+Built by industry experts with decades of combined experience in investment management and digital technology, we are now looking for Graduate Software Engineers to support our Engineering growth targets.
+  
+  
+**Job Description**
+Elwood is looking for a class of Software Engineers to embark on a 24-month graduate scheme working alongside our global team. The scheme will involve rotations across our internal teams within our Engineering department such as UI, Backend, DevOps and Market Connectivity.. These rotations will provide a wide range of industry leading technical skills and introduce graduates to all areas of the business enabling you to become an integral part of the Elwood ecosystem and learn about digital asset markets. If you are interested in pursuing a career in the world of digital assets then this offers a great opportunity to gain hands-on experience whilst commencing your career in Software Engineering.
+  
+  
+**Key Responsibilities**
+**Develop and enhance software across the Elwood technology estate.**
+
+* Work with business stakeholders to build new and maintain existing features.
+* Meet deadlines in support of a fast-moving release cycle.
+* Leverage new technologies and approaches with continuous improvement in mind.
+* Work closely with Quants, Product, Algo Developers, Infrastructure and Support teams to deliver trading solutions.
+* Contribute to all areas of software development lifecycle including design, development, integration, automated testing, and maintenance.
+
+**Qualifications / Knowledge**
+
+* Degree in a STEM discipline.
+* Programming experience in an object oriented or functional programming language: C#, C++, Java, Python, Golang, Rust etc.
+* Strong understanding of computer science fundamentals including design, algorithms, and data structures.
+* Excellent analytical and problem-solving skills.
+* Excellent verbal and written communication skills.
+* A passion for a career in a FinTech environment, and genuine interest in the Crypto / Digital Assets space.
+* What we offer:
+* 💵 Competitive salary and compensation packages
+* 🍎 Fully paid medical and discounted dental schemes for employees and their family
+* ✈️ Generous time off + bank holidays
+* 🍼 Enhanced parental leave for all employees who have been with the company for one (1) year
+* 🍔 Fully stocked kitchen and access to weekly Ubereats allowance
+* 💪 Discounted gym scheme
+* 🐕‍ Employee Assistance Programme
+* 📚 Paid study leave and personal leave
+
+**Why Elwood?**
+
+* Join a series A FinTech company and help shape the future of finance
+* A startup with deep financial backing and a strong market presence
+* Our platform is enabling institutional access to the most exciting growth opportunity in Finance
+* Work with a modern technology stack and help solve high impact problems
+* Strong client focused team with a diverse background
+* We’re a Global company and have modern, centrally based offices in London, New York and Singapore.","Financial Services","https://uk.linkedin.com/company/elwoodtechnologies","","","","","",""
+"li-4275039261","linkedin","https://www.linkedin.com/jobs/view/4275039261","https://grnh.se/9lvb7rfs1us&urlHash=8fCg","Software Engineer","DoorDash","London, England, UK","2025-07-31","fulltime","","","","","","","mid-senior level","","","[]","**About the Team**
+The In-Store Technology organization at DoorDash is committed to building products that help restaurants create magical experiences every day. We are a small, but rapidly growing team of 70+ engineers, scientists and builders who are on a mission to fundamentally transform the hospitality industry. Our tech stack includes Python, Typescript, ReactJS, Redux, Django, App Engine, Cloud Firestore, Memcache, Cloud Tasks, Firebase, BigQuery, Elasticsearch, and more.
+  
+  
+**About the Role**
+We're looking for a strong Software Engineer who is excited to engineer highly performant, mission-critical systems that are designed for agile development and rapid scaling. You will partner with other engineers, product managers and designers who are dedicated to engineering real solutions that empower our In-Store team for growth. You will be joining an organization of engineering professionals working to fundamentally transform the hospitality industry through innovative technology solutions.
+  
+  
+**You're excited about this opportunity because you will…**
+
+* **Design, develop, test, deploy, maintain and improve software.**
+  Focus strongly on customer-facing features that create magical experiences for restaurant partners.
+* **Be the technical owner of features from design to implementation.**
+  Take ownership of ongoing support and ensure high-quality delivery throughout the development lifecycle.
+* **Manage individual project priorities, deadlines, code quality and deliverables.**
+  Participate in occasional on-call duties to keep software systems up and running smoothly.
+* **Partner with cross-functional teams including engineers, product managers and designers.**
+  Collaborate to engineer real solutions that drive growth and innovation in the hospitality industry.
+* **Work with cutting-edge technology stack.**
+  Utilize tools like Python, Typescript, ReactJS, Redux, Django, and modern cloud infrastructure to build scalable solutions.
+
+**We're excited about you because…**
+
+* You have a BS degree in Computer Science, similar technical field of study or equivalent professional experience with 3+ years of software engineering experience
+* You have experience developing web applications with strong knowledge of algorithms, data structures, complexity analysis and software design
+* You have experience with Python and ReactJS (preferred) and are excited to work with our modern technology stack
+* You are passionate about building customer-facing features and take ownership of technical solutions from conception to deployment
+* You thrive in collaborative environments and are excited to work with cross-functional teams to solve complex problems in the hospitality industry
+
+Notice to Applicants for Jobs Located in NYC or Remote Jobs Associated With Office in NYC Only
+  
+  
+We use Covey as part of our hiring and/or promotional process for jobs in NYC and certain features may qualify it as an AEDT in NYC. As part of the hiring and/or promotion process, we provide Covey with job requirements and candidate submitted applications. We began using Covey Scout for Inbound from August 21, 2023, through December 21, 2023, and resumed using Covey Scout for Inbound again on June 29, 2024.
+  
+  
+The Covey tool has been reviewed by an independent auditor. Results of the audit may be viewed here: Covey
+  
+  
+**About SevenRooms**
+In 2011, Joel Montaniel, Allison Page, and Kinesh Patel founded SevenRooms after noticing that hospitality operators were missing a critical ingredient in the systems they were using to run their business: guest data. What began as a mission to help restaurants better understand and serve their guests evolved into a powerful platform used by merchants around the world.
+  
+  
+With best-in-class tools for marketing, operations, and guest experience — all deeply integrated with its industry-leading CRM — SevenRooms empowers operators to drive revenue, streamline operations, and deliver experiences that keep guests coming back.
+  
+  
+In 2025, DoorDash acquired SevenRooms to strengthen its in-store strategy and expand its merchant-first offerings. The combination brings together DoorDash's scale, reach, and digital innovation with SevenRooms' in-store capabilities to support hospitality businesses across every channel — from discovery and delivery to on-premise dining.
+  
+  
+As DoorDash builds out its in-store capabilities, SevenRooms plays a central role in enabling merchants to grow their businesses and connect more meaningfully with guests, whether they're ordering online or dining in. This move reflects DoorDash's broader commitment to empowering local businesses, fostering stronger connections between consumers and the places they love, and building technology that meets merchants — and their customers — wherever they are.","Technology, Information and Internet","https://www.linkedin.com/company/doordash","","","","","",""
+"li-4277886889","linkedin","https://www.linkedin.com/jobs/view/4277886889","https://www.tiptopjob.com/jobs/132114336_job.asp?source=indeed_cpc&urlHash=vz-Y","Graduate Full Stack Software Engineer","TipTopJob","London, England, UK","2025-07-30","fulltime","","","","","","","internship","","","[]","Graduate Full Stack Engineer : Join an Exceptional Team
+  
+  
+An innovative technology company is seeking aGraduate Full Stack Engineerto join their talented and collaborative team. This is an exciting opportunity for a recent graduate with a passion for building innovative solutions and working alongside some of the industry's best engineers.
+  
+  
+**The Role**
+: Contribute to cutting:edge projects usingPythonandJavaScript, building scalable and robust applications.
+  
+  
+: Collaborate with a supportive and highly skilled team, benefiting from exceptional training and mentoring.
+  
+  
+: Work in an environment that values creativity, continuous learning, and the latest in tech innovation.
+  
+  
+**Ideal Candidate**
+: Holdsexceptional academic credentialsfrom a top Russell Group university.
+  
+  
+: Has experience throughpersonal projects, internships, or work placementsshowcasing technical skills and creativity.
+  
+  
+: Proficient inPython and JavaScriptwith a solid understanding of full:stack development.
+  
+  
+: Demonstrates excellent communication skills and a passion for exploring emerging technologies.
+  
+  
+This is a chance to grow with a company that values innovation, invests in its people, and fosters a culture of excellence. If you know a graduate ready to launch their career with unparalleled support and opportunity, this role is the perfect fit.
+  
+  
+Graduate Full Stack Engineer : Join an Exceptional Team","Advertising Services","https://uk.linkedin.com/company/tiptopjob","","","","","",""
+"li-4278091280","linkedin","https://www.linkedin.com/jobs/view/4278091280","","Graduate Software Engineer 2025 - Platform","Suade","London, England, UK","2025-07-30","fulltime","","","","","","","entry level","","","[]","Suade's success is built on grit, determination, and our proven ability to develop cutting edge technology to create the next generation of Regulatory Technology (RegTech) software.
+  
+  
+Are you someone who loves both technology and finance? If you're eager to kickstart your journey into software engineering, we've got an exciting opening for you. We're on the lookout for a Graduate Engineer to join our Platform team. The platform team is a specialized group of engineers responsible for designing, building, and maintaining the server-side infrastructure and business logic.
+  
+  
+Please note:
+  
+  
+
+* This role is based in London. Suade has a flexible working policy but you will need to be available to come into the London office when required. Some travel may be required.
+* We are unable to offer visa sponsorship for this role. Applications from candidates who require visa sponsorship will not be considered
+
+***Suade is delighted to be an equal opportunity employer we have a diverse team with great values. All qualified applicants will receive consideration for employment without bias.***
+**Responsibilities**
+
+* Write clean, maintainable code following established coding standards
+* Implement new features and bug fixes under the guidance of senior engineers
+* Participate in code reviews and contribute to improving code quality
+* Collaborate with frontend engineers to implement API endpoints
+* Participate in agile development processes and team meetings
+* Document code and technical decisions for future reference
+
+**Requirements**
+
+* Bachelor's or master's degree in computer science, Software Engineering, or related field
+* Strong understanding of computer science fundamentals
+* Proficiency in at least one programming language (preferably Python)
+* Basic knowledge of database concepts and SQL
+* Understanding of RESTful APIs and web services
+* Familiarity with version control systems (Git)
+* Strong problem-solving skills and attention to detail
+
+**Good to have**
+
+* Experience with backend frameworks (FastAPI)
+* Knowledge of containerisation (Docker)
+* Understanding of testing principles and TDD
+* Familiarity with CI/CD pipelines
+* Experience with agile development methodologies
+
+**Benefits**
+
+* 25 days holiday + Bank Holidays
+* Flexible holiday - choose when you take your holidays by opting out of bank holidays if you would like!
+* Additional annual leave holiday - An extra day of annual leave for every 3 years you work at Suade in addition to your existing 25 days on a pro rata basis
+* Company Pension
+* Maternity leave and extraordinary paternity leave
+* Flexible working hours
+* Company laptop
+* £500 Annual Training/ Development Subsidy
+* Perkbox
+
+**Salary £35,000**","IT Services and IT Consulting","https://uk.linkedin.com/company/suade-labs","","","","","",""
+"li-4108711787","linkedin","https://www.linkedin.com/jobs/view/4108711787","https://www.alphasights.com/careers/open-roles?gh_jid=6450783&gh_src=a30a705d1us&urlHash=m1CD","Graduate Software Engineer","AlphaSights","London, England, UK","2025-07-24","fulltime","","","","","","","internship","","","[]","**The Role**
+We are looking for highly driven, aspiring software engineers who take pride in their work, to expand our Engineering team in London. Successful candidates will join a cross functional team including product managers and designers working closely with the rest of our business to deliver working code that solves real problems for both internal and external customers. You will take ownership of the problems that your team solves, ensuring a high level of quality in everything that we release, working as part of a top performing international development team. If you have a strong passion for solving problems with code, and want to work with exceptional colleagues in a high achievement environment, this role is a good fit for you.
+  
+  
+**What You’ll Do**
+
+* Design solutions: Define the best technical solutions to business problems, contributing to an architectural vision that will scale up to be the world's leading research platform.
+* Ship working code: We primarily work with React on the frontend and Kotlin microservices with Postgres on the backend, with some older services written in Ruby on Rails. We’ve always got an eye open to assess new technologies that might improve our stack.
+* Deploy and iterate: We release frequently to our customers, using CIrcleCI and Spinnaker for CI/CD, and quickly gather feedback in order to inform our next iteration.
+* Build your competency: You will learn quickly by building market-leading technology with experienced colleagues in a high performance environment. Engineers can also use our L&D budget to fast-track development of specific technical competencies.
+* Maintenance and troubleshooting: Carefully monitor our services, catching errors before users notice them, diagnosing the root cause and deploying fixes.
+
+**Who You Are**
+
+* You are pursuing a degree in Computer Science, or a related field.
+* Proven track record – you have clear accomplishments both in and out of university, standing out from your peers.
+* You have practical experience, applying your technical skills in a professional environment.
+* You have excellent communication skills, collaborating closely and effectively with teammates.
+* Highly driven and proactive – you relentlessly and independently push through hurdles and drive towards excellent outcomes.
+* Meticulous – you hold high standards and have an obsessive attention to detail.
+
+Learn more about our tech organisation here.
+  
+  
+Don't worry if your experience or background doesn't match all of these areas, we believe a broad spectrum of experience provides great perspective on solving problems in new and innovative ways and we’d love to hear from you.
+  
+  
+AlphaSights is an equal opportunity employer.","Information Services","https://uk.linkedin.com/company/alphasights","","","","","",""
+"li-4281256541","linkedin","https://www.linkedin.com/jobs/view/4281256541","","Software Engineer-Full stack (All Levels)","Kroo Bank","London, England, UK","2025-07-18","fulltime","","","","","","","mid-senior level","","","[]","**What We're All About At Kroo**
+Kroo has a big vision. To be the first bank that is both trusted and loved by its customers. We're helping people take control of their financial future and achieve their goals, whilst making a positive impact on the planet. Here at Kroo, doing what is right is in our DNA. We act with integrity, transparency and honesty. We think big, dream big, and relentlessly pursue our goals. We like to be bold, break new ground, and we never stop learning. But most importantly, we are on this journey together.
+  
+  
+**How You'll Contribute**
+Reporting into a Tech Lead, you'll be embedded in one of our multidisciplinary Product Squads and will:
+  
+  
+
+* Implement new features and deploy them using our Continuous Delivery approach
+* Contribute to our product vision
+* Work in an Agile cross-functional team of a Product Manager, Product Designer and Developers (We use a blend of processes that work for us inc. SCRUM, Kanban and Pair Programming)
+* Be involved in the end to end cycle of building our product
+* Champion quality code while being pragmatic
+* Work in an inclusive, collaborative, transparent, non-hierarchical and ego-free culture where your talent is valued over your job title
+
+**You'll get to work with a variety of new and interesting technology:**
+We mainly use the following tools and technology but you don't need to have experience with all of them. Many of us didn't when we joined! Our focus is always on finding the right technology for the job, if you're willing to learn, we are interested in speaking with you.
+  
+  
+
+* Clojure to write our backend microservices (please apply if you have experience with any Functional Programming language)
+* React Native and Redux for our mobile applications
+* Kafka for our asynchronous message queue
+* AWS for our infrastructure
+* Docker to run our services
+* Terraform for our infrastructure provisioning and deployment
+
+We regularly contribute to Open Source libraries and encourage our Developers to suggest new technology that can add value to building a bank.
+  
+  
+**Requirements**
+**About You**
+While not essential, the following experience and qualifications are highly desirable in our ideal candidate for this position:
+  
+  
+
+* You have previous experience with or are excited about Functional Programming
+* You've worked in a cross-functional Agile team
+* You'd like to be part of a team that does Pairing Programming and Test Driven Development
+* You have experience working with microservices
+* You want to work in a product focused team that thinks about customers and user behaviour and builds sublime experiences for them
+* You have experience deploying to cloud based infrastructure like AWS or similar
+* You want to deliver a product using the principles of Hypothesis Driven Development
+* You'd like to develop with mobile first design principles and build cross-platform Android and iOS applications with React Native
+* You'd like to be part of building an inclusive and diverse culture in which everyone can succeed
+
+**About Our Process**
+We understand that competency is contextual, so throughout the process, we aim to gain an understanding of your experience and, if successful, to provide you with a role reflective of your demonstrated seniority. Our general interview process is as follows, but if your circumstances or timescales require, we can be flexible with its structure:
+  
+  
+
+* 30-minute meet and greet with our Talent Acquisition Specialist via Google Hangouts
+* 1-hour live coding exercise to work through a coding challenge with members of our development team via Google Hangouts
+* 1-hour system design. This is an opportunity to showcase a system you've worked on in the past via Google Hangouts
+* 30-minute opportunity to meet with our Head of Engineering and executives via Google Hangouts
+
+Please let us know if you have any specific requirements or need assistance so we can be as accommodating as possible for you.
+  
+  
+**Benefits**
+**What We Offer**
+At our cutting-edge fintech company, we know that attracting and retaining the best talent means offering top-notch benefits that help our employees thrive both in and outside of work. Check out what we currently offer:
+  
+  
+
+* Generous holiday time: 25 days annual leave, 8 bank holidays, 1 Kroo bank holiday (June 24th), and 1 day off during the week of your birthday
+* Personal days: We know that life can be unpredictable, so we offer 3 personal days to use as needed
+* Employer-sponsored volunteer program: We're passionate about giving back to our community, and we support our employees in doing the same with up to 4 hours per month of employer-sponsored volunteer time
+* Mental health support: We care about the mental health of our team members and offer access to Spill, our mental health support partner
+* Workplace pension: We want you to feel secure about your future, so we offer a workplace pension with a 5% employee contribution and a 3% employer top-up
+* Top-notch equipment: We provide top-of-the-line equipment necessary for smooth hybrid work, including a MacBook laptop. Additionally, we also offer support in establishing your home office by contributing towards your setup if required
+* Modern office: When you're in the office, you'll enjoy access to our modern, bustling workspace in Farringdon, Central London
+* Cycle to Work scheme: We encourage sustainable transportation with our Cycle to Work scheme
+* Electric Car scheme: We're committed to reducing our carbon footprint, and our Electric Car scheme makes it easy for our employees to do the same
+* Enhanced parental leave: We know that family comes first, and we offer an enhanced parental leave policy to support our employees in starting and growing their families
+* Room for growth: As a fast-paced, high-growth start-up, we're dedicated to providing our employees with room to grow and excel
+* You get full healthcare for you and your nuclear family via Vitality
+
+**Hybrid Working:**
+At Kroo Bank, we have a hybrid policy that gives both individuals and teams a lot of freedom when it comes to using the office space to boost productivity. Our London office is a great resource when used effectively. So, employees who can occasionally come to the office are a good fit for how we work right now. Keep in mind that this job involves working from Monday to Friday, with a mix of remote and office work, so you won't need to be on-site all the time.
+  
+  
+**Diversity and Inclusion:**
+We wholeheartedly uphold our commitment to fostering a diverse and inclusive workplace. Every employee is highly regarded, respected, and supported without any form of judgement or prejudice. We consider Diversity, Equality, and Inclusion as fundamental pillars guiding our path in all aspects of our bank. We also ensure that reasonable adjustments are made available to all candidates throughout the recruitment process.
+  
+  
+**To all Recruitment Agencies:**
+At Kroo Bank, agency resumes are strictly prohibited. Do not submit agency resumes or forward them to our job advertisements or Kroo Bank employees. Be aware that Kroo Bank will not assume any responsibility for fees incurred due to unsolicited resumes.
+  
+  
+To ensure a fair and efficient application process, all candidates are kindly requested to submit their applications directly through the advertised platform. We kindly ask that you refrain from reaching out to the company or its employees via email, LinkedIn, or any other communication channels for inquiries or updates. Please note that any attempts to contact us through these channels will not receive a response. Thank you for your understanding and cooperation.","IT Services and IT Consulting","https://uk.linkedin.com/company/kroobank","","","","","",""
+"li-4251643217","linkedin","https://www.linkedin.com/jobs/view/4251643217","https://targetjobs.co.uk/jobs/graduate-software-developer-178872&urlHash=k0vz","Graduate Software Developer","targetjobs UK","London, England, UK","2025-06-16","fulltime","","","","","","","internship","","","[]","**About The Company**
+Our client is a high-growth SaaS scale-up headquartered in London, with a team of 100 forward-thinking professionals dedicated to delivering innovative software solutions. Known for their state-of-the-art technology and user-centric approach, they serve a broad and expanding client base across multiple industries. Driven by a commitment to continuous improvement, they focus on utilising the latest advancements in technology to meet and exceed client expectations. This dynamic, collaborative environment provides a strong foundation for growth and makes the company a key player in the SaaS landscape.
+  
+  
+**About The Role**
+The Graduate Developer role offers an exciting opportunity for recent graduates with a passion for software development and emerging technologies. In this position, you’ll contribute to the creation and enhancement of high-quality SaaS products within a fast-paced, agile development environment. The role includes hands-on coding, problem-solving, and collaboration with cross-functional teams. Ideal candidates should possess a solid understanding of software development fundamentals and be eager to work on impactful technology solutions that drive the company’s success.
+  
+  
+**Responsibilities**
+
+* Collaborating in the design, development, and deployment of software products.
+* Writing clean, efficient, and well-documented code in various programming languages.
+* Participating in code reviews, quality assurance, and troubleshooting to ensure high product standards.
+* Contributing to all phases of the development lifecycle, from concept to deployment.
+* Engaging with cross-functional teams to deliver innovative features and functionality.
+
+**Requirements**
+
+* Bachelor’s degree in Computer Science, Software Engineering, or a related field.
+* Strong programming skills and familiarity with software development methodologies.
+* Ability to learn and adapt to new technologies quickly.
+* Excellent problem-solving skills and attention to detail.
+* Good interpersonal and communication skills, with the ability to work in a team-oriented environment.
+
+**Benefits**
+
+* A competitive salary of £50,000 with potential for bonuses.
+* Career development opportunities in a dynamic and innovative tech environment.
+* Access to the latest tools and technologies in software development.
+* Regular team events, workshops, and networking opportunities.","Technology, Information and Internet","https://uk.linkedin.com/company/targetjobsuk","","","","","",""
+"li-4224228651","linkedin","https://www.linkedin.com/jobs/view/4224228651","https://www.ycombinator.com/companies/kular/jobs/IouTs2q-graduate-software-engineer?utm_source=syn_li&urlHash=-umg","Graduate Software Engineer","Kular","London, England, UK","2025-05-09","fulltime","","","","","","","internship","","","[]","🚀 Apply now | 👋 Who is Kula? | 🧐 You | 🔥 Role | 🎤Process | 💵 Referrals
+  
+  
+👋 Who is Kular and what do we do?
+  
+  
+We're Kular, the AI Lead Generator for busy professionals and business owners.
+  
+  
+Kular is being built by a team of MIT, IIT, Cambridge and Oxford grads, backed by some of the best investors in the world, including Y Combinator, Entrepreneur First, Acequia Capital and angel investors behind companies like Ironclad, OpenSea and Stripe.
+  
+  
+**🗺️ Where is this role based?**
+We are based in Whitechapel, London.
+  
+  
+🧐
+**Who exactly are we looking for?**
+This is an exciting opportunity to join one of the fast-growing startups in the world right now and work directly with the founders, potentially taking a leadership position down the line.
+  
+  
+**You'd Be a Great Fit If You're**
+🧗
+**Ambitious**
+You're someone who wants to grow fast in their career and can scale with Kular.
+  
+  
+*Daniel*
+deployed smart contracts that stored >1B$ in value
+  
+  
+🧠
+**Smart**
+You explore new creative ways of doing things, have strong opinions and are willing to change them.
+  
+  
+*Kular*
+*consists of Cambridge, Oxford, MIT and IIT graduates who have scaled systems to 5,000,000 active users and patented machine learning algorithms*
+🎯
+**Product Focused**
+You love solving customer problems whether using the latest tech or just an e-mail
+  
+  
+📈
+**A Learner**
+You
+**don't need decades of experience**
+, we're looking for people who
+**love learning fast!**
+*Smith*
+joined Kular before he’d even graduated and hadn’t coded in Python in years, but within a month he single-handedly created the system which is now the most important service at Kular
+  
+  
+**💻 Our Current Stack**
+
+* React + Typescript
+* Python (FastAPI)
+* Postgres DB
+* Terraform
+* AWS
+
+📢 But we're
+**language agnostic!**
+If you're a great developer we'd love to have you onboard, regardless of your prior experience!
+  
+  
+🔥 So what will I do?
+  
+  
+As an engineer you will be working directly with our CTO, you'll create and iterate on technical projects:
+  
+  
+
+* Design & build core features for Kular's Web App and backend services
+* Ideate on new features for the product
+* Make architectural decisions to help Kular scale
+* Write sustainable, testable, high-quality, high-performance code.
+* Collaborate with teammates through planning, pair programming, code review, and testing.
+
+If you want we'd also love to involve you in hiring, management and whatever other early startup operations you're interested in!","Software Development","https://uk.linkedin.com/company/joinkular","","","","","",""
+"li-3955668958","linkedin","https://www.linkedin.com/jobs/view/3955668958","https://www.ycombinator.com/companies/humaans/jobs/BM2L6rb-software-engineer-full-stack?utm_source=syn_li&urlHash=FoMG","Software Engineer (Full Stack)","Humaans","London, England, UK","2024-06-21","fulltime","","","","","","","mid-senior level","","","[]","**About Us**
+Hi, we’re Humaans! We help globally scaling organisations transform their HR processes with a human-centric approach.
+  
+  
+At Humaans, we want to empower People teams to create a customisable HR stack by offering flexibility and scalability to seamlessly integrate with other best in class platforms and point solutions, such as Google Workplace, Slack, Okta, Greenhouse, Lattice, DocuSign and more. The stack enables companies to manage employee data, documents, contracts, reporting, and people processes that power your entire HR structure.
+  
+  
+We have raised $20 million in VC funding to date. Investors include major tech players such as Lachy Groom; Slack founder Stewart Butterfield; Shopify founder Tobias Lütke; Figma Founder Dylan Field; Linkedin ex-CEO Jeff Weiner; Stripe COO Claire Johnson; Y Combinator; Moonfire; Frontline Ventures; Exor and more.
+  
+  
+Our journey is only at the beginning, and we’re looking for people excited about driving real impact. As a human centred company (quite literally), every team member counts - and that’s where you come in.
+  
+  
+Our tech stack
+  
+  
+Our tech stack today consists of TypeScript, JavaScript, ReScript, React.js, Node.js, Postgres and Redis. We use GitHub for code and continuous integration to deploy to Kubernetes on Google Cloud Platform. We have a public REST API and our browser client uses a realtime WebSocket API. We obsess over details and quality of the user facing features and their implementation. Yet we move fast by creating focus and leveraging high quality foundations. Clojure, ReScript, Melange and OCaml are some of the languages that get us excited which is why we’ve ventured into exploring ReScript in our frontend stack.
+  
+  
+Your day to day
+  
+  
+
+* Help us shape the product from definition to release
+* Build end to end features, fix bugs, improve infra, support customers
+* Write backend TypeScript in Node.js, Postgres, Redis, Kubernetes
+* Write frontend ReScript / JavaScript in React.js
+* Expand our 3rd party integration marketplace
+* Contribute to our technical architecture planning
+* Support sales and marketing teams
+
+**Skills**
+
+* Multiple years of industry experience in a full stack web app development role (ideally in SaaS)
+* Great knowledge of TypeScript / JavaScript and an appreciation for the language
+* Appreciation for design and digital product craftsmanship
+* Experience collaborating directly with product teams and designers, and a proven track record of delivering value to customers or users
+
+This is an in-person role based at our Central London office (Chancery Lane). Our team comes together in the office on Tuesdays, Wednesdays, and Thursdays to fuel collaboration and connection.
+  
+  
+Package & Benefits
+  
+  
+Early stage startups can be messy – we know that. We're putting effort in providing you with the best employee experience and a quality driven environment in exchange for trusting us.
+  
+  
+💰
+**Salary.**
+Competitive compensation.
+  
+  
+📈
+**Equity.**
+Meaningful equity so that you own part of the company.
+  
+  
+🏝️
+**Time off.**
+25 days of paid time off per year plus public holidays.
+  
+  
+🆘
+**Health.**
+Bupa Private health and dental insurance.
+  
+  
+💻
+**Technology.**
+A brand new MacBook.
+  
+  
+🎒
+**Learning and development.**
+Budget for books and other resources you need.
+  
+  
+Why Join Humaans Today?
+  
+  
+🚀
+**Transform an Entire Industry.**
+HR tech is ripe for disruption, and we're leading the charge. Traditional HR products are clunky, slow, and fail to deliver a seamless experience. Businesses are tired of outdated, fragmented solutions that don’t scale. Humaans is here to disrupt that status quo with powerful, scalable solutions that work for every part of the organization.
+  
+  
+🌍
+**Tackle a Game-Changing Challenge.**
+HR Tech used to be overlooked – not anymore. The way people work is evolving faster than ever, and the needs of global companies are changing in real-time. Humaans is at the forefront of this change, reshaping how businesses operate and empowering teams everywhere.
+  
+  
+🔥
+**Work in a Quality-First Culture.**
+At Humaans, we’re obsessed with delivering top-notch user experiences. Every decision we make is guided by our dedication to design, performance, and customer experience.
+  
+  
+⚡
+**Accelerate Your Career.**
+Joining us at this stage means you’ll be growing alongside the company. We’re learning together, shaping the future of HR tech, and offering you an unmatched opportunity for personal and professional growth.
+  
+  
+💎
+**Backed by the Best.**
+We’re proud to have the support of legendary investors and tech leaders, including Y Combinator and Lachy Groom, the founders of Slack, Shopify, and Figma, Asana’s former CRO, the former CEO of LinkedIn and more. With this powerhouse backing, we’re set to building something truly special.
+  
+  
+Our Commitment to Diversity
+  
+  
+At Humaans we’re looking for genuinely good people that are transparent and emphatic. We’re committed to providing equal opportunities, a diverse and inclusive work environment, and ensuring a fair interview process for everyone. You’re welcome to apply no matter your gender, ethnicity, sexual orientation, religion, civil or family status, age, disability, or race.
+  
+  
+Privacy notice
+  
+  
+We care about your privacy. When you apply for a role at Humaans, we’ll collect and process your personal data as part of our recruitment process. This includes things like your CV, contact details, and any other information you choose to share. We may also contact you about future opportunities. You can ask us to delete your data at any time. For more details, see our Privacy Policy.","Software Development","https://uk.linkedin.com/company/humaans","","","","","",""
