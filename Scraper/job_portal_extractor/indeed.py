@@ -1,50 +1,11 @@
 import csv
-import time
-import json
-import regex as re
 from jobspy2 import scrape_jobs
 from datetime import date, datetime
 
-from playwright.sync_api import sync_playwright
-
+from Scraper.job_portal_extractor.indeed_salary_scraper_playwright import get_indeed_salary
 from Scraper.job_portal_extractor.utils.common_utils import remove_duplicate_jobs
 from utils.notification import notify_success
 from utils.supaDb import insert_jobs
-
-
-def scrape_indeed_with_checkbox(job_url):
-    with sync_playwright() as p:
-        browser = p.chromium.launch_persistent_context(
-            user_data_dir="/tmp/chrome_profile",
-            headless=True,
-            args=["--disable-blink-features=AutomationControlled"]
-        )
-        page = browser.new_page()
-        page.goto(job_url)
-
-        time.sleep(5)
-
-        # Now you can scrape the page content
-        content = page.content()
-        print(content)
-        try:
-            page.wait_for_selector("div[data-testid*='tile']", timeout=15000)
-
-            # Find all divs with data-testid containing currency sign or 'tile'
-            salary_elements = page.query_selector_all("div[data-testid*='tile'] span")
-
-            salaries = []
-            for el in salary_elements:
-                text = el.inner_text().strip()
-                if re.search(r"£\d", text):  # Matches salary patterns like £13.85
-                    salaries.append(text)
-
-            print("💰 Salaries found:", salaries)
-            browser.close()
-        except:
-            return 'N/A'
-            pass
-
 
 transformed_results = []
 
@@ -54,7 +15,7 @@ try:
         location="London,UK",
         distance=25,
         # results_wanted=2500,
-        results_wanted=50,  # For Testing
+        results_wanted=10,  # For Testing
         # hours_old=72,
         country_indeed='UK',
         
@@ -67,15 +28,15 @@ try:
     for job in all_jobs_dicts:
         transformed_job = {
             "job_title": str(job.get("title", "")),
-            "company_name": job.get("company", ""),
+            "company_name": str(job.get("company", "")),
             "company_logo": None if str(job.get("company_logo")) == 'nan' else str(job.get("company_logo", None)),
-            "salary": scrape_indeed_with_checkbox(job.get('job_url')),
+            "salary": get_indeed_salary(job.get('job_url')),
             "posted_date": str((
                 job["date_posted"].isoformat() if isinstance(job.get("date_posted"), (date, datetime)) else job.get(
                     "date_posted") or datetime.now().isoformat())),
             "experience": job.get("experience_range", None),  # Optional, fill if available
             "location": job.get("location", None),
-            "apply_link": job.get("job_url_direct", "") or job.get("job_url", "") ,
+            "apply_link": str(job.get("job_url_direct", "")) if str(job.get("job_url_direct", "")).startswith('https') else str(job.get("job_url", "")),
             "description": job.get("description", None),  # Optional, fill if available
         }
         print(transformed_job.get("posted_date"))
