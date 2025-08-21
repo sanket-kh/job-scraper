@@ -13,6 +13,7 @@ from dateutil import parser
 import time
 from rapidfuzz import process
 
+from Scraper.job_portal_extractor.utils.common_utils import remove_duplicate_jobs
 from utils.notification import notify_success, notify_failure
 from utils.dbUtils import Job,init_db,insert_jobs_to_db,delete_jobs_by_source;
 
@@ -184,9 +185,9 @@ def scrape_all_pages():
             
             page += 1
             
-            # # Break after first page for testing
-            # if page > 2:
-            #     break
+            # Break after first page for testing
+            if page > 5:
+                break
             
         except requests.RequestException as e:
             error_message = f"Error fetching page {page}: {str(e)}"
@@ -269,21 +270,18 @@ def parse_jobs(soup):
             ingestion_time = datetime.utcnow().isoformat()
             
             job_data = {
-                'title': title,
+                'job_title': title,
                 'url': url,
-                'employer': employer,
+                'company_name': employer,
                 'location': location,
                 'salary': salary,
-                'closing_date': closing_date_str,
-                'posting_date': posting_date_str,
+                'posted_date': posting_date_str,
                 'job_id': job_id,
                 'job_type': job_type,
-                'contract_type': contract_type,
                 'apply_link': url,
                 'company_logo': '',
                 'data_source': 'nhs',
                 'country': 'UK',
-                'ingestion_timestamp': ingestion_time
             }
             
             jobs.append(job_data)
@@ -323,6 +321,7 @@ def main():
             
             # Insert jobs into database
             delete_jobs_by_source('nhs')
+            matched_jobs = remove_duplicate_jobs(matched_jobs)
             inserted_count = insert_jobs_to_db(matched_jobs)
             
             
@@ -332,7 +331,7 @@ def main():
                 f"Matched {len(matched_jobs)} jobs with target companies\n"
                 f"Inserted {inserted_count} jobs into database"
             )
-            notify_success( success_message)
+            notify_success(success_message)
                 
         except Exception as e:
             error_message = f"Failed to save data: {str(e)}\n{traceback.format_exc()}"

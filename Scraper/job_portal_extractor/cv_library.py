@@ -2,6 +2,8 @@
 import argparse
 import asyncio
 
+from Scraper.job_portal_extractor.utils import notification, database
+from Scraper.job_portal_extractor.utils.common_utils import remove_duplicate_jobs
 # Import scrapers
 from portals.cvlibrary import CVLibraryScraper
 from utils.config import Settings, load_company_list
@@ -19,7 +21,7 @@ async def run_cv_library_scraper(company_list=None, max_workers=None, max_pages=
         # max_workers = max_workers or settings.MAX_WORKERS
         # max_pages = max_pages if max_pages is not None else settings.MAX_PAGES
         max_workers = 2
-        max_pages = 1
+        max_pages = 20
 
         notify_success("Started", "CV Library")
         
@@ -32,22 +34,23 @@ async def run_cv_library_scraper(company_list=None, max_workers=None, max_pages=
         
         # Run the scraper
         job_listings = await scraper.get_job_listings_async()
+        job_listings = remove_duplicate_jobs(job_listings)
         
         if not job_listings:
             notify_failure("No job listings returned from CV Library scraper", "run_cv_library_scraper")
             return []
         
         # Save to database
-        # db_manager = DatabaseManager()
-        # inserted, deleted = db_manager.batch_upsert_jobs(job_listings, data_source="cv_library")
+        db_manager = DatabaseManager()
+        inserted, deleted = db_manager.batch_upsert_jobs(job_listings, data_source="cv_library")
         
         # Send success notification
-        # success_message = (
-        #     f"CV Library scraper completed successfully.\n"
-        #     f"Scraped {len(job_listings)} jobs\n"
-        #     f"Database: {deleted} old jobs deleted, {inserted} new jobs inserted\n"
-        # )
-        # notify_success(success_message, "CV Library")
+        success_message = (
+            f"CV Library scraper completed successfully.\n"
+            f"Scraped {len(job_listings)} jobs\n"
+            f"Database: {deleted} old jobs deleted, {inserted} new jobs inserted\n"
+        )
+        notify_success(success_message, "CV Library")
         
         return job_listings
         

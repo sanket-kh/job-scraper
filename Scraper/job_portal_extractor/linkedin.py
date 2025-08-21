@@ -13,10 +13,10 @@ from selenium.webdriver.support import expected_conditions as ec
 from selenium.webdriver.support.wait import WebDriverWait
 from webdriver_manager.chrome import ChromeDriverManager
 
+from Scraper.job_portal_extractor.utils.common_utils import remove_duplicate_jobs
 from Scraper.job_portal_extractor.utils.notification import notify_success
 from Scraper.job_portal_extractor.utils.supaDb import insert_jobs
 from utils.config import load_company_list
-from utils.match_company import is_company_match_above_70
 
 companies_list = load_company_list()
 transformed_results = []
@@ -41,9 +41,9 @@ def open_job_url_and_handle_popup(company_url):
         except Exception:
             print('No popup')
 
-        time.sleep(2)
+        time.sleep(1)
 
-        wait = WebDriverWait(driver, 15)
+        wait = WebDriverWait(driver, 5)
         img_element = wait.until(
             ec.presence_of_element_located(
                 (By.CSS_SELECTOR, "img.artdeco-entity-image")
@@ -86,7 +86,7 @@ try:
         linkedin_fetch_description=True,
         distance=25,
         # results_wanted=2500,
-        results_wanted=10,  # For Testing
+        results_wanted=20,  # For Testing
         # hours_old=168,
         # enforce_annual_salary = True,
         country_indeed='UK',
@@ -107,12 +107,12 @@ try:
             "company_name": job.get("company", ""),
             "company_logo": logo_url,
             "salary": f"{salary_map.get('min')} to {salary_map.get('min')}" if salary_map.get('min') else None,
-            "posted_date": (
+            "posted_date": str((
                 job["date_posted"].isoformat() if isinstance(job.get("date_posted"), (date, datetime)) else job.get(
-                    "date_posted") or datetime.now().isoformat()),
+                    "date_posted") or datetime.now().isoformat())),
             "experience": job.get("experience_range", None),  # Optional, fill if available
             "location": job.get("location", None),
-            "apply_link": str(job.get("job_url_direct", "")).startswith('https') or job.get("job_url", ""),
+            "apply_link": str(job.get("job_url_direct", "")) if str(job.get("job_url_direct", "")).startswith('https') else str(job.get("job_url", "")),
             "description": job.get("description", None),  # Optional, fill if available
         }
         # print(job.get("job_url_direct"), job.get("job_url"))
@@ -122,6 +122,7 @@ try:
 except Exception as e:
     print(f"Error in Scraping Linkedin: {e}")
 
+transformed_results = remove_duplicate_jobs(transformed_results)
 print(transformed_results)
 print(f"Found {len(transformed_results)} jobs from Linkedin")
 if (len(transformed_results) > 0):

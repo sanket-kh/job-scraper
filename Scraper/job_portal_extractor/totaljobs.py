@@ -13,6 +13,7 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 from rapidfuzz import process
 
+from Scraper.job_portal_extractor.utils.common_utils import html_to_text_with_breaks, remove_duplicate_jobs
 from utils.notification import notify_failure,notify_success
 from constants.totalJobsConstants import totalJobsCookies,totalJobsHeaders
 
@@ -210,26 +211,23 @@ def extract_job_data_and_pagination(html_content: str, current_page: int) -> Tup
                 apply_link = f'https://www.totaljobs.com/job/{globaljobid}/application/authentication'
 
                 # Extract job data
-                job_data = {
-                    'job_id': job.get('id'),
-                    'title': job.get('title', 'N/A'),
-                    'company': raw_company,
-                    'company_logo': job.get('companyLogoUrl', 'N/A'),
-                    'salary': job.get('salary', 'N/A'),
-                    'posted_date': job.get('datePosted', 'N/A'),
-                    'location': job.get('location', 'N/A'),
-                    'url': apply_link,
-                    'description': job.get('textSnippet', 'N/A'),
-                    'experience': job.get('jobType', ''),
-                    'apply_link': apply_link,
-                    'country': "UK",
-                    'data_source': 'totaljobs',
-                    'page_number': current_page,
-                    'ingestion_timestamp': datetime.utcnow().isoformat()
-                }
+                job_data = {'job_id': job.get('id'),
+                            'job_title': job.get('title', 'N/A'),
+                            'company_name': raw_company,
+                            'company_logo': job.get('companyLogoUrl', 'N/A'),
+                            'salary': job.get('salary', 'N/A'),
+                            'posted_date': job.get('datePosted', 'N/A'),
+                            'location': job.get('location', 'N/A'),
+                            'url': apply_link,
+                            'description': html_to_text_with_breaks(job.get('textSnippet', 'N/A')),
+                            'experience': job.get('jobType', ''),
+                            'apply_link': apply_link,
+                            'country': "UK",
+                            'data_source': 'totaljobs',
+                            'page_number': current_page,
+                            'ingestion_timestamp': datetime.utcnow().isoformat(), 'labels': job.get('badges', [])}
                 
                 # Try to extract additional info
-                job_data['labels'] = job.get('badges', [])
                 if isinstance(job_data['labels'], list) and job_data['labels']:
                     job_data['experience'] += f" - {', '.join([b.get('text', '') for b in job_data['labels'] if 'text' in b])}"
 
@@ -256,7 +254,7 @@ if __name__ == "__main__":
         get_company_list()
         
         # Set maximum pages to scrape (as a safety measure)
-        max_pages = 200
+        max_pages = 10
         
         # Set initial URL
         current_url = 'https://www.totaljobs.com/jobs/sponsorship/in-united-kingdom?salary=30000&salarytypeid=1'
@@ -303,8 +301,9 @@ if __name__ == "__main__":
 
         # After all pages are processed, insert jobs to database
         if all_jobs:
+            unique_jobs = remove_duplicate_jobs(all_jobs)
             delete_jobs_by_source('totaljobs')
-            inserted_count = insert_jobs_to_db(all_jobs)
+            inserted_count = insert_jobs_to_db(unique_jobs)
             success_message = f"✅ TotalJobs Scraper completed successfully!\n📊 Stats:\n- Pages scraped: {current_page - 1}\n- Jobs matched: {len(all_jobs)}\n- Jobs inserted: {inserted_count}"
             logger.info(success_message)
             print(success_message)

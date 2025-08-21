@@ -16,7 +16,7 @@ API_KEY = "e46182fc-639e-432a-9a9b-60fb9ab6bd7b"
 BASE_SEARCH_URL = "https://www.reed.co.uk/api/1.0/search"
 BASE_JOB_URL = "https://www.reed.co.uk/api/1.0/jobs"
 
-MAX_JOBS = 2500  # Set how many jobs you want to collect
+MAX_JOBS = 50  # Set how many jobs you want to collect
 # MAX_JOBS = 5  # For Testing
 
 from utils.notification import notify_success
