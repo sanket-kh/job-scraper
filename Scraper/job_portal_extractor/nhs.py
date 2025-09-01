@@ -8,11 +8,14 @@ import html
 import traceback
 from datetime import datetime
 from sqlalchemy.ext.declarative import declarative_base
+import pyshorteners
+
 from sqlalchemy.orm import sessionmaker
 from dateutil import parser
 import time
 from rapidfuzz import process
 
+from Scraper.job_portal_extractor.filter_jobs import apply_all_filters
 from Scraper.job_portal_extractor.utils.common_utils import remove_duplicate_jobs
 from utils.notification import notify_success, notify_failure
 from utils.dbUtils import Job, init_db, insert_jobs_to_db, delete_jobs_by_source;
@@ -234,7 +237,7 @@ def scrape_all_pages():
             page += 1
 
             # Break after first page for testing
-            if page > 5:
+            if page > 3:
                 break
 
         except requests.RequestException as e:
@@ -371,7 +374,8 @@ def main():
 
             # Insert jobs into database
             delete_jobs_by_source('nhs')
-            matched_jobs = remove_duplicate_jobs(matched_jobs)
+
+            matched_jobs = apply_all_filters(matched_jobs)
             inserted_count = insert_jobs_to_db(matched_jobs)
 
             success_message = (

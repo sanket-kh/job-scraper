@@ -13,6 +13,7 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 from rapidfuzz import process
 
+from Scraper.job_portal_extractor.filter_jobs import apply_all_filters
 from Scraper.job_portal_extractor.utils.common_utils import html_to_text_with_breaks, remove_duplicate_jobs
 from utils.notification import notify_failure,notify_success
 from constants.totalJobsConstants import totalJobsCookies,totalJobsHeaders
@@ -301,9 +302,9 @@ if __name__ == "__main__":
 
         # After all pages are processed, insert jobs to database
         if all_jobs:
-            unique_jobs = remove_duplicate_jobs(all_jobs)
+            matched_jobs = apply_all_filters(all_jobs)
             delete_jobs_by_source('totaljobs')
-            inserted_count = insert_jobs_to_db(unique_jobs)
+            inserted_count = insert_jobs_to_db(matched_jobs)
             success_message = f"✅ TotalJobs Scraper completed successfully!\n📊 Stats:\n- Pages scraped: {current_page - 1}\n- Jobs matched: {len(all_jobs)}\n- Jobs inserted: {inserted_count}"
             logger.info(success_message)
             print(success_message)

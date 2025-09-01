@@ -1,7 +1,7 @@
 import requests
 from datetime import datetime
-from utils.logger import logger
 
+from Scraper.job_portal_extractor.utils.logger import logger
 
 myChatId = '446530656'
 hardilChatId = '1067240798'

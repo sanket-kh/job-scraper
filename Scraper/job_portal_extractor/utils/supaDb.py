@@ -30,7 +30,8 @@ def insert_jobs(jobs, data_source: str):
             cleaned_jobs.append(job)
 
         print(f"📥 Inserting {len(cleaned_jobs)} jobs...")
-        insert_response = supabase.table("jobs").insert(cleaned_jobs).execute()
+        # todo main table
+        insert_response = supabase.table("jobs_duplicate").insert(cleaned_jobs).execute()
 
         if "error" in insert_response and insert_response["error"]:
             print(f"❌ Insert error: {insert_response['error']['message']}")

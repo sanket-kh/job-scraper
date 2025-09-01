@@ -2,6 +2,7 @@ import csv
 from jobspy2 import scrape_jobs
 from datetime import date, datetime
 
+from Scraper.job_portal_extractor.filter_jobs import apply_all_filters
 from Scraper.job_portal_extractor.indeed_salary_scraper_playwright import get_indeed_salary
 from Scraper.job_portal_extractor.utils.common_utils import remove_duplicate_jobs
 from utils.notification import notify_success
@@ -46,7 +47,7 @@ except Exception as e:
     print(f"Error in Scraping Linkedin: {e}")
 
 print(transformed_results)
-transformed_results = remove_duplicate_jobs(transformed_results)
+transformed_results = apply_all_filters(transformed_results)
 print(f"Found {len(transformed_results)} jobs from Indeed")
 if(len(transformed_results)>0):
     inserted, deleted = insert_jobs(transformed_results, data_source="indeed")

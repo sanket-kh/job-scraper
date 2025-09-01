@@ -3,6 +3,7 @@ import pandas as pd
 import re
 from rapidfuzz import process
 
+from Scraper.job_portal_extractor.filter_jobs import apply_all_filters
 from Scraper.job_portal_extractor.utils.common_utils import html_to_text_with_breaks, get_posted_date, remove_duplicate_jobs
 from utils.notification import notify_success,notify_failure,send_message
 
@@ -318,7 +319,7 @@ def main():
             init_db()
             # First, delete existing Glassdoor jobs
             delete_jobs_by_source("glassdoor")
-            unique_jobs = remove_duplicate_jobs(total_jobs)
+            unique_jobs = apply_all_filters(total_jobs)
             insert_jobs_to_db(unique_jobs)
         print(f"Complete scraping process finished. Scraped and inserted {len(total_jobs)} jobs.")    
         notify_success(f"Complete scraping process finished. Scraped and inserted {len(total_jobs)} jobs." , "Glass Door")

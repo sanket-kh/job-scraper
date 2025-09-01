@@ -1,684 +1,1624 @@
 "id","site","job_url","job_url_direct","title","company","location","date_posted","job_type","salary_source","interval","min_amount","max_amount","currency","is_remote","job_level","job_function","listing_type","emails","description","company_industry","company_url","company_logo","company_url_direct","company_addresses","company_num_employees","company_revenue","company_description"
-"in-3a2e0f1d430321c3","indeed","https://uk.indeed.com/viewjob?jk=3a2e0f1d430321c3","http://uk.indeed.com/job/early-years-educator-3a2e0f1d430321c3","Early Years Educator","Victoria Place Day Nursery and After School Club","Twickenham, ENG, GB","2025-08-22","[]","","","","","",False,"","","","[]","Our nursery is based in a a vibrant and enviable location in central Twickenham, close to the station. We are looking for staff to join a long established team that is committed to providing excellent care and education in a friendly and supportive environment.
+"li-4292419182","linkedin","https://www.linkedin.com/jobs/view/4292419182","https://www.civilservicejobs.service.gov.uk/csr/jobs.cgi?jcode=1967743&urlHash=BzEd","Junior Developer","HM Revenue & Customs","London, England, UK","2025-08-28","parttime","","","","","","","entry level","","","unitybusinessservicesrecruitmentresults@hmrc.gov.uk, unitybusinessservicesrecruitmentresults@hmrc.gov.uk, malcolm.mcdonagh@hmrc.gov.uk, unitybusinessservicesrecruitmentresults@hmrc.gov.uk, ubsrecruitmentcomplaints@hmrc.gov.uk","Birmingham, Leeds , London - Stratford
+  
+  
+**Job Summary**
+Discover a career in your hands at HMRC. Whether you're seeking purpose, growth, or a workplace that gives you a true sense of belonging, hear from some of our employees as they share their story about what it’s really like to work at HMRC.
+  
+  
+Visit our YouTube channel to watch the full series and come and discover your potential.
+  
+  
+At HM Revenue & Customs (HMRC) we are committed to creating a great place to work for all our colleagues; an inclusive and respectful environment that reflects the diversity of the society we serve. We want to maximise the potential of everyone who chooses to work for us, and we offer a range of flexible working patterns and support to make a fulfilling career at HMRC accessible to you.
+  
+  
+Diverse perspectives and experiences are critical to our success, and we welcome applications from all people from all backgrounds with the experience and skills needed to perform this role.
+  
+  
+HMRC is one of the UK’s largest government departments and one of the country’s biggest organisations. Almost every individual and business in the country is a direct customer of HMRC. We collect more than £500 billion a year in revenue from over 50 million customers across the UK.
+  
+  
+This is an exciting time to join HMRC as we continue our journey to become one of the most digitally advanced tax authorities in the world. To achieve our ambition, we are investing in ground-breaking initiatives and programmes to transform our tax systems, building a dynamic organisation with a culture that focuses on, and significantly invests in, the continual development of our people.
+  
+  
+**Job Description**
+Data Engineering and Analytics (DEA) is made up of 23 people, who are primarily SAS, SQL or Oracle programmers working in system development roles. We form part of HMRC's wider Debt Management (DM) team.
+  
+  
+DM focuses on helping customers comply fully with their tax obligations, by making timely and targeted contact with customers who do not comply.
+  
+  
+DEA maintains and improves DM's large-scale data warehouses, which are ‘big data’ analytics and debt management systems, complete with a decision engine, using SAS on an Oracle platform. This system combines data from a range of sources, captures changes, and builds a single source of business intelligence for DM.
+  
+  
+This is used to place customers on the most appropriate debt-recovery journey in terms of effectiveness, efficiency, and customer experience. Using SAS, we evaluate customer responses to HMRC interventions and create behaviour models and risk profiles. We continually enrich the data to meet the requirements of current and future campaigns, and work to identify and resolve system issues and inefficiencies to improve campaign deployment.
+  
+  
+This is an exciting time to join the team as we transition our systems to the Cloud, and work to understand and exploit the powerful and dynamic analytical environment it brings. We are also heavily involved in the transformation programme which will see DM’s large-scale data warehouse replaced by a new capability during 2025-2026.
+  
+  
+Data Engineering and Analytics (DEA) is made up of 23 people, who are primarily SAS, SQL or Oracle programmers working in system development roles. We form part of HMRC's wider Debt Management (DM) team.
+  
+  
+DM focuses on helping customers comply fully with their tax obligations, by making timely and targeted contact with customers who do not comply.
+  
+  
+DEA maintains and improves DM's large-scale data warehouses, which are ‘big data’ analytics and debt management systems, complete with a decision engine, using SAS on an Oracle platform. This system combines data from a range of sources, captures changes, and builds a single source of business intelligence for DM.
+  
+  
+This is used to place customers on the most appropriate debt-recovery journey in terms of effectiveness, efficiency, and customer experience. Using SAS, we evaluate customer responses to HMRC interventions and create behaviour models and risk profiles. We continually enrich the data to meet the requirements of current and future campaigns, and work to identify and resolve system issues and inefficiencies to improve campaign deployment.
+  
+  
+This is an exciting time to join the team as we transition our systems to the Cloud, and work to understand and exploit the powerful and dynamic analytical environment it brings. We are also heavily involved in the transformation programme which will see DM’s large-scale data warehouse replaced by a new capability during 2025-2026.
+  
+  
+Person specification
+  
+  
+As a Junior System Developer, you will deliver the system components necessary to integrate our debt management system with the operational transactional systems, which enable front-line teams to effectively perform debt collection activities.
+  
+  
+Working with a Senior Developer on solution designs for your projects, you will develop architecture and systems designs, including the designs for, development, testing and delivery. This will be achieved using SAS Enterprise Guide, SAS Viya and / or SAS Data Integration Studio and GIT lab - skills you will either bring to the role or develop during your tenure.
+  
+  
+You will be comfortable engaging with a wide range of people, translating complex technical data into more accessible language, and vice versa. Working collaboratively with the business and technical leads, you will review business requirements, contribute to technical requirements, produce documentation and provide assurances on delivery. You will be able to readily translate this into a comprehensive work plan, complete with timelines and risks to delivery.
+  
+  
+Working with the business, you will develop quality controls to assure the accuracy of your work, and ensure customers are being engaged in the most appropriate manner.
+  
+  
+You develop data-driven products for analysis and visualisation to inform and drive business performance.
+  
+  
+**Essential Criteria**
 
-We are experiencing significant growth and are looking for talented individual to join our team. You will work alongside gaining experience and time off to study.
+* You will have commercial experience of coding in the SAS language, and – ideally – in SQL and ORACLE as well.
+* You will have proven experience of developing data to create reports and visual products to inform business analysis, and support recommendations to drive business performance.
+* You will be able to readily communicate your work to a non-technical audience in a clear and logical manner to facilitate productive relationships with stakeholders and inform the team’s work schedule.
 
-**Qualification**
+**Desirable Criteria**
 
-Qualification
+* Experience of undertaking development work on multi-terabyte databases would be an advantage, as would experience of SAS Data Integration Studio and SAS VIYA.
+* Experience of using GIT Lab.
+* SAS Certification>
 
-Childcare & Education or equivalent – L2, L3, L4.L5, L6 QTS
+Behaviours
+  
+  
+We'll assess you against these behaviours during the selection process:
+  
+  
 
-**Salary**
+* Changing and Improving
+* Communicating and Influencing
 
-Depending on experience and qualification (pro-rata for part time hours.
+Technical skills
+  
+  
+We'll assess you against these technical skills during the selection process:
+  
+  
 
-Discounted childcare.
+* Technical Question - Exploring your knowledge of SAS programming
+* Technical Question- Exploring your knowledge of SQL programming
+* Technical Question- Exploring your knowledge of Data Visualisations
 
-**Working Hours**
+Alongside your salary of £36,320, HM Revenue and Customs contributes £10,521 towards you being a member of the Civil Service Defined Benefit Pension scheme. Find out what benefits a Civil Service Pension provides.
+  
+  
+HMRC operates both Flexible and Hybrid Working policies, allowing you to balance your work and personal commitments. We welcome applications from those who need to work a more flexible arrangement and will agree to requests where possible, considering our operational and customer service needs.
+  
+  
+We offer a generous leave allowance, starting at 25 days and increasing by a day for every year of qualifying service up to a maximum of 30 days.
+  
+  
 
-Various options to fit your lifestyle and personal circumstances: ·
+* Pension - We make contributions to our colleagues’ Alpha pension equal to at least 28.97% of their salary.
+* Family friendly policies.
+* Personal support.
+* Coaching and development.
 
-* Full time Monday to Friday – 40 or 35 hours per week
-* Full days part of week – full or part time hours
-* Part days to cover the early shift from 7.30-1.30pm
-* Part days to cover the afternoon shift to 12.00-6pm
+To find out more about HMRC benefits and find out what it’s really like to work for HMRC hear from our insiders or visit Thinking of joining the Civil Service
+  
+  
+Selection process details
+  
+  
+This vacancy is using Success Profiles (opens in a new window), and will assess your Behaviours, Strengths, Experience and Technical skills.
+  
+  
+**How To Apply**
+As part of the application process, you will be asked to provide the following:
+  
+  
 
-**Annual Leave**
+* A name-blind CV including your job history, qualifications and previous experiences.
+* A 750-word personal statement to demonstrate the Essential Criteria as listed within the advert.
+* A 250 word statement on the Desirable Criteria, including any ODP experience and qualifications you have. This is not mandatory for the role but may be considered by the vacancy-holder where candidates have the same scores at sift or interview.
 
-28 days inclusive of bank holidays. Part time staff will receive a pro-rated entitlement.
+Further details around what this will entail are listed on the application form.
+  
+  
+Artificial Intelligence can be a useful tool to support your application, however, all examples and statements provided must be truthful, factually accurate and taken directly from your own experience. Where plagiarism has been identified (presenting the ideas and experiences of others, or generated by artificial intelligence, as your own) applications may be withdrawn and internal candidates may be subject to disciplinary action. Please see our candidate guidance for more information on appropriate and inappropriate use.
+  
+  
+**Sift**
+In the event of a large number of applications being received, an initial sift may be held on your CV.
+  
+  
+At full sift your CV and your Personal Statement will be assessed, with the successful candidates being invited to interview.
+  
+  
+We may also raise the score required at any stage of the process if we receive a high number of applications.
+  
+  
+**Interview**
+During the panel interview, you will be assessed on Behaviour based, Experience based and Strength based questions.
+  
+  
+**This Is An Example Of a Strengths-based Question**
+“It is often said that the customer's needs should come first. To what extent do you agree or disagree with this statement?”
+  
+  
+There is no expectation or requirement for you to prepare for the strengths-based questions in advance of the interview, though you may find it helpful to spend some time reflecting on what you enjoy doing and what you do well.
+  
+  
+Interviews will take place face to face at either Birmingham or Stratford Regional centres.
+  
+  
+Sift and interview dates to be confirmed.
+  
+  
+**Eligibility**
+Please take extra care to tick the correct boxes in the eligibility sections of your application form. We understand mistakes sometimes happen but if you contact us later than two working days (Monday-Friday) before the vacancy closes, we will not be able to reopen your application for you. If you do make a mistake with your eligibility form, please contact us via: unitybusinessservicesrecruitmentresults@hmrc.gov.uk – Use the subject line to insert appropriate wording for example – ‘Please re-open my application –
+**[insert vacancy ref]**
+& vacancy closing date
+**[insert date]’.**
+To check that you are eligible to apply for this role, please review the eligibility information before submitting your application.
+  
+  
+**Reserve List**
+A reserve list may be held for up to 12 months from which further appointments may be made for the same or similar roles – if this applies to you, we’ll let you know via your Civil Service Jobs account.
+  
+  
+**Criminal Record Check**
+Applications received from candidates with a criminal record are considered fairly in accordance with the DBS Code of Practice and the Recruitment of ex-offenders Policy.
+  
+  
+**Merit List**
+After interview, a single merit list will be created, and you will only be considered for posts in locations you have expressed a preference for. Appointments will be made in strict merit order in line with the set number of roles in each location.
+  
+  
+**Reasonable Adjustments**
+We want to make sure no one is put at a disadvantage during our recruitment process. To assist you with this, we will reduce or remove any barriers where possible and provide additional support where appropriate.
+  
+  
+If you need a change to be made so that you can make your application, you should:
+  
+  
 
-**Start date**
+* Contact the UBS Recruitment team via unitybusinessservicesrecruitmentresults@hmrc.gov.uk as soon as possible before the closing date to discuss your needs.
 
-ASAP
+Complete the “Assistance required” section in the “Additional requirements” page of your application form to tell us what changes or help you might need further on in the recruitment process. For instance, you may need wheelchair access at interview, or if you’re deaf, a Language Service Professional.
+  
+  
+**Additional Security Information**
+Please note: in addition to the standard pre-employment checks for appointment into the Civil Service, all candidates must also obtain National Security Vetting at Security Check (SC) clearance level for this vacancy. You will normally need to meet the minimum UK residency period as determined by the level of vetting being undertaken, which for SC is 5 years UK residency prior to your vetting application. If you have any questions about this residency requirement, please speak to the vacancy holder for this post.
+  
+  
+**Important Information For Existing HMRC Contractual Homeworkers**
+This role may be suitable for existing HMRC employees who are contractual homeworkers. Occasional attendance to the office will be required where there is a business need. Please consider the advertised office locations for this role when applying and only select locations from the ‘location preferences’ section that you can travel to.
+  
+  
+**Terms and Conditions**
+Customer facing roles in HMRC require the ability to converse at ease with members of the public and provide advice in accurate spoken English and/or Welsh where required. Where this is an essential requirement, this will be tested as part of the selection process.
+  
+  
+HMRC has a presence in every region of the UK. For more information on where you might be working, review this information on our locations.
+  
+  
+The Civil Service values honesty and integrity and expects all candidates to abide by these principles. The evidence you provide in your application must relate to your own experiences.
+  
+  
+Any instances of plagiarism or other forms of cheating will be investigated and, if proven, the relevant application(s) will be withdrawn from the process.
+  
+  
+Recording of interviews is prohibited unless explicit agreement is sought in line with the UK General Data Protection Regulations.
+  
+  
+Questions relating to an individual application must be emailed as detailed later in this advert.
+  
+  
+Applicants who are successful at interview will be, as part of pre-employment screening, subject to a check on the Internal Fraud Database (IFD). This check will provide information about employees who have been dismissed for fraud or dishonesty offences. This check also applies to employees who resign or otherwise leave before being dismissed for fraud or dishonesty had their employment continued. Any applicant’s details held on the IFD will be refused employment.
+  
+  
+A candidate is not eligible to apply for a role within the Civil Service if the application is made within a 5 year period following a dismissal for carrying out internal fraud against government.
+  
+  
+New entrants will join on the minimum of the pay band.
+  
+  
+Please note that, if you are applying for roles on a part-time basis, the salary agreed will be pro-rata, reflective of the working hours agreed within your contract.
+  
+  
+If you experience accessibility problems with any attachments on this advert, please contact the email address in the 'Contact point for applicants' section.
+  
+  
+For more Information for people applying for, or thinking of applying for, roles at HM Revenue and Customs, please see link: Working for HMRC: information for applicants - GOV.UK.
+  
+  
+Feedback will only be provided if you attend an interview or assessment.
+  
+  
+This vacancy is using Success Profiles (opens in a new window), and will assess your Behaviours, Strengths, Experience and Technical skills.
+  
+  
+Security
+  
+  
+Successful candidates must undergo a criminal record check.
+  
+  
+Successful candidates must meet the security requirements before they can be appointed. The level of security needed is security check (opens in a new window).See our vetting charter (opens in a new window).
+  
+  
+People working with government assets must complete baseline personnel security standard (opens in new window) checks.
+  
+  
+Successful candidates must undergo a criminal record check.
+  
+  
+Successful candidates must meet the security requirements before they can be appointed. The level of security needed is security check (opens in a new window).See our vetting charter (opens in a new window).
+  
+  
+People working with government assets must complete baseline personnel security standard (opens in new window) checks.
+  
+  
+Nationality requirements
+  
+  
+**This Job Is Broadly Open To The Following Groups**
 
-Job Types: Full-time, Part-time
+* UK nationals
+* nationals of the Republic of Ireland
+* nationals of Commonwealth countries who have the right to work in the UK
+* nationals of the EU, Switzerland, Norway, Iceland or Liechtenstein and family members of those nationalities with settled or pre-settled status under the European Union Settlement Scheme (EUSS) (opens in a new window)
+* nationals of the EU, Switzerland, Norway, Iceland or Liechtenstein and family members of those nationalities who have made a valid application for settled or pre-settled status under the European Union Settlement Scheme (EUSS)
+* individuals with limited leave to remain or indefinite leave to remain who were eligible to apply for EUSS on or before 31 December 2020
+* Turkish nationals, and certain family members of Turkish nationals, who have accrued the right to work in the Civil Service
 
-Work Location: In person","","https://uk.indeed.com/cmp/Victoria-Place-Day-Nursery-and-After-School-Club","","","","","",""
-"in-c67c61a45aec2750","indeed","https://uk.indeed.com/viewjob?jk=c67c61a45aec2750","http://uk.indeed.com/job/baristacustomer-service-c67c61a45aec2750","Barista/Customer Service","Zie Coffee & Co","Ruislip, ENG, GB","2025-08-22","[]","","","","","",False,"","","","[]","We are looking for a barista to work part time at our coffee shop in South Ruislip Station.
+Further information on nationality requirements (opens in a new window)
+  
+  
+Working for the Civil Service
+  
+  
+The Civil Service Code (opens in a new window) sets out the standards of behaviour expected of civil servants.
+  
+  
+We recruit by merit on the basis of fair and open competition, as outlined in the Civil Service Commission's recruitment principles (opens in a new window).
+  
+  
+The Civil Service embraces diversity and promotes equal opportunities. As such, we run a Disability Confident Scheme (DCS) for candidates with disabilities who meet the minimum selection criteria.
+  
+  
+The Civil Service also offers a Redeployment Interview Scheme to civil servants who are at risk of redundancy, and who meet the minimum requirements for the advertised vacancy.
+  
+  
+The Civil Service Code (opens in a new window) sets out the standards of behaviour expected of civil servants.
+  
+  
+We recruit by merit on the basis of fair and open competition, as outlined in the Civil Service Commission's recruitment principles (opens in a new window).
+  
+  
+The Civil Service embraces diversity and promotes equal opportunities. As such, we run a Disability Confident Scheme (DCS) for candidates with disabilities who meet the minimum selection criteria.
+  
+  
+The Civil Service also offers a Redeployment Interview Scheme to civil servants who are at risk of redundancy, and who meet the minimum requirements for the advertised vacancy.
+  
+  
+Diversity and Inclusion
+  
+  
+The Civil Service is committed to attract, retain and invest in talent wherever it is found. To learn more please see the Civil Service People Plan (opens in a new window) and the Civil Service Diversity and Inclusion Strategy (opens in a new window).
+  
+  
+This vacancy is part of the Great Place to Work for Veterans (opens in a new window) initiative.
+  
+  
+Once this job has closed, the job advert will no longer be available. You may want to save a copy for your records.
+  
+  
+Contact point for applicants
+  
+  
+**Job Contact**
 
-Previous experience in similar capacity is necessary.
+* Name : Malcolm McDonagh
+* Email : malcolm.mcdonagh@hmrc.gov.uk
+* Telephone : 03000 586776
 
-Barista experience isn’t necessary.
+Recruitment team
+  
+  
 
-Professionalism with great customer service to keep customers happy are also required.
+* Email : unitybusinessservicesrecruitmentresults@hmrc.gov.uk
 
-Schedule:
+Further information
+  
+  
+Appointment to the Civil Service is governed by the Civil Service Commission’s Recruitment Principles. You have the right to complain if you feel there has been a breach of the Recruitment Principles. In the first instance, you should raise the matter directly via ubsrecruitmentcomplaints@hmrc.gov.uk. Please note that we do not accept complaints or appeals regarding scoring of outcomes of campaigns, unless candidates can provide clear evidence that the campaign did not follow the Recruitment Principles. If you are not satisfied with the response, you may bring your complaint to the Commission. For further information on bringing a complaint to the Civil Service Commission please visit their website.","Government Administration","https://uk.linkedin.com/company/hmrc","","","","","",""
+"li-4289865322","linkedin","https://www.linkedin.com/jobs/view/4289865322","https://t.gohiring.com/h/147a119e650de8a2825e9e6004c21307e500d4867d859b11283308d45d98442e&urlHash=yE-u","Junior/Mid Full-Stack Software Engineer","Track Titan","London, England, UK","2025-08-27","fulltime","","","","","","","entry level","","","[]","**Your mission**
+**About The Role**
+As a Full-Stack Engineer, you will be responsible for contributing to the E2E data pipeline, the core of our platform: our decision engine, the Next.js Application and our desktop application. With a state-of-the-art serverless architecture that has already processed billions of data points as the foundation, this is your chance to join us to take our insights to the next level.
+  
+  
+**Your Responsibilities**
 
-* Monday - Friday
-* 6AM-10AM
+* Contribution to our serverless architecture
+* Contribution to our Next.js Application
+* Contribution to our Electron Desktop Application
+* Help define our architecture with the rest of the team at a stage where meaningful changes are still possible
+* Optimise our data pipeline for speed and efficiency
+* Introduce robust, automated tests
 
-20 hours per week.
+**Your profile**
 
-Few of the benefits:
+* Requirements
 
-* Discounted or free food
-* Free drinks on shift
-* Tips
-* Bonuses
++ Experience and/or strong interest in (sim)racing as a driver or through work experience in it
++ Minimum of one year of commercial experience as a Software Engineer
++ Early-stage building experience, whether through work in startups or other projects with a high degree of ambiguity
++ Excited to work across an entire tech stack
++ Strong TypeScript/JavaScript skills
++ Experience or interest in working with Python
++ Experience with React, React Hooks, and/or NextJS
++ Experience with automating or editing CI/CD Pipelines
++ Clear understanding of the pros/cons of different database types depending on the use case (e.g. SQL vs non-SQL)
++ Experience with serverless architecture (e.g. AWS Lambda, DynamoDB, Fargate)
++ Experience working with a SQL-based solution, ideally Postgres
++ Willingness to assist and suggest solutions across the company
++ Ability to learn our domain quickly and adapt with the start-up
 
-Job Types: Part-time, Permanent
+* Nice to haves
 
-Pay: From £12.21 per hour
++ Experience working with UDP packets
++ Experience working with shared memory implementations
++ Experience publishing node packages
++ Experience working with Electron
++ Experience refactoring code for efficiency, reliability or improvement
 
-Benefits:
+**Why us?**
 
-* Discounted or free food
-* Employee discount
+* Join the only motorsport startup in the world backed by tier one VCs
+* Work on cutting-edge tech, campaigns and partnerships that reach users across the globe 24/7
+* Join a team of fellow motorsport fans and simracers who have backgrounds in top startups, sports data science, tier one consulting and professional motorsport
+* Private pension
+* Private health insurance
+* Quarterly learning day and budget
+* Full remote/office flexibility according to what works for you with a great London HQ
+* Generous options package as a key early employee
 
-Ability to commute/relocate:
+**About Us**
+**Want to build the ""Strava for Motorsport""?**
+At Track Titan, we are building the “Strava for Motorsport” by combining AI driver coaching with community and social features.
+  
+  
+With a user-base in the hundreds of thousands and millions of laps processed, Track Titan is already the dominant simracing coaching platform and we have big plans to go further. We are a team of ten backed by some of the world’s best VCs, strategic investors such as Porsche and have recently launched integrations with key industry players such as MOZA and Fanatec. This is your one-time chance to build a venture-scale startup in the most exciting sport on the planet.","Software Development","https://uk.linkedin.com/company/tracktitan","","","","","",""
+"li-4289362825","linkedin","https://www.linkedin.com/jobs/view/4289362825","","Backend Software Engineer","Rive","London, England, UK","2025-08-21","fulltime","","","","","","","mid-senior level","","","[]","Rive is a new way to build production-ready UI and graphics - with rich interactivity and state-driven animation. We're on a mission to make hard-coded graphics a thing of the past with a new general-purpose graphics format for all types of software and Ul. Rive empowers teams to iterate faster and build better products.
+  
+  
+We've seen tremendous organic growth over the last few years. Our innovative customers include tech giants, game studios, consumer apps with millions of users... there are even Rive pixels in space!
+  
+  
+Rive is looking for an experienced Backend Engineer to join our team. Working with a lean backend team there's a lot of opportunity to continue to evolve our backend services and cloud infrastructure as we scale. We have some unique and complex problems to solve.
+  
+  
+**What You'll Do**
 
-* Ruislip HA4 6TP: reliably commute or plan to relocate before starting work (required)
+* Build and scale the backend services for Rive's cloud based editor, supporting the implementation of new features
+* Developing our new external API for third parties to build integrations with Rive
+* Maintain customer-facing web applications for authentication, account management and Rive's marketplace
+* Architect our AWS cloud infrastructure to ensure services are scalable, resilient and secure
+* Improve our telemetry and observability to give better insight into system health, performance, and customer usage
+* Ensure every feature is delivered with well-structured, tested, and maintainable code
+* Collaborate directly with our customers to deliver the features they need
 
-Experience:
+**Some of the tech you'll be working with**
+**Languages & Frameworks:**
+Node.js (TypeScript/JavaScript), Next.js, Dart/Flutter, C++, Bash.
+  
+  
+**Databases:**
+Aurora MySQL.
+  
+  
+**Infrastructure:**
+AWS (containers, serverless, storage, networking, CDN), Docker, Terraform.
+  
+  
+**Observability:**
+CloudWatch, OpenTelemetry, Sentry.
+  
+  
+**CI/CD:**
+GitHub Actions, AWS CodePipeline.
+  
+  
+**Other:**
+Integrations with common third-party APIs, such as Stripe and Mailchimp.
+  
+  
+**Requirements**
+**What you will bring**
 
-* Barista: 1 year (preferred)
+* 3+ years building and operating backend services for SaaS products in the cloud, ideally on AWS,
+* Strong SQL expertise, including schema design and query optimisation
+* Proven experience running Node.js applications in production in containerised environments
+* Strong customer focus, experience collaborating directly with internal and external stakeholders to deliver features
+* Ability to work independently while staying aligned with team goals and engineering standards
+* Willingness to learn new technologies, often quickly, and jump on to issues outside of your areas of expertise
 
-Work Location: In person
+**Location: London, Hybrid**
+with ability to come into the office weekly.
+  
+  
+Visa sponsorship is not available. The successful candidate will be required to provide evidence of their right to work in the U.K. prior to commencing employment.
+  
+  
+**Benefits**
+**Compensation and benefits:**
+We offer a hybrid work environment, comprehensive health, dental, and vision coverage as well as stock options. Salary range: 75-100k GBP. Compensation may depend on the level of experience and geographic location.
+  
+  
+At Rive, we are a global group of passionate designers and developers who believe in transparency, failing fast, quick iteration, and experimentation. We aim to build a diverse and inclusive culture where everyone feels supported.
+  
+  
+We have an incredible opportunity to change the world of interactive content creation. Help us accelerate the design industry's transition to Rive!
+  
+  
+A real human will read your resume, cover letter, and answers to the application questions so please take a minute and tell us more about you!","IT Services and IT Consulting","https://www.linkedin.com/company/rive-app","","","","","",""
+"li-4240306116","linkedin","https://www.linkedin.com/jobs/view/4240306116","https://checkout.wd3.myworkdayjobs.com/CheckoutCareers/job/London/Software-Engineer-I_R7594?source=LinkedIn&urlHash=Hy7W","Software Engineer I","Checkout.com","London, England, UK","2025-08-18","fulltime","","","","","","","entry level","","","[]","******Company Description******
+We’re Checkout.com – you might not know our name, but companies like eBay, ASOS, Klarna, Uber Eats, and Sony do. That moment when you check out online? We make it happen.
+  
+  
+Checkout.com is where the world checks out. Our global network powers billions of transactions every year, making money move without making a fuss. We spent years perfecting a service most people will never notice. Because when digital payments just work, businesses grow, customers stay, and no one stops to think about why.
+  
+  
+With 19 offices spanning six continents, we feel at home everywhere – but London is our HQ. Wherever our people work their magic, they’re fast-moving, performance-obsessed, and driven by being better every day. Ideal. Because a role here isn’t just another job; it’s a career-defining opportunity to build the future of fintech.
+  
+  
+******Job Description******
+Checkout.com is one of the most exciting fintechs in the world. Our mission is to enable businesses and their communities to thrive in the digital economy. We’re the strategic payments partner for some of the best known fast-moving brands globally such as Wise, The Hut Group, Sony Electronics, Sainsbury’s, Deliveroo, Adidas, Klarna and many others. Purpose-built with performance and scalability in mind, our flexible cloud-based payments platform helps global enterprises launch new products and create experiences customers love. And it's not just what we build that makes us different. It's how.
+  
+  
+We empower passionate problem-solvers to collaborate, innovate and do their best work. That’s why we’re on the Forbes Cloud 100 list and a Great Place to Work accredited company. And we’re just getting started. We’re building diverse and inclusive teams around the world — because that’s how we create even better experiences for our merchants and our partners. And we need your help. Join us to build the digital economy of tomorrow.
+  
+  
+**Job Description**
+Global payments are complex and ever-evolving. At Checkout our software engineers develop the next-generation payments technologies that enable our Merchants to boost their acceptance rates, cut processing costs, fight fraud, and create cutting edge technology that enables extraordinary customer experiences.
+  
+  
+We're looking for Software engineers who bring fresh ideas, have a curious nature and are passionate about working in an Engineering environment which focuses on building products to achieve the company's strategic goals. You’ll get to work with teams from across Checkout.com’s portfolio of products and services who all have a real customer first philosophy.
+  
+  
+As a Software engineer, you will lead and drive specific projects critical to Checkout's needs with opportunities to switch teams and projects as you and our fast-paced business grow and evolve. We need our engineers to be versatile, display exceptional leadership qualities and be enthusiastic to take on new problems across the full-stack as we continue to push technology forward. With your technical expertise you will lead project priorities, deadlines, and deliverables. You will design, develop, test, deploy, maintain, and enhance software solutions.
+  
+  
+**What Are We Looking For:**
 
-Reference ID: 0609","","https://uk.indeed.com/cmp/Zie-Coffee-&-Co","","","","","",""
-"in-6d736b88ce4fa15a","indeed","https://uk.indeed.com/viewjob?jk=6d736b88ce4fa15a","http://uk.indeed.com/job/skilled-ground-worker-6d736b88ce4fa15a","Skilled Ground Worker","Hawksmoor Construction","Chiswick, ENG, GB","2025-08-22","[]","","","","","",False,"","","","[]","**Company Overview**
+* Bachelor's or Master's degree in Computer Science, Engineering, or related field
+* Proficiency in C# .NET, Java, or Go, with a strong understanding of software development principles in either a backend or full stack environment.
+* Great communication skills and ability to interact effectively with a wide range of stakeholders
+* Experience working in agile environments and delivering high-quality code within tight deadlines
+* Excellent problem-solving skills and the ability to work independently as well as part of a team
+* Someone who is AI proficient or AI curious, you will be hungry to embrace what the latest technology has to offer to enhance yours and your teams productivity
+* Payments or financial knowledge is a plus, but not a necessity
 
-Hawksmoor Construction is a high-end construction company dedicated to delivering exceptional building projects across London and the Home Counties. We pride ourselves on our commitment to quality craftsmanship and customer satisfaction.  
-**Summary**
+How you’ll make an impact
+  
+  
 
-We are seeking a skilled Gorundworker with extensive Basement experience to join our dynamic team in London. This role is pivotal in ensuring that our construction projects meet the highest standards of quality and efficiency, contributing directly to our mission of excellence in high-end construction.  
+* Be part of, and collaborate with, cross-functional teams including product management, across a large engineering community.
+* Define and design loosely coupled, scalable systems in a wider microservices using industry best practices.
+* Stay up-to-date, use, and spread knowledge of the latest technologies used by Checkout.
+* Write clean, maintainable, extendable and testable code on some of Checkout’s most impactful systems.
+* Build, own and operate your systems to the highest levels of resilience and service.
+* Mentor junior team members and assist in their technical development
+
+Join Us Today!
+  
+  
+If you're passionate about technology, innovation, and making a real impact in the world of digital payments, we want to hear from you. Join our engineering department at Checkout.com and be part of a team that's shaping the future of payments for generations to come.
+  
+  
+*Apply now and let's embark on this exciting journey together!*
+****Bring all of you to work****
+We create the conditions for high performers to thrive – through real ownership, fewer blockers, and work that makes a difference from day one.
+  
+  
+Here, you’ll move fast, take on meaningful challenges, and be recognized for the impact you deliver. It’s a place where ambition gets met with opportunity – and where your growth is in your hands.
+  
+  
+We work as one team, and we back each other to succeed. So whatever your background or identity, if you’re ready to grow and make a difference, you’ll be right at home here.
+  
+  
+It’s important we set you up for success and make our process as accessible as possible. So let us know in your application, or tell your recruiter directly, if you need anything to make your experience or working environment more comfortable.
+  
+  
+****Life at Checkout.com****
+We understand that work is just one part of your life. Our hybrid working model offers flexibility, with three days per week in the office to support collaboration and connection.
+  
+  
+Curious about what it’s like to be part of our team? Visit our Careers Page to learn more about our culture, open roles, and what drives us.
+  
+  
+For a closer look at daily life at Checkout.com, follow us on LinkedIn and Instagram","Financial Services","https://uk.linkedin.com/company/checkout","","","","","",""
+"li-4108711787","linkedin","https://www.linkedin.com/jobs/view/4108711787","https://www.alphasights.com/careers/open-roles?gh_jid=6450783&gh_src=a30a705d1us&urlHash=m1CD","Graduate Software Engineer","AlphaSights","London, England, UK","2025-08-15","fulltime","","","","","","","internship","","","[]","**The Role**
+We are looking for highly driven, aspiring software engineers who take pride in their work, to expand our Engineering team in London. Successful candidates will join a cross functional team including product managers and designers working closely with the rest of our business to deliver working code that solves real problems for both internal and external customers. You will take ownership of the problems that your team solves, ensuring a high level of quality in everything that we release, working as part of a top performing international development team. If you have a strong passion for solving problems with code, and want to work with exceptional colleagues in a high achievement environment, this role is a good fit for you.
+  
+  
+**What You’ll Do**
+
+* Design solutions: Define the best technical solutions to business problems, contributing to an architectural vision that will scale up to be the world's leading research platform.
+* Ship working code: We primarily work with React on the frontend and Kotlin microservices with Postgres on the backend, with some older services written in Ruby on Rails. We’ve always got an eye open to assess new technologies that might improve our stack.
+* Deploy and iterate: We release frequently to our customers, using CIrcleCI and Spinnaker for CI/CD, and quickly gather feedback in order to inform our next iteration.
+* Build your competency: You will learn quickly by building market-leading technology with experienced colleagues in a high performance environment. Engineers can also use our L&D budget to fast-track development of specific technical competencies.
+* Maintenance and troubleshooting: Carefully monitor our services, catching errors before users notice them, diagnosing the root cause and deploying fixes.
+
+**Who You Are**
+
+* You are pursuing a degree in Computer Science, or a related field.
+* Proven track record – you have clear accomplishments both in and out of university, standing out from your peers.
+* You have practical experience, applying your technical skills in a professional environment.
+* You have excellent communication skills, collaborating closely and effectively with teammates.
+* Highly driven and proactive – you relentlessly and independently push through hurdles and drive towards excellent outcomes.
+* Meticulous – you hold high standards and have an obsessive attention to detail.
+
+Learn more about our tech organisation here.
+  
+  
+Don't worry if your experience or background doesn't match all of these areas, we believe a broad spectrum of experience provides great perspective on solving problems in new and innovative ways and we’d love to hear from you.
+  
+  
+AlphaSights is an equal opportunity employer.","Information Services","https://uk.linkedin.com/company/alphasights","","","","","",""
+"li-4284448887","linkedin","https://www.linkedin.com/jobs/view/4284448887","https://jobs.ashbyhq.com/taktile/68bc7d86-a68a-42ed-93f5-13cf219fde0c/application?utm_source=9ZvWNnZ8qq&urlHash=YeTT","Full-stack Engineer - Team Decide","Taktile","London, England, UK","2025-08-13","fulltime","","","","","","","entry level","","","[]","**About The Role**
+Taktile is a high-growth, post product-market-fit start-up, on a fast trajectory to becoming market leader in the field of automated decisioning. We are looking for a Full-stack Engineer to join the Decide Team tasked with owning our core decision execution engine at Taktile, complex back-end systems involved in feature computation, as well as the overall decision flow canvas. If you’re ambitious, have strong engineering fundamentals, love doing the simple things exceptionally well, and enjoy propelling a small, dynamic team forward, this role is for you!
+  
+  
+**What You'll Do**
+
+* Build customer facing data interfaces with React to manage decision logic.
+* Work on backend components written in Python / FastAPI, hosted on an AWS serverless architecture: Build and enhance our execution engine, our feature computation back-end and other complex subsystems; review pull requests with depth, and optimize CI/CD pipelines.
+* Collaborate with cross-functional teams to translate business requirements into technical solutions. Engage actively in team rituals such as daily syncs, planning sessions, demos, and technical deep-dive discussions.
+* Grow as an individual and accelerate your career by learning from our experienced team, contributing to a foundational layer of the product.
+
+**Requirements**
+
+* Strong engineering fundamentals with a passion for simplicity and precision.
+* Experience with frontend development (e.g., React or similar frameworks).
+* Fluency in English, both written and spoken, is crucial to lead communication in our globally distributed environment.
+
+**Ideal, But Not Required**
+
+* Prior industry experience with Python.
+* Expertise in data engineering topics, SQL, parquet.
+* Experience with AWS services and serverless architectures.
+
+**What we offer**
+
+* Work with colleagues that lift you up, challenge you, celebrate you and help you grow. We come from many different backgrounds, but what we have in common is the desire to operate at the very top of our fields. If you are similarly capable, caring, and driven, you'll find yourself at home here.
+* Make an impact and meaningfully shape an early-stage company.
+* Experience a truly flat hierarchy and communicate directly with founding team members. Having an opinion and voicing your ideas is not only welcome but encouraged, especially when they challenge the status quo.
+* Learn from experienced mentors and achieve tremendous personal and professional growth. Get to know and leverage our network of leading tech investors and advisors around the globe.
+* Receive a top-of-market equity and cash compensation package.
+* Get access to a self-development budget you can use to e.g. attend conferences, buy books or take classes.
+* Receive a new Apple MacBook Pro, as well as meaningful home office set-up.
+
+**Our Stance**
+
+* We're eager to meet talented and driven candidates regardless of whether they tick all the boxes. We're looking for someone who will add to our culture, not just fit within it. We strongly encourage individuals from groups traditionally underestimated and underrepresented in tech to apply
+* We seek to actively recognize and combat racism, sexism, ableism and ageism. We embrace and support all gender identities and expressions, and celebrate love in its many forms. We won't inquire about how you identify or if you've experienced discrimination, but if you want to tell your story, we are all ears
+
+**About Us**
+Taktile is building the world's leading software platform for running critical and highly-automated decisions. Our customers use our product to catch fraudsters, prevent money laundering, and expand access to credit for small businesses, among many other use cases. Taktile is already making millions of such decisions across the globe every day.
+  
+  
+Taktile is based in Berlin, London and New York City. It was founded by machine learning and data science veterans with extensive experience building and running production ML in financial services. Our team consists of engineers, entrepreneurs, and researchers with a diverse set of backgrounds. Some of us attended top universities such as Harvard, Oxford, and Stanford and some of us have no degree at all. We have accumulated extensive work experience at leading tech companies, startups, and the enterprise software sphere.
+  
+  
+Our backers include Y Combinator, Index Ventures, and stellar angels such as the founders of Looker, GitHub, Mulesoft, Datadog and UiPath.","Software Development","https://www.linkedin.com/company/taktile1","","","","","",""
+"li-4282006980","linkedin","https://www.linkedin.com/jobs/view/4282006980","https://targetjobs.co.uk/jobs/graduate-software-engineer-183918&urlHash=Bcat","Graduate Software Engineer","targetjobs UK","London, England, UK","2025-08-09","fulltime","","","","","","","internship","","","[]","You'll work directly with senior engineers and the founders of a fast-growing Series A food tech company, building real-world AI-powered products that solve critical problems for restaurants and kitchens. This role comes with ownership of projects, close mentorship, and the chance to grow fast as an engineer. We care about learning and delivering — there’s no corporate politics or endless meetings here, just an intense focus on building, learning, and shipping. You'll also learn how to use AI-native tools like Cursor and Claude Code to code faster and smarter than humanly possible. If you graduated recently or are about to graduate and want to be challenged, learn rapidly, and help fix the broken food system, this is the place for you.
+  
+  
+**About Growth Kitchen**
+Eating in 2025 is like eating in 1955. We shop for ingredients, cook and waste lots of ingredients in the process. Food delivery could be 10x more convenient (press a button, get food). However, ordering is too expensive and the best restaurants are often not available where we live. Ordering is a treat—not an everyday, personalised commodity. Growth Kitchen is on a mission to change that. We want the best restaurants to be available everywhere and to become as cheap as McDonald's through scale and automation.
+  
+  
+Our platform enables kitchen operators (e.g. Hilton Hotel) to sell well-known restaurant brands, such as The Athenian or Coqfighter, from their existing kitchens. We're scaling fast (UK → international soon) and bottlenecked by automation. We have more customer demand than we can handle with our current technology.
+  
+  
+**About Engineering At Growth Kitchen**
+Although we've raised significant investments, we're 30 people and we're a profitable business, our engineering team is still young and small. You will be joining a team of three (including you). You'll have the opportunity to build beyond the limitations typically found in larger firms, directly shaping our data infrastructure, analytics capabilities, and cutting-edge AI solutions from the ground up. You will take lots of real-world manual workflows that we do to quality control kitchens and put them on autopilot as fast as possible, staying at the forefront of AI. This is an exceptional opportunity for learning and career growth, allowing you to develop a diverse skillset while making meaningful contributions in an environment that values innovation and fresh perspectives.
+  
+  
+**Requirements**
+
+* Relevant studies, regular participation in hackathons
+* Experience with React and TypeScript, and some backend experience (Node.js preferred)
+* Comfortable learning new parts of the stack over time, including APIs, databases, and integrations
+* Curious and hands-on: you enjoy experimenting with AI-native tools like Cursor and Claude Code to boost your productivity
+* Fast-moving and proactive — you don’t wait for someone to hand you tickets
+* Eager to work on meaningful, real-world problems and see your work in the hands of customers quickly
+* Passionate about fixing the food system and making great restaurants more accessible to everyone
+* Thrive in a small team where you can learn fast, take ownership, and make an impact
+
+**Benefits**
+
+* An environment where you can build without blockers or politics
+* Work on business-critical things only
+* Competitive starting salary & stock options
+* Pension Scheme
+* ClassPass
+* 25 days of holiday + Bank Holidays","Technology, Information and Internet","https://uk.linkedin.com/company/targetjobsuk","","","","","",""
+"li-4275039261","linkedin","https://www.linkedin.com/jobs/view/4275039261","https://grnh.se/9lvb7rfs1us&urlHash=8fCg","Software Engineer","DoorDash","London, England, UK","2025-07-31","fulltime","","","","","","","mid-senior level","","","[]","**About the Team**
+The In-Store Technology organization at DoorDash is committed to building products that help restaurants create magical experiences every day. We are a small, but rapidly growing team of 70+ engineers, scientists and builders who are on a mission to fundamentally transform the hospitality industry. Our tech stack includes Python, Typescript, ReactJS, Redux, Django, App Engine, Cloud Firestore, Memcache, Cloud Tasks, Firebase, BigQuery, Elasticsearch, and more.
+  
+  
+**About the Role**
+We're looking for a strong Software Engineer who is excited to engineer highly performant, mission-critical systems that are designed for agile development and rapid scaling. You will partner with other engineers, product managers and designers who are dedicated to engineering real solutions that empower our In-Store team for growth. You will be joining an organization of engineering professionals working to fundamentally transform the hospitality industry through innovative technology solutions.
+  
+  
+**You're excited about this opportunity because you will…**
+
+* **Design, develop, test, deploy, maintain and improve software.**
+  Focus strongly on customer-facing features that create magical experiences for restaurant partners.
+* **Be the technical owner of features from design to implementation.**
+  Take ownership of ongoing support and ensure high-quality delivery throughout the development lifecycle.
+* **Manage individual project priorities, deadlines, code quality and deliverables.**
+  Participate in occasional on-call duties to keep software systems up and running smoothly.
+* **Partner with cross-functional teams including engineers, product managers and designers.**
+  Collaborate to engineer real solutions that drive growth and innovation in the hospitality industry.
+* **Work with cutting-edge technology stack.**
+  Utilize tools like Python, Typescript, ReactJS, Redux, Django, and modern cloud infrastructure to build scalable solutions.
+
+**We're excited about you because…**
+
+* You have a BS degree in Computer Science, similar technical field of study or equivalent professional experience with 3+ years of software engineering experience
+* You have experience developing web applications with strong knowledge of algorithms, data structures, complexity analysis and software design
+* You have experience with Python and ReactJS (preferred) and are excited to work with our modern technology stack
+* You are passionate about building customer-facing features and take ownership of technical solutions from conception to deployment
+* You thrive in collaborative environments and are excited to work with cross-functional teams to solve complex problems in the hospitality industry
+
+Notice to Applicants for Jobs Located in NYC or Remote Jobs Associated With Office in NYC Only
+  
+  
+We use Covey as part of our hiring and/or promotional process for jobs in NYC and certain features may qualify it as an AEDT in NYC. As part of the hiring and/or promotion process, we provide Covey with job requirements and candidate submitted applications. We began using Covey Scout for Inbound from August 21, 2023, through December 21, 2023, and resumed using Covey Scout for Inbound again on June 29, 2024.
+  
+  
+The Covey tool has been reviewed by an independent auditor. Results of the audit may be viewed here: Covey
+  
+  
+**About SevenRooms**
+In 2011, Joel Montaniel, Allison Page, and Kinesh Patel founded SevenRooms after noticing that hospitality operators were missing a critical ingredient in the systems they were using to run their business: guest data. What began as a mission to help restaurants better understand and serve their guests evolved into a powerful platform used by merchants around the world.
+  
+  
+With best-in-class tools for marketing, operations, and guest experience — all deeply integrated with its industry-leading CRM — SevenRooms empowers operators to drive revenue, streamline operations, and deliver experiences that keep guests coming back.
+  
+  
+In 2025, DoorDash acquired SevenRooms to strengthen its in-store strategy and expand its merchant-first offerings. The combination brings together DoorDash's scale, reach, and digital innovation with SevenRooms' in-store capabilities to support hospitality businesses across every channel — from discovery and delivery to on-premise dining.
+  
+  
+As DoorDash builds out its in-store capabilities, SevenRooms plays a central role in enabling merchants to grow their businesses and connect more meaningfully with guests, whether they're ordering online or dining in. This move reflects DoorDash's broader commitment to empowering local businesses, fostering stronger connections between consumers and the places they love, and building technology that meets merchants — and their customers — wherever they are.","Technology, Information and Internet","https://www.linkedin.com/company/doordash","","","","","",""
+"li-4278091280","linkedin","https://www.linkedin.com/jobs/view/4278091280","","Graduate Software Engineer 2025 - Platform","Suade","London, England, UK","2025-07-30","fulltime","","","","","","","entry level","","","[]","Suade's success is built on grit, determination, and our proven ability to develop cutting edge technology to create the next generation of Regulatory Technology (RegTech) software.
+  
+  
+Are you someone who loves both technology and finance? If you're eager to kickstart your journey into software engineering, we've got an exciting opening for you. We're on the lookout for a Graduate Engineer to join our Platform team. The platform team is a specialized group of engineers responsible for designing, building, and maintaining the server-side infrastructure and business logic.
+  
+  
+Please note:
+  
+  
+
+* This role is based in London. Suade has a flexible working policy but you will need to be available to come into the London office when required. Some travel may be required.
+* We are unable to offer visa sponsorship for this role. Applications from candidates who require visa sponsorship will not be considered
+
+***Suade is delighted to be an equal opportunity employer we have a diverse team with great values. All qualified applicants will receive consideration for employment without bias.***
 **Responsibilities**
 
-* Operate various hand tools and power tools effectively to complete construction tasks.
-* Have experience in digging basements
-* Utilize excavators and other machinery safely and efficiently.
-* Collaborate with team members to meet project deadlines and specifications.
-* Adhere to safety protocols and regulations on-site.
-* Assist in the overall planning and execution of construction projects.
+* Write clean, maintainable code following established coding standards
+* Implement new features and bug fixes under the guidance of senior engineers
+* Participate in code reviews and contribute to improving code quality
+* Collaborate with frontend engineers to implement API endpoints
+* Participate in agile development processes and team meetings
+* Document code and technical decisions for future reference
 
-\\*
+**Requirements**
 
-* **Qualifications**
-* Proven experience in construction or a related field.
+* Bachelor's or master's degree in computer science, Software Engineering, or related field
+* Strong understanding of computer science fundamentals
+* Proficiency in at least one programming language (preferably Python)
+* Basic knowledge of database concepts and SQL
+* Understanding of RESTful APIs and web services
+* Familiarity with version control systems (Git)
+* Strong problem-solving skills and attention to detail
 
-* Strong mechanical knowledge with the ability to troubleshoot equipment issues.
-* Proficiency in using hand tools, power tools, and heavy machinery such as excavators.
-* Familiarity with Basements and complex groundwork practices is a plus.
-* Excellent problem-solving skills and attention to detail.
-* Ability to work collaboratively within a team environment.
-* Commitment to safety standards and best practices.
+**Good to have**
 
-**Call-To-Action**If you're ready to build your future with us at Hawksmoor Construction, we invite you to apply today and become part of our legacy of excellence!
+* Experience with backend frameworks (FastAPI)
+* Knowledge of containerisation (Docker)
+* Understanding of testing principles and TDD
+* Familiarity with CI/CD pipelines
+* Experience with agile development methodologies
 
-Job Type: Full-time
+**Benefits**
 
-Pay: £150.00-£190.00 per day
+* 25 days holiday + Bank Holidays
+* Flexible holiday - choose when you take your holidays by opting out of bank holidays if you would like!
+* Additional annual leave holiday - An extra day of annual leave for every 3 years you work at Suade in addition to your existing 25 days on a pro rata basis
+* Company Pension
+* Maternity leave and extraordinary paternity leave
+* Flexible working hours
+* Company laptop
+* £500 Annual Training/ Development Subsidy
+* Perkbox
 
-Work Location: In person","Construction","https://uk.indeed.com/cmp/Hawksmoor-Construction","","","","","",""
-"in-4e4fbc4978a11957","indeed","https://uk.indeed.com/viewjob?jk=4e4fbc4978a11957","https://www.debeersgroup.com/careers/current-vacancies/jobdetail?jobId=04d26afb-1a19-4054-b006-1f563292f953","Specialist, Treasury Accounting (16 month Fixed Term Contract)","De Beers","London, ENG, GB","2025-08-21","[]","","","","","",False,"","","","[]","**Company Description  
--This is the chance to join us as a Treasury Accounting Specialist on a Fixed Term Contract**
-
-Anglo American is a leading global mining company, and our products are the essential ingredients in almost every aspect of modern life. Our portfolio of world-class competitive mining operations and undeveloped resources provides the metals and minerals that enable a cleaner, greener, more sustainable world and that meet the fast-growing consumer-driven demands of the world’s developed and maturing economies.
-
-  
-
-Job Description  
--The Group Treasury function enables Anglo American to achieve its strategic ambitions by delivering financing, financial risk and cash management services to the organisation, whilst maintaining the highest standards of control and compliance, and providing a workplace of the future to develop and retain talent.
-
-The Treasury Accounting team is a key contributor to these objectives as we drive to increase automation and streamline processes in cash management, back office and treasury accounting, as well as providing world-class systems infrastructure to the Group Treasury function.
-
-**Purpose**
-
-The **Treasury Accounting Specialist** delivers all financial reporting and treasury accounting, including hedge accounting and bank reconciliations, for all treasury activity undertaken by the Businesses within their responsibility which covers the London, South Africa and LATAM regions.
+**Salary £35,000**","IT Services and IT Consulting","https://uk.linkedin.com/company/suade-labs","","","","","",""
+"li-4286653635","linkedin","https://www.linkedin.com/jobs/view/4286653635","","Junior Software Engineer","Kitt","London, England, UK","2025-07-21","fulltime","","","","","","","entry level","","","[]","Reporting directly into our Head of Engineering, you'll be working across our comprehensive workspace management platform. This is a full stack role where you'll contribute to our microservices architecture, frontend applications, and learn about our infrastructure. It's a fantastic opportunity to grow your skills across a modern, distributed system at scale.
   
   
-**Responsibilities include**
+We define ourselves as
+**product engineers**
+- this means we love building products, thinking about the user experience, and collaborating with stakeholders to deliver impactful solutions. As a junior product engineer, you'll develop the ability to understand how your code impacts users and learn to contribute to product discussions with growing technical insight.
+  
+  
+🔹
+**Responsibilities**
 
-**Performance & Delivery**
+* Feature development: Build features across our microservices architecture, working with Go-based backend services and React/Next.js frontend applications under guidance from senior engineers
+* Code contribution: Write clean, tested code following established patterns and contribute to our 40+ microservice ecosystem with proper code reviews and mentorship
+* Learning & growth: Actively learn our full technology stack - from GraphQL APIs and gRPC services to mobile apps, with support from the team
+* Code quality: Follow code quality standards, participate in code reviews, and learn best practices for writing maintainable software
+* Product collaboration: Work with product managers, designers, and engineers to understand requirements and deliver user-focused solutions
+* Bug fixing & maintenance: Identify and fix bugs, improve existing features, and help maintain system reliability
+* Documentation: Write clear documentation for your code and contribute to team knowledge sharing
+* Development practices: Learn our deployment pipeline, work with our custom Kitt CLI tools, and understand our development workflow
 
-* Deliver world-class treasury accounting services to Anglo American group companies with a focus on debt, FX and interest rate derivatives, and money market instruments, ensuring adherence to relevant group policies
-* Preparation of departmental Budgets and Outlooks
-* Review of daily interface from the treasury management system to SAP
-* Preparation of month end reporting deliverables including upload of London Treasury entity financial results to the Group consolidation reporting system (HFM)
-* Deliver automated accounting solutions for treasury transactions executed by Businesses and Corporate legal entities
-* Manage treasury transaction compliance with relevant legislation, accounting standards and external regulatory authority requirements
-* Preparation of annual external financial statements for UK Treasury legal entity and engagement with external auditors
-* Engage with stakeholders to understand and incorporate evolving business requirements and regulatory changes into plans
-* Develop and maintain effective professional relationships with auditors and other relevant third parties (e.g. Bloomberg) to deliver quality solutions and services and identify opportunities for improvement
-* Engage with auditors to understand changes in accounting standards and their impacts on accounting processes and systems
-* Deliver a high-class treasury and hedge accounting service, including technical accounting leadership in relevant areas, to all Businesses for whom the Group Treasury undertakes treasury activities
-* Contribute to the strategic plan for an ongoing “analyse and improve” programme
-* Support the Global Process and Control Owner (“GPCO”) for Treasury Accounting covering the following process areas:
-* Intercompany loan/deposit interest calculations statements
-* Accounting setup in the treasury management system
-* Treasury accounting
-* Hedge accounting
-* Accounting interfaces to SAP, and associated reconciliations
-* Half-Year and Annual Reporting
-* Periodic engagement with relevant stakeholders to receive feedback on service provision
-* Identify and prioritise continuous improvement opportunities across treasury accounting
-* Review and monitor Service Level Agreements (SLA) with Business Units to ensure we are achieving agreed service delivery requirements
+💡
+**Our team highlights**
 
-**Sustainability & Social**
+* Quarterly hackdays
+* Integrated personal development time (3 days a quarter)
+* Engineering show and tell over pizza and refreshments
+* Up-skilling budget
+* A culture focussed on developer experience and giving you a platform to thrive and grow both technically and personally (we are obsessed with DX)
+* Mob programming & pair programming
+* Dedicated mentorship from senior engineers
 
-* Support Global Treasury’s initiatives as part of the Group Finance Sustainability five-year plan
+👤
+**About you**
 
-**People & Teams**
+* Experience: 0-3 years of software engineering experience with some exposure to modern development practices. New graduates or career changers with demonstrable coding skills are welcome
+* Technical foundation: Basic proficiency in at least one programming language (bonus points for Go, TypeScript, or similar strongly-typed languages) with eagerness to learn distributed systems and cloud platforms
+* Learning mindset: You're excited to learn about large-scale systems and understand how different components work together to create great user experiences
+* Product curiosity: You're naturally curious about how products work and care about building things that users love. You want to understand the ""why"" behind what you're building
+* Growth orientation: You're eager to learn from feedback, ask questions, and continuously improve your technical and product skills
+* Team player: You work well with others, aren't afraid to ask for help, and enjoy collaborative problem-solving
+* Scale-up energy: Excited to work in a friendly scale-up environment with the mission to transform workspaces globally
+* Communication: You can clearly communicate technical concepts and are comfortable working in cross-functional teams
+* Quality mindset: You care about writing good code and want to learn best practices for testing and building maintainable systems
 
-* Identify and agree training and development requirements to build capability of team member
-* Translate strategy and objectives to individual and team initiatives
-* Conduct regular reviews of team’s work plans and project plans
+**🚀 Some of our products**
 
-**Compliance**
+* Groceries - we have an in-house groceries product that facilitates fulfilling our customer's subscriptions to their grocery products, as well as empowering our delivery drivers to pick from our warehouse and deliver products efficiently to our network
+* Access Control - we have an internal access control system that enables our technical teams to visit sites from the same app they use to do their work
+* App & Web - Kitt's core customer experience is encapsulated in our native app and web products, which allows user's to access their space digitally, from opening doors, to booking desks and setting up subscriptions to services that Kitt provides
+* Operational Systems - We have a plethora of internal tools that our in-house team uses to manage our network of spaces and ensure our customer experience is the best it can possibly be, from an in-house request system, to smart automatic scheduling of jobs and operatives across our portfolio
 
-* Ensure that JSE SOX and UKCR controls are appropriately applied across Treasury Accounting processes
-* Review key findings / control breaches, monitor remediation, and escalate to the Global Process and Control Owner (GPCO) where necessary
-* Ensure all accounting is executed in compliance with Group Treasury Policy and Group Accounting Standards
-
+💻
+**Our Stack**
+Here's the technology we use, it would be ideal if you have experience in these, but don't worry if you don't, we foster a culture of continuous learning and development, so you will have opportunity to get to grips with new technologies.
+  
   
 
-**Qualifications  
--Qualifications:**
+* Backend & Microservices
+* Go - Primary language for our 40+ microservices
+* gRPC & Protocol Buffers - Inter-service communication
+* GraphQL - Client-facing API gateway
+* MySQL, PostgreSQL, Redis - Data storage and caching
+* Google Cloud Pub/Sub - Event-driven architecture
+* Frontend & Mobile
+* TypeScript - Primary frontend language
+* React & Next.js - Web applications
+* React Native & Expo - Mobile applications
+* CSS, CSS-in-JS - Styling
+* GraphQL Codegen - Type-safe API integration
+* Artificial Intelligence
+* OpenAI & Gemini - We use OpenAI models to ease our internal teams workflows, as well as automating some time intensive manual tasks. We're looking to bring AI to the forefront of our operational workflows
+* Infrastructure & DevOps
+* Kubernetes - Container orchestration
+* Docker - Containerisation
+* Terraform - Infrastructure as Code
+* AWS & Google Cloud - Multi-cloud setup
+* Custom Kitt CLI - Development tooling
+* CircleCI - CI/CD pipeline
 
-* Graduate or equivalent qualification in a relevant discipline, preferably commercial, numerical or scientific
-* Qualified accountant (ACA/ACCA/CIMA (UK); CA (SA) or equivalent) essential
+**Why Kitt?**
+The world of work has shifted forever. As people everywhere prioritise purpose over their paychecks, company culture has been thrown into the spotlight. But the problem is, too many companies are showing up to work in bland, cookie-cutter offices. We're leading this change.
+  
+  
+Real company culture can only be built in-person, in the real world - and for it to be authentic it needs its very own, personalised space. That's why we create offices as unique as the brands and the people who work there. We're long-term culture partners to our clients long after they've signed the lease and chosen the paint colours.
+  
+  
+We're disrupting an industry that has long needed a shake up, and with our sights set on helping every brand find their dream home, the future of office space and culture is in very good hands.
+  
+  
+**We'll Kitt you out**
 
-**Specific Knowledge requirements:**
-
-* Extensive knowledge and understanding of treasury / financial products and services, including cash and funding instruments, derivatives, and bonds
-* Operational experience in a corporate treasury department with significant systems automation exposure
-* Cooperation with third-party vendors and service providers
-* Experience of operation and accounting configuration in the following systems would be a significant advantage:
-  + FIS Quantum
-  + Bloomberg
-  + SAP
-  + HFM
-* Strong analytical and problem-solving skills
-* Excellent communication skills, both written and verbal
-* Thorough and conscientious with strong attention to detail
-
+* 💰 Starting salary of between £37,000 - £50,000
+* 🏖 28 days holidays a year plus Bank Holidays
+* 🍼 Parental leave: up to 12 weeks paid parental leave for the primary caregiver
+* 💔 Pregnancy loss support leave
+* 🕺 Regular socials. We love a good party
+* 🧑‍🍳Free weekly lunch, bi-weekly breakfast and daily snacks
+* 🍕Team socials on a Thursday
+* 🤑Octopus MoneyCoach
+* 👶Workplace Nursery Benefit
+* 🚲Cycle to Work scheme
+* 🚉Season Ticket Loans
+* 🧠Plumm - to support your mental health and wellbeing","IT Services and IT Consulting","https://uk.linkedin.com/company/kittoffices","","","","","",""
+"li-4281256541","linkedin","https://www.linkedin.com/jobs/view/4281256541","","Software Engineer-Full stack (All Levels)","Kroo Bank","London, England, UK","2025-07-18","fulltime","","","","","","","mid-senior level","","","[]","**What We're All About At Kroo**
+Kroo has a big vision. To be the first bank that is both trusted and loved by its customers. We're helping people take control of their financial future and achieve their goals, whilst making a positive impact on the planet. Here at Kroo, doing what is right is in our DNA. We act with integrity, transparency and honesty. We think big, dream big, and relentlessly pursue our goals. We like to be bold, break new ground, and we never stop learning. But most importantly, we are on this journey together.
+  
+  
+**How You'll Contribute**
+Reporting into a Tech Lead, you'll be embedded in one of our multidisciplinary Product Squads and will:
+  
   
 
-**Additional Information  
--Who We Are**  
-We aim to lead the industry by pursuing ever safer ways of working, demonstrating integrity and showing care and respect for people and the planet. That means we are constantly seeking new opportunities to mine and process our products sustainably, using less water, less energy and more precise extraction technologies. Our distinguished teams work safely and collaboratively, with the utmost consideration for local communities, our customers and the world at large.
+* Implement new features and deploy them using our Continuous Delivery approach
+* Contribute to our product vision
+* Work in an Agile cross-functional team of a Product Manager, Product Designer and Developers (We use a blend of processes that work for us inc. SCRUM, Kanban and Pair Programming)
+* Be involved in the end to end cycle of building our product
+* Champion quality code while being pragmatic
+* Work in an inclusive, collaborative, transparent, non-hierarchical and ego-free culture where your talent is valued over your job title
 
-**What We Offer**  
-When you join Anglo American, you can expect to enjoy a competitive salary and benefits package. But more than this, you’ll find yourself in an environment where the opportunities for learning and growth are second to none. From technical training to leadership programmes, we bring out the best in our people.
-
-**How We Are Committed To Your Safety**  
-Nothing is more important to us than ensuring you return home safely after a day’s work. To make that happen, we have the most rigorous safety standards in the industry. Not only that, we’re also frequently investing in new technologies that are helping to make mining safer.
-
-**Inclusion and Diversity**  
-We are committed to promoting an inclusive and diverse workplace where we value and respect every colleague for who they are. We provide equality of opportunity to enable everyone to fulfil their potential.
-
-**#LI-AO1**","","https://uk.indeed.com/cmp/De-Beers","https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/256x256/ede4d5f34dc9f48b6d66870206a8d13f","https://www.debeers.co.uk/en-gb/home","Luxembourg City","","",""
-"in-252c113f2d29487b","indeed","https://uk.indeed.com/viewjob?jk=252c113f2d29487b","https://www.debeersgroup.com/careers/current-vacancies/jobdetail?jobId=4485a76a-36f2-4448-9486-491984f0a620","Global Communications Business Partner","De Beers","London, ENG, GB","2025-08-21","[]","","","","","",False,"","","","[]","**Company Description  
--You’ll make us shine**
-
-You enjoy being part of a talented and diverse team and can communicate easily and openly with your colleagues.
-
-You are also passionate about quality work and know that good communication does not just happen – a great deal of care is taken to ensure accuracy, consistency and timeliness.
-
-With a fascinating product, a global business and great stories to tell, come and be part of our team.
-
-[Org intro] We’re the world’s leading diamond company – a unique luxury business that thrives on the creativity, passion and knowledge of our people.
-
-To push our company forwards, we always need to think differently. We welcome diverse perspectives, people who spark fresh thinking and aren't afraid to challenge assumptions
-
-In return, we provide you with the space and support to grow and achieve your ambitions.
-
+**You'll get to work with a variety of new and interesting technology:**
+We mainly use the following tools and technology but you don't need to have experience with all of them. Many of us didn't when we joined! Our focus is always on finding the right technology for the job, if you're willing to learn, we are interested in speaking with you.
+  
   
 
-Job Description  
--Our global communications team – made up of colleagues in the UK, South Africa, Botswana, Canada and Namibia, in addition to a network of communications colleagues across our joint venture partners – is responsible for designing and delivering a global external and internal communications programme that underpins our new strategy and is focused on maximising commercial and reputational value while engaging and inspiring our 23,000 colleagues around the world
+* Clojure to write our backend microservices (please apply if you have experience with any Functional Programming language)
+* React Native and Redux for our mobile applications
+* Kafka for our asynchronous message queue
+* AWS for our infrastructure
+* Docker to run our services
+* Terraform for our infrastructure provisioning and deployment
 
-As trusted advisor to the Chief People Officer and their team, the role improves alignment of communications to delivery of key business outcomes by influencing decision making, building specialist knowledge within the communication team and enhancing cross-functional collaboration. The role is responsible for leading and overseeing delivery of high-profile communication projects relating to the People functions’ critical tasks, ensuring alignment with the broader global external and internal communications agenda.
-
-Working closely with the VP Global Employee Communications, this is a pivotal role in helping to shape the Company's culture. This individual will leverage their strong expertise in communications to drive cultural change and develop and deliver effective employee engagement strategies that engage and inspire our colleagues around the world – helping us to successfully deliver our Origins strategy.
-
-Key Responsibilities:
-
-Business Partnering
-
-* Be a trusted advisor to the Chief People Officer and their team, providing high-quality counsel and support to ensure communications is central to decision-making and the delivery of the function’s critical tasks.
-* Build specialist, expert knowledge of the function’s strategic priorities and key deliverables as they relate to organisational critical tasks and Group ‘Origins’ strategy.
-* Lead the development and implementation of integrated communication strategies and plans for key projects relating to group functions’ critical tasks, drawing on support from the broader internal and external communications team as appropriate, to help drive desired culture change across the business.
-* Be responsible for fostering effective collaboration and coordination between the communications team and each function to ensure alignment of priorities, enable long term communication planning and early identification of risks and opportunities.
-* Devise and implement effective ways-of-working and regular flow of information and knowledge sharing between corporate functions and the broader global communications team.
-
-People Communications
-
-* Develop and deliver comprehensive communications plans in support of People initiatives across the employee lifecycle (BAU activities) eg performance management, reward, talent, learning & development etc – aligned with the Group-wide employee comms strategy.
-* Identify and deliver opportunities to showcase the People Function to build awareness and understanding of the Function’s work and support in creating an open, inclusive culture and motivated colleagues.
-* Monitor and evaluate the effectiveness of People communication strategies and make necessary adjustments to improve outcomes.
-* Provide guidance and support to People team members on best practices for internal communication and employee engagement.
-* Work closely with People Business Partners and global employee comms team to support the smooth, respectful and effective implementation of any organisational change activities.
-* Work with senior leaders, the SVP Global Communications and VP Employee Communications to anticipate any employee issues and provide prompt and appropriate comms guidance and support as required in the event of any sensitive people, employee relations or reputational issues.
-
-Leadership
-
-* Contribute to the broader business by working with others in such a way that it optimises the overall business results, rather than just the Communications team’s results.
-* Support in driving cultural change initiatives by promoting the company's leadership principles and values and fostering a positive work environment.
-
+We regularly contribute to Open Source libraries and encourage our Developers to suggest new technology that can add value to building a bank.
+  
+  
+**Requirements**
+**About You**
+While not essential, the following experience and qualifications are highly desirable in our ideal candidate for this position:
+  
   
 
-Qualifications  
+* You have previous experience with or are excited about Functional Programming
+* You've worked in a cross-functional Agile team
+* You'd like to be part of a team that does Pairing Programming and Test Driven Development
+* You have experience working with microservices
+* You want to work in a product focused team that thinks about customers and user behaviour and builds sublime experiences for them
+* You have experience deploying to cloud based infrastructure like AWS or similar
+* You want to deliver a product using the principles of Hypothesis Driven Development
+* You'd like to develop with mobile first design principles and build cross-platform Android and iOS applications with React Native
+* You'd like to be part of building an inclusive and diverse culture in which everyone can succeed
 
-* -Bachelors or equivalent level qualification in Communications, Public Relations, Human Resources, or a related field.
-* Experience working with senior leaders within a Global corporate environment
-* Strong understanding of employee engagement and communications principles and practices, particularly within an HR context.
-* Proven ability to drive cultural change and enhance employee engagement through effective communication strategies.
-* Knowledge of strategic communications best practice, including tools, processes and platforms to enhance delivery
-* Working in a fast-paced, issues-rich environment within a large multinational organisation
-* Working in an organisation with diverse stakeholders and an understanding of how stakeholder interests influence communication planning and delivery
-* Confidently advise senior leaders on a wide array of proactive and reactive communication priorities
-* Devise and implement key strategic communications projects linked to functional strategy
-* Design and deliver high quality, impactful communication deliverables across multiple audiences and platforms
-* Translate complex topics and issues into succinct and impactful narratives and messages
-* Employ strong organisational ability and logistical excellence across different markets and cultures, and in relation to a variety of activities.
-* Demonstrate exceptionally strong writing skills.
-* Communicate detailed, complex and sensitive issues effectively both in writing and in person.
-* Work self-sufficiently with great attention to detail
-* Evolve communications plans in response to changing environment.
-* Employ cultural sensitivity and diplomacy.
-* Handle confidential and commercially sensitive information appropriately and with discretion.
-* Learn quickly and adopt ways of working that fully comply with legal and anti-corruption training requirements.
-* Willingness to travel internationally as required.
-
+**About Our Process**
+We understand that competency is contextual, so throughout the process, we aim to gain an understanding of your experience and, if successful, to provide you with a role reflective of your demonstrated seniority. Our general interview process is as follows, but if your circumstances or timescales require, we can be flexible with its structure:
+  
   
 
-Additional Information  
+* 30-minute meet and greet with our Talent Acquisition Specialist via Google Hangouts
+* 1-hour live coding exercise to work through a coding challenge with members of our development team via Google Hangouts
+* 1-hour system design. This is an opportunity to showcase a system you've worked on in the past via Google Hangouts
+* 30-minute opportunity to meet with our Head of Engineering and executives via Google Hangouts
 
-* -A great working environment
-* The opportunity to develop your skills within a growing company
-* Staff discount
-* Fantastic pension scheme
-* We have 27 days of holiday with the opportunity to buy or sell 5 more days
-* We offer free subscription to Headspace and have mental health first aider
-* Competitive salary
-* Exceptional benefits package
-* Employee share schemes and variable salary components
-* Your Choice membership discounts
-* Free on-site gym & classes
-* Free breakfast and lunch at on-site staff restaurant
-
-**Who we are**
-
-De Beers Group is a company with a rich history and a sparkling future. Since 1888 our experts have searched the world for nature’s most precious gem. Our diamonds bring beauty to the world. But we think they can do so much more. We want our diamonds, and our business, to make life brilliant – for our people, our customers and the world around us. Venetia Mine is part of De Beers Group Managed Operations Business which integrates mines, operations and support functions in the De Beers Group producer countries of Canada and South Africa to shape a safe, sustainable future for De Beers Group’s people, shareholders, communities and partners.
-
-**Safety**
-
-Safety first is a way of life for us. We are unconditional about the safety, health and well-being of our colleagues, at work and at home, and about that of the communities where we work. We aim to lead the industry by investing in innovation to protect people, who are at the heart of our business. Our high performing teams take accountability for their own and others' actions, work collaboratively, and always show care and respect.
-
-**Inclusion & Diversity**
-
-We are committed to promoting an inclusive and diverse workplace where we value and respect every colleague for who they are. We provide equality of opportunity to enable everyone to fulfil their potential. Referrals Referral incentive applicable: This opportunity is open to a paid referral incentive according to the [insert policy name]. Referral incentives are applicable to De Beers Group internal employees only.
-
-**Background Checks**
-
-Successful candidates will be required to complete background screening which may include a criminal check and validation of qualifications.
-
-#LI-SB1","","https://uk.indeed.com/cmp/De-Beers","https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/256x256/ede4d5f34dc9f48b6d66870206a8d13f","https://www.debeers.co.uk/en-gb/home","Luxembourg City","","",""
-"in-a38874b02181d113","indeed","https://uk.indeed.com/viewjob?jk=a38874b02181d113","https://wd1.myworkdaysite.com/en-US/recruiting/clorox/Clorox/job/Richmond-United-Kingdom/Senior-Demand---Supply-Planner_19592-1","Senior Demand & Supply Planner","The Clorox Company","Richmond, ENG, GB","2025-08-21","[]","","","","","",False,"","","","[]","Clorox is the place that’s committed to growth – for our people and our brands. Guided by our purpose and values, and with people at the center of everything we do, we believe every one of us can make a positive impact on consumers, communities, and teammates. Join our team.
-
-#CloroxIsThePlace
-
-Your role at Clorox:
-
-The Senior Demand and Supply Planner is on a 6 month fixed-term contract to support Ever Clean’s planning activities across the European business. This role will be instrumental in driving demand forecasting, supply planning, and inventory management, with a particular focus on ensuring the successful execution of major projects, including the Ever Clean artwork update.  
+Please let us know if you have any specific requirements or need assistance so we can be as accommodating as possible for you.
   
-The planner will lead forecasting efforts across all channels and customers, manage packaging transitions, and oversee inventory levels to support business continuity and financial planning. Additionally, the role will facilitate category S&OP meetings and leverage data-driven insights to enhance forecast accuracy and customer fulfillment, while optimizing total delivered cost.
-
-In this role, you will:
-
-Key Responsibilities
-
-* Provide key planning support for the Ever Clean life stages artwork update.
-* Manage new product introductions and changeovers, coordinating with cross-functional teams to align supply timing, phase-outs, write-offs, and demand.
-* Maintain an 18-month rolling forecast using system tools and historical data.
-* Build forecasts based on sales trends and activity reviews; align assumptions with Sales and Marketing.
-* Ensure category forecasts align with total company revenue targets; identify and communicate gaps or opportunities.
-* Collaborate with Sales to reconcile distributor/customer forecasts, inventory, and shipment trends.
-* Communicate critical forecast and supply changes to downstream partners.
-* Lead demand planning for product launches, transitions, and discontinuations.
-* Develop annual long-range budgets and forecasts; review and update quarterly.
-* Facilitate monthly Demand Alignment and GM Brief meetings, ensuring stakeholder engagement.
-* Drive continuous improvement in the S&OP process.
-* Monitor and report Forecast Accuracy and Bias KPIs; drive improvements through analysis and stakeholder collaboration.
-* Manage day-to-day supply and demand coordination between manufacturing and the European business.
-* Oversee capacity and scheduling to maximize product availability; communicate risks and mitigation plans.
-* Partner with Customer Care, Planning, and Logistics to ensure on-time, in-full deliveries.
-
-Key Objectives
-
-% of Time
-
-1. Business Results and Targets:
-
-* Lead the S&OP process for Ever Clean.
-* Support the innovation project – Artwork Refresh
-* Drive forecast accuracy to minimize service failures.
-* Manage safety stock levels to drive CFR at optimal cost.
-* Support sales team to maximise volume potential with customers/distributors.
-* Measure performance against agreed targets & drive actions for improvement.
-
-60%
-
-2. Efficiency, Innovation and Change Management:
-
-* Engage in a process of continuous improvement of planning processes.
-* Document operational processes & identify improvement areas.
-* Support growth in new and emerging products/brands/categories.
-
-30%
-
-3. Strategy and Execution:
-
-* Execution of agreed team strategy.
-* Provide feedback, analysis & reports for strategy development.
-
-10%
-
-Scope Factors
-
-People Management & Span of Control
-
-People Responsibility
-
-The current role has no direct subordinates. This position has key working relationships with internal Clorox staff in Sales, Marketing, Finance, Customer Care, Logistics and Senior Management. This position has external relationships with Co-Manufacturers.
-
-Revenue & Budget Responsibility:
-
-* Ensure all month-end sales volume reports are reconciled with finance team.
-
-* Drive forecast accuracy and stock levels to limit Planning impacts on Total-Delivered-Costs.
-
-c. Other Scope Factors:
-
-* Clorox business throughout the Europe regions as requested.
-* Role is based in the Richmond office with occasional travel to Swindon DC.
-
-What we look for:
-
-Required Qualifications and Capabilities
-
-a. Years and Type of Experience Preferred:
-
-* 5+ years Supply Chain experience.
-* 5+ years Demand/Supply Planning experience.
-* Experience working in Consumer Packaged Goods industries (or similar).
-
-b. Education Level/Degree:
-
-* Business degree or other relevant qualification / relevant work experience preferred.
-
-c. Technical Skills Preferred:
-
-* Experience using planning software & working with technical teams to develop/implement (preferred).
-* Advanced MS Excel.
-* Analytical skills including basic statistics.
-* Report writing and presenting.
-* Master data management.
-* Broad understanding of Supply Chain & Business Finance .
-
-d. Managerial Skills and Abilities:
-
-* Independent working style, self-starter, able to thrive in ambiguous situations.
-* Continuous Improvement mind-set; able to develop/simplify processes.
-* Ability to problem solve; take ownership, identify root-causes and implement timely resolutions.
-* Ability to balance time spent between detailed precise analysis and a big-picture approach.
-* Highly developed analytical skills; able to handle large data sets from multiple sources with attention to detail. Ability to draw conclusions and make recommendations.
-* Excellent interpersonal skills including ability to liaise, influence and interface with a variety of individuals both within and outside the company.
-* Exceptionally organized with ability to manage multiple projects simultaneously.
-
-e. Other Languages Required:
-
-* English, this is the main communication language used in the Clorox business.
-
-We seek out and celebrate diverse backgrounds and experiences. We’re looking for fresh perspectives, a desire to bring your best, and a non-stop drive to keep growing and learning.
-
-At Clorox, we have a Culture of Inclusion. We believe our values-based culture connects to our purpose and helps our people be the best versions of themselves, professionally and personally. This means building a workplace where every person can feel respected, valued, and fully able to participate in our Clorox community. Learn more about our I&D program & initiatives
-
-here
-
-.
-
-Benefits we offer to help you be well and thrive:
-
-* Competitive compensation
-* Generous 401(k) program in the US and similar programs in international
-* Health benefits and programs that support both your physical and mental well-being
-* Flexible work environment, depending on your role
-* Meaningful opportunities to keep learning and growing
-* Half-day Fridays, depending on your location
-
-Please apply directly to our job postings and do not submit your resume to any person via text message. Clorox does not conduct text-based interviews and encourages you to be cautious of anyone posing as a Clorox recruiter via unsolicited texts during these uncertain times.
-
-To all recruitment agencies: Clorox (and its brand families) does not accept agency resumes. Please do not forward resumes to Clorox employees, including any members of our leadership team. Clorox is not responsible for any fees related to unsolicited resumes.","","https://uk.indeed.com/cmp/The-Clorox-Company","https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/256x256/65d15cb951a56d8a292eda204b639ac6","http://www.thecloroxcompany.com","Oakland, CA","5,001 to 10,000","$5B to $10B (USD)","Clorox is a global company with leading brands, we manufacture products in more than two dozen countries and market them in more than 100 countries. Clorox trades on the NYSE under the symbol CLX."
-"in-d8adab73afae1037","indeed","https://uk.indeed.com/viewjob?jk=d8adab73afae1037","https://jobs.ca-cib.com/job/job-12-month-internship-market-risk_102746.aspx","12 Month Internship - Market Risk","Crédit Agricole","London, ENG, GB","2025-08-21","[]","","","","","",False,"","","","[]","Job description
-
-### **Business type**
-
-Types of Jobs - Risk Management / Control
-
-### **Job title**
-
-12 Month Internship - Market Risk
-
-### **Contract type**
-
-Internship/Trainee
-
-### **Term (in months)**
-
-12 Months
-
-### **Job summary**
-
-Join our team as a Risk Intern, reporting directly to a senior FX and FX Options Risk Manager. This role provides critical risk analytics that inform trading decisions and ensure compliance with market risk appetite and regulatory requirements. The position offers exposure to complex financial products in a dynamic market environment, ideal for those with a strong mathematical and programming background.
-
-**Key Responsibilities but not limited to:**
-
+  
+**Benefits**
+**What We Offer**
+At our cutting-edge fintech company, we know that attracting and retaining the best talent means offering top-notch benefits that help our employees thrive both in and outside of work. Check out what we currently offer:
+  
   
 
-* Market Data Management: Collect, validate, and perform quality control checks to detect large variations of market parameters
+* Generous holiday time: 25 days annual leave, 8 bank holidays, 1 Kroo bank holiday (June 24th), and 1 day off during the week of your birthday
+* Personal days: We know that life can be unpredictable, so we offer 3 personal days to use as needed
+* Employer-sponsored volunteer program: We're passionate about giving back to our community, and we support our employees in doing the same with up to 4 hours per month of employer-sponsored volunteer time
+* Mental health support: We care about the mental health of our team members and offer access to Spill, our mental health support partner
+* Workplace pension: We want you to feel secure about your future, so we offer a workplace pension with a 5% employee contribution and a 3% employer top-up
+* Top-notch equipment: We provide top-of-the-line equipment necessary for smooth hybrid work, including a MacBook laptop. Additionally, we also offer support in establishing your home office by contributing towards your setup if required
+* Modern office: When you're in the office, you'll enjoy access to our modern, bustling workspace in Farringdon, Central London
+* Cycle to Work scheme: We encourage sustainable transportation with our Cycle to Work scheme
+* Electric Car scheme: We're committed to reducing our carbon footprint, and our Electric Car scheme makes it easy for our employees to do the same
+* Enhanced parental leave: We know that family comes first, and we offer an enhanced parental leave policy to support our employees in starting and growing their families
+* Room for growth: As a fast-paced, high-growth start-up, we're dedicated to providing our employees with room to grow and excel
+* You get full healthcare for you and your nuclear family via Vitality
 
+**Hybrid Working:**
+At Kroo Bank, we have a hybrid policy that gives both individuals and teams a lot of freedom when it comes to using the office space to boost productivity. Our London office is a great resource when used effectively. So, employees who can occasionally come to the office are a good fit for how we work right now. Keep in mind that this job involves working from Monday to Friday, with a mix of remote and office work, so you won't need to be on-site all the time.
   
-
-* P&L Analysis: Perform comprehensive daily P&L analysis, linking movements to underlying market drivers and trading strategies, and prepare commentary for senior risk management
-
   
-
-* Risk Monitoring: Monitor key market risk indicators to ensure adherence to market risk limits and highlight/escalate large exposures
-
+**Diversity and Inclusion:**
+We wholeheartedly uphold our commitment to fostering a diverse and inclusive workplace. Every employee is highly regarded, respected, and supported without any form of judgement or prejudice. We consider Diversity, Equality, and Inclusion as fundamental pillars guiding our path in all aspects of our bank. We also ensure that reasonable adjustments are made available to all candidates throughout the recruitment process.
   
-
-* Advanced Risk Modelling: Conduct detailed VaR calculations, perform VaR back-testing, and run stress scenarios to identify key risk drivers and portfolio vulnerabilities
-
   
-
-* Tool Development and Enhancement: Maintain existing risk monitoring tools and contribute to the design and implementation of enhanced analytics and reporting solutions to improve risk management efficiency
-
-### **Supplementary Information**
-
-Join our team at Crédit Agricole CIB, the corporate and investment banking arm of 10th largest banking group worldwide in terms of balance sheet size (The Banker, July 2023). We offer more than just a job.
-
-You will be part of a dynamic and collaborative work environment where CSR is embraced in our day-to-day business operation, innovation is encouraged and diversity is celebrated.
-
-Crédit Agricole CIB, the first French bank to have committed to the Equator Principles, is a pioneer and global leader in sustainable finance. Our commitment to sustainability and corporate responsibility means that your work will have a positive impact on our communities and the environment.
-
-With a people-centric culture where everyone is valued, and opportunities for personal and professional growth, Crédit Agricole CIB is not just a place to work – it is where you make an impact.
-
-Our hiring process is open to all and should you have any particular needs or you may require adjustments, please let us know.
-
-Position location
-
-### **Geographical area**
-
-Europe, United Kingdom
-
-### **City**
-
+**To all Recruitment Agencies:**
+At Kroo Bank, agency resumes are strictly prohibited. Do not submit agency resumes or forward them to our job advertisements or Kroo Bank employees. Be aware that Kroo Bank will not assume any responsibility for fees incurred due to unsolicited resumes.
+  
+  
+To ensure a fair and efficient application process, all candidates are kindly requested to submit their applications directly through the advertised platform. We kindly ask that you refrain from reaching out to the company or its employees via email, LinkedIn, or any other communication channels for inquiries or updates. Please note that any attempts to contact us through these channels will not receive a response. Thank you for your understanding and cooperation.","IT Services and IT Consulting","https://uk.linkedin.com/company/kroobank","","","","","",""
+"li-4267259579","linkedin","https://www.linkedin.com/jobs/view/4267259579","","Software Engineer - Backend","Sprout.ai","London, England, UK","2025-07-16","fulltime","","","","","","","mid-senior level","","","[]","**Salary banding:**
+£55,000 - £75,000 dependent on experience
+  
+  
+**Working pattern:**
+Hybrid; 1-2 days per week in the office
+  
+  
+**Location:**
 London
+  
+  
+**About Our Engineering Team**
+As a business which has AI at its core, we need to have a reliable, scalable and secure real-time ML platform to deliver our product to customers. The Engineering team makes this happen.
+  
+  
+The team is UK-based, with a significant contingent in London, and is made up of pragmatic, curious and collaborative problem-solvers who are passionate about working with our Data Scientists to build state of the art AI products. Our Software Engineers bring together a diverse range of expertise and backgrounds; what unites us is a desire to learn, a mastery of our discipline and strong technical prowess.
+  
+  
+Our engineers are responsible for all aspects of the software development lifecycle. You will get the opportunity to work across our entire stack building features which deliver AI capabilities to some of the biggest names in the insurance industry.
+  
+  
+We are developing a modern real-time ML platform using technologies like FastAPI, PyTorch, Ray, k8s (helm + flux), Terraform, Postgres, Flink on AWS, React & Typescript. We operate a fully Python stack except for frontend and infrastructure code. We are very big fans of Infrastructure-as-Code and enjoy Agile practices.
+  
+  
+As a team, we're driven by a relentless focus on delivering real value to customers at speed. We embrace modern engineering practices such as automated testing, continuous monitoring, feature flags, and on-demand production-like environments to support frequent, reliable releases.
+  
+  
+Our team is tackling several exciting challenges, including:
+  
+  
 
-Candidate criteria
+* Deploying all changes, including complex machine learning models, reliably to customers within 15 minutes
+* Building a real-time, configuration-driven platform that seamlessly adapts to diverse customer needs
+* Ensuring autoscaling and cost-efficient model serving in production, with robust support for ML monitoring and experimentation
+* Centralised reporting/metrics for both the business and our customers
+* Powering user experience of internal and external users through agentic workflows
 
-### **Minimal education level**
+**Role Summary**
+We are looking for an engineer passionate about developer enablement and infrastructure as code, who is eager to expand their expertise by contributing to impactful product features. You'll play a key role in improving the lives of millions of insurance policyholders globally, working with a modern and powerful technology stack that includes:
+  
+  
 
-Bachelor Degree / BSc Degree or equivalent
+* Python for application development
+* Terraform for AWS infrastructure provisioning
+* Kubernetes (with Helm and Flux) for managing services
+* GitLab for CI/CD and version control
+* AWS as our infrastructure platform
+* PostgreSQL for application data and event sourcing architecture
+* Apache Flink for real-time service interactions and state management
 
-### **Academic qualification / Speciality**
+**Responsibilities**
 
-Further education with emphasis on Markets, Economics, or Computer programming is an advantage
+* Collaborate with Engineers, Product Managers, and the Engagement team to understand problem spaces, contribute to solution design, and support the development of our product
+* Take responsibility for maintaining and improving parts of our backend stack, following engineering best practices
+* Write robust and well-tested code, including unit, integration, and end-to-end automated tests for backend services that power customer-facing features
+* Participate in code reviews, share feedback with peers, and stay informed about emerging backend technologies and patterns
+* Contribute to platform-related work, using infrastructure-as-code tools (AWS, Terraform, Kubernetes) to help keep our systems reliable and scalable
+* Support the growth of the team by sharing knowledge and collaborating closely with engineers and data scientists
+* Help improve engineering workflows and contribute ideas for refining team processes and delivery methods
+* Play a role in feature rollouts by using feature flags, monitoring metrics, and responding to logs and alerts
+* Embody and promote the Engineering and Sprout company values in your day-to-day work
 
-### **Experience**
+**Requirements**
 
-N/A
+* Technical proficiency
 
-### **Required skills**
++ Solid proficiency in software architecture using Python and FastAPI
++ Experience working in fully cloud-hosted environments (e.g. AWS)
++ Solid RDBMS experience, preferably with PostgreSQL
++ Experience building RESTful APIs (e.g. FastAPI) and real-time data processing pipelines
++ Bonus points for experience with Kubernetes, Apache Flink, Flux or Infrastructure-as-Code frameworks (e.g. Terraform)
 
-* Strong mathematical ability required to perform analysis on P&L and risk indicators
-* Team player with adaptability and flexibility
-* Ability to work under pressure and to tight deadlines with a strong attention to detail.
+* Experience of maintaining your own code in a production environment
+* A good foundational understanding of modern software development lifecycles, including code quality, pull requests, code reviews, CI/CD, QA, and production releases in an agile, fast-paced environment
+* Strong problem-solving skills with the ability to think critically and creatively
+* Collaborative by nature, with excellent communication and teamwork abilities
+* Self-motivated, with a strong sense of ownership and accountability
 
-### **Technical skills required**
+**Sprout.ai Values**
+🌱 Hungry for Growth - Unleash your inner Sprout: Sprouts embrace growth, forget comfort zones, and help Sprout.ai thrive.
+  
+  
+🚚 Own It, Deliver It - We commit, we deliver, and we exceed expectations - it's how we achieve outstanding outcomes for our customers.
+  
+  
+🌳 Seed Innovation - The future is shaped by those who dare to innovate. We embrace this mindset, planting the seeds for future growth, experimenting fearlessly and taking bold actions that unleash our ability to scale.
+  
+  
+🤝 Collaborate to Blossom - We cultivate collaboration, working together to create a vibrant and diverse ecosystem where every Sprout can thrive. It drives better results, and creates a better environment for us all.
+  
+  
+**Engineering Values**
+In addition to our company-wide values, these are some of the values within the Engineering team that define how we work and grow together:
+  
+  
+🔧 Value-Driven Development - We avoid premature optimisation and focus on delivering value to our customers based on known requirements.
+  
+  
+🚀 Proactive Mindset - We embrace the philosophy of asking for forgiveness rather than permission, encouraging innovation and swift action.
+  
+  
+⚡ Efficient Decision-Making - We optimise towards faster decision-making processes, distinguishing between reversible (two-way doors) and irreversible (one-way doors) decisions.
+  
+  
+🤝 Equality of Opportunity - We strive to provide equality of opportunity for all team members, regardless of title or position, fostering a collaborative and inclusive environment.
+  
+  
+**Compensation, Benefits And Perks**
 
-* Proficiency in programming languages such as Python, R, SQL, and VBA is highly advantageous","","https://uk.indeed.com/cmp/Cr%C3%A9dit-Agricole-1","https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/256x256/d2ddbe7c43421e4f34549a84f9e10c84","https://decouverte.groupecreditagricole.jobs/","Montrouge","10,000+","more than $10B (USD)","Crédit Agricole places its employees at the heart of its Human Project and is committed to Youth, diversity and inclusion, work-life balance, and professional development. Everything starts here!"
-"in-721af55eca554d91","indeed","https://uk.indeed.com/viewjob?jk=721af55eca554d91","https://jobs.lever.co/gopuff/0d0650ea-927f-4d2e-a02a-d5ab1608c983?lever-source=Indeed","CRM Specialist","Gopuff","London, ENG, GB","2025-08-21","[]","","","","","",False,"","","","[]","At Gopuff, we’re not just delivering convenience, we’re redefining how the world shops. Since pioneering instant needs in 2013, we’ve empowered millions of customers across the U.S. and U.K. to reclaim their time through seamless, fast, and reliable delivery. Behind this transformative journey is our tech-first mindset, relentless obsession with customer experience and operational excellence.
+* Salary banding: £55,000 - £75,000 dependent on experience. Annual pay reviews
+* Sprout.ai Share Options
+* 28 days' annual leave (plus bank holidays)
+* Hybrid working with 3 days per week working from home
+* Private Health Insurance + Dental Insurance
+* Learning and Development budget
+* Monthly socials, both in London and Virtual
+* WeWork perks - barista, social events, snacks etc
+* Macbook Pro + home working setup
 
-We’re looking for an exceptional CRM Specialist to join Team Blue!
+**About Sprout.ai**
+Sprout.ai was established in London, UK in 2018 with a mission to help people in their time of need when making an insurance claim. Inefficient claims processing for the insurer meant that customer experience was suffering and people were losing faith in their insurance policies. The average insurance customer was having to wait over 25 days to receive an outcome on their claim, often in times of vulnerability.
+  
+  
+The barriers to rapid claims settlement were clear; understanding of unstructured data, complexity and volume of decision making, legacy systems and processes.
+  
+  
+Sprout.ai's patented claims automation platform solves these challenges, and has already delivered instant claims settlement on millions of insurance claims around the world. Our proprietary AI products can automate every step of the claims journey: extracting and enhancing relevant claims data, cross-checking this with policies and providing recommendations to conclude a claim in near real-time. Our tools are allowing claims handlers to spend more time with customers, where human touch and empathy can make the most difference to their customers.
+  
+  
+Leading VCs saw our company vision to ‘make every claim better' and have supported our growth journey. This includes our $11M Series A led by Octopus Ventures in 2021 and in total we have raised over $20M.","IT Services and IT Consulting","https://uk.linkedin.com/company/sproutai","","","","","",""
+"li-4261225561","linkedin","https://www.linkedin.com/jobs/view/4261225561","https://targetjobs.co.uk/jobs/graduate-software-engineer-2025-regtech-181702&urlHash=Cz5d","Graduate Software Engineer 2025 - RegTech","targetjobs UK","London, England, UK","2025-07-05","internship","","","","","","","internship","","","[]","Our graduate scheme is a full-time programme designed to equip candidates with the skills they need to successfully develop the next generation of RegTech solutions. As part of our graduate cohort, you will gain exposure to and work on projects transforming the regulatory reporting landscape.
+  
+  
+Suade’s success is built on determination, and our proven ability to develop cutting-edge technology to create the next generation of regulatory technology. The RegTech engineer is at the core of our product and is key to achieving the continuous growth of our business.
+  
+  
+We believe RegTech engineers are a rare breed. They are as comfortable with writing code as discussing the intricacies of consultation papers.
+  
+  
+Whether you are a developer with a cursory understanding of finance or an experienced finance professional who has been creating your own programs to automate your work, if you feel that finance and technology should work closely together, we would like to have a chat.
+  
+  
+**Please Note**
 
-Gopuff is on a mission to become the go-to platform for instant delivery of everyday essentials, and our CRM team plays a key role in making that happen. We’re looking for a commercially-minded, technically capable CRM Specialist to help drive customer engagement, retention, and lifetime value through smart, data-driven campaigns.
+* This role is based in London. Suade has a flexible working policy but you will need to be available to come into the London office when required. Some travel may be required.
+* We are unable to offer visa sponsorship for this role. Applications from candidates who require visa sponsorship will not be considered.
 
-You’ll support the end-to-end execution of multi-channel CRM activity (email, push, in-app), working closely with growth, trading, and analytics to make every message count.
+**Suade is delighted to be an equal opportunity employer. All qualified applicants will receive consideration for employment without bias.**
+**Responsibilities**
+As part of the RegTech team, you will use your financial expertise and coding knowledge to lead the architecture, development, and expansion of our regulatory portfolio. You will work closely with our Project Managers and Business Analysts, and you will build upon your experience to:
+  
+  
 
-If you’re a high-performer who thrives in fast-paced, high-impact environments, this is your chance to build, innovate, and leave a lasting mark on one of the most disruptive industries in the world.
+* Contribute to the delivery of our product roadmap using the best technology existing in the regulatory space. You will collaborate with other engineers who are as passionate as you are about stopping the next financial crisis.
+* Grow your coding and regulatory skills and become responsible for part of our portfolio, becoming the internal reference within the team.
+* Contribute new ideas to the architecture of the platform, and see some of those ideas implemented.
+* Understand the main problems that we are solving with our product. Participate in internal reviews and design sessions to keep our product up to date.
 
-Are you ready to shape the future of commerce? Let’s go.
+**Requirements**
 
-### **You will:**
+* Proficiency in at least one programming language (Python preferred)
+* Practical experience with working collaboratively with version control systems like Git, using platforms like GitHub or GitLab
 
-* Deliver multi-channel CRM campaigns (email, push, in-app) from planning and segmentation through to execution, QA and reporting.
-* Use customer and behavioural data to personalise messaging and optimise customer journeys across different lifecycle stages (e.g. new, returning, lapsed).
-* Collaborate with commercial and category teams to align CRM with key trading moments and promotions.
-* Build and optimise automated journeys using decision splits, delays, entry/exit criteria, and dynamic content.
-* Write engaging, on-brand copy that speaks to different customer segments and improves engagement.
-* Support A/B testing and experimentation to improve performance metrics like open, click-through, and conversion rates.
-* Monitor campaign results, generate insights and share learnings to inform strategy and future campaigns.
-* Support the CRM Lead in testing and implementing new CRM features and automation improvements.
+**Preferred Requirements**
 
-### **You have:**
+* Comfortable using a Unix-based operating system (e.g. Ubuntu) and navigating via the command line (you’re familiar with basic terminal commands and know what BASH is)
+* Familiarity with a modern code editor or IDE (e.g. VS Code, PyCharm, Atom)
+* You’ve worked on personal, academic, or internship projects involving scripting, automation, or data handling
 
-* 2–4 years’ experience in CRM, email, or digital marketing (e-commerce, retail or quick commerce preferred).
-* Hands-on experience with CRM platforms (e.g. Braze, Klaviyo, Customer.io).
-* Confidence working with data to segment audiences and evaluate campaign performance.
-* Strong attention to detail and the ability to juggle multiple priorities in a fast-paced environment.
-* A commercial mindset and genuine interest in improving key business KPIs.
-* Excellent written communication and collaboration skills.
-* Basic HTML/CSS skills for email formatting tweaks.
-* Experience with A/B testing and customer journey optimisation.
-* Familiarity with data tools like Looker or Tableau.
-* A creative eye for copy and content that connects with customers.
+**Benefits**
 
-### **Benefits:**
+* 25 days' holiday + Bank Holidays
+* Flexible holiday - choose when you take your holidays by opting out of bank holidays if you would like!
+* Additional annual leave holiday - An extra day of annual leave for every 3 years you work at Suade in addition to your existing 25 days on a pro rata basis
+* Company pension
+* Maternity leave and extraordinary paternity leave
+* Flexible working hours
+* Company laptop
+* Work from home budget/home set up: £500 for new starters
+* £500 Annual Training/ Development Subsidy
+* Perkbox benefits plan
 
-* Company RSU’s (Company Shares)
-* Private Medical + Dental cover
-* Annual performance appraisal and bonus
-* Employee Discount + FAM membership
-* Career growth opportunities
+**Salary: £35,000**","Technology, Information and Internet","https://uk.linkedin.com/company/targetjobsuk","","","","","",""
+"li-4251643217","linkedin","https://www.linkedin.com/jobs/view/4251643217","https://targetjobs.co.uk/jobs/graduate-software-developer-178872&urlHash=k0vz","Graduate Software Developer","targetjobs UK","London, England, UK","2025-06-16","fulltime","","","","","","","internship","","","[]","**About The Company**
+Our client is a high-growth SaaS scale-up headquartered in London, with a team of 100 forward-thinking professionals dedicated to delivering innovative software solutions. Known for their state-of-the-art technology and user-centric approach, they serve a broad and expanding client base across multiple industries. Driven by a commitment to continuous improvement, they focus on utilising the latest advancements in technology to meet and exceed client expectations. This dynamic, collaborative environment provides a strong foundation for growth and makes the company a key player in the SaaS landscape.
+  
+  
+**About The Role**
+The Graduate Developer role offers an exciting opportunity for recent graduates with a passion for software development and emerging technologies. In this position, you’ll contribute to the creation and enhancement of high-quality SaaS products within a fast-paced, agile development environment. The role includes hands-on coding, problem-solving, and collaboration with cross-functional teams. Ideal candidates should possess a solid understanding of software development fundamentals and be eager to work on impactful technology solutions that drive the company’s success.
+  
+  
+**Responsibilities**
 
-**Company Summary & EEOC Statement:**
+* Collaborating in the design, development, and deployment of software products.
+* Writing clean, efficient, and well-documented code in various programming languages.
+* Participating in code reviews, quality assurance, and troubleshooting to ensure high product standards.
+* Contributing to all phases of the development lifecycle, from concept to deployment.
+* Engaging with cross-functional teams to deliver innovative features and functionality.
 
-At Gopuff, we know that life can be unpredictable. Sometimes you forget the milk at the store, run out of pet food for Fido, or just really need ice cream at 11 pm. We get it—stuff happens. But that’s where we come in, delivering all your wants and needs in just minutes.
+**Requirements**
 
-And now, we’re assembling a team of motivated people to help us drive forward that vision to bring a new age of convenience and predictability to an unpredictable world.
+* Bachelor’s degree in Computer Science, Software Engineering, or a related field.
+* Strong programming skills and familiarity with software development methodologies.
+* Ability to learn and adapt to new technologies quickly.
+* Excellent problem-solving skills and attention to detail.
+* Good interpersonal and communication skills, with the ability to work in a team-oriented environment.
 
-Like what you’re hearing? Then join us on Team Blue.
+**Benefits**
 
-Gopuff is an equal employment opportunity employer, committed to an inclusive workplace where we do not discriminate on the basis of race, sex, gender, national origin, religion, sexual orientation, gender identity, marital or familial status, age, ancestry, disability, genetic information, or any other characteristic protected by applicable laws. We believe in diversity and encourage any qualified individual to apply.","","https://uk.indeed.com/cmp/Gopuff","https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/256x256/88738abc95bb2afc690b4a40f963699c","https://www.gopuff.com","Philadelphia, PA","5,001 to 10,000","Decline to state","Gopuff delivers thousands of essentials to your door in minutes, including food, drink & snack delivery, over-the-counter medicine, home essentials delivery and much more."
-"in-49bd43bf6504b014","indeed","https://uk.indeed.com/viewjob?jk=49bd43bf6504b014","https://www.gresearch.com/vacancies/machine-learning-research-internship/","Machine Learning Research Internship","G-Research","London, ENG, GB","2025-08-21","[]","","","","","",False,"","","","[]","Do you want to tackle the biggest questions in finance with near infinite compute power at your fingertips?
+* A competitive salary of £50,000 with potential for bonuses.
+* Career development opportunities in a dynamic and innovative tech environment.
+* Access to the latest tools and technologies in software development.
+* Regular team events, workshops, and networking opportunities.","Technology, Information and Internet","https://uk.linkedin.com/company/targetjobsuk","","","","","",""
+"li-4224228651","linkedin","https://www.linkedin.com/jobs/view/4224228651","https://www.ycombinator.com/companies/kular/jobs/IouTs2q-graduate-software-engineer?utm_source=syn_li&urlHash=-umg","Graduate Software Engineer","Kular","London, England, UK","2025-05-09","fulltime","","","","","","","internship","","","[]","🚀 Apply now | 👋 Who is Kula? | 🧐 You | 🔥 Role | 🎤Process | 💵 Referrals
+  
+  
+👋 Who is Kular and what do we do?
+  
+  
+We're Kular, the AI Lead Generator for busy professionals and business owners.
+  
+  
+Kular is being built by a team of MIT, IIT, Cambridge and Oxford grads, backed by some of the best investors in the world, including Y Combinator, Entrepreneur First, Acequia Capital and angel investors behind companies like Ironclad, OpenSea and Stripe.
+  
+  
+**🗺️ Where is this role based?**
+We are based in Whitechapel, London.
+  
+  
+🧐
+**Who exactly are we looking for?**
+This is an exciting opportunity to join one of the fast-growing startups in the world right now and work directly with the founders, potentially taking a leadership position down the line.
+  
+  
+**You'd Be a Great Fit If You're**
+🧗
+**Ambitious**
+You're someone who wants to grow fast in their career and can scale with Kular.
+  
+  
+*Daniel*
+deployed smart contracts that stored >1B$ in value
+  
+  
+🧠
+**Smart**
+You explore new creative ways of doing things, have strong opinions and are willing to change them.
+  
+  
+*Kular*
+*consists of Cambridge, Oxford, MIT and IIT graduates who have scaled systems to 5,000,000 active users and patented machine learning algorithms*
+🎯
+**Product Focused**
+You love solving customer problems whether using the latest tech or just an e-mail
+  
+  
+📈
+**A Learner**
+You
+**don't need decades of experience**
+, we're looking for people who
+**love learning fast!**
+*Smith*
+joined Kular before he’d even graduated and hadn’t coded in Python in years, but within a month he single-handedly created the system which is now the most important service at Kular
+  
+  
+**💻 Our Current Stack**
 
-G-Research is a leading quantitative research and technology firm, with offices in London and Dallas. We are proud to employ some of the best people in their field and to nurture their talent in a dynamic, flexible and highly stimulating culture where world-beating ideas are cultivated and rewarded.
+* React + Typescript
+* Python (FastAPI)
+* Postgres DB
+* Terraform
+* AWS
 
-This role is based in our new Soho Place office – opened in 2023 - in the heart of Central London and home to our Research Lab.
+📢 But we're
+**language agnostic!**
+If you're a great developer we'd love to have you onboard, regardless of your prior experience!
+  
+  
+🔥 So what will I do?
+  
+  
+As an engineer you will be working directly with our CTO, you'll create and iterate on technical projects:
+  
+  
 
-The role
+* Design & build core features for Kular's Web App and backend services
+* Ideate on new features for the product
+* Make architectural decisions to help Kular scale
+* Write sustainable, testable, high-quality, high-performance code.
+* Collaborate with teammates through planning, pair programming, code review, and testing.
 
-* 10-week summer programme (22nd June to 28th August 2026)
-* 09:00-17:30 working hours
-* Based in Central London
+If you want we'd also love to involve you in hiring, management and whatever other early startup operations you're interested in!","Software Development","https://uk.linkedin.com/company/joinkular","","","","","",""
+"li-4151319483","linkedin","https://www.linkedin.com/jobs/view/4151319483","https://naptha.ai/careers?ashby_jid=96df9dd3-85bc-4cff-b806-973b78bb433a&utm_source=k3pN1XlLyX&urlHash=JnKS","Software Engineer (Intern)","Naptha AI","London, England, UK","2025-02-13","other","","","","","","","internship","","","[]","Software Engineer (Intern) | naptha.ai
+  
+  
+**About This Role**
+We are seeking exceptional Software Engineering interns to join Naptha AI and contribute to building the future of AI agent infrastructure. This internship offers hands-on experience working with frontier AI technology, backed by industry veterans and technical leaders through NVIDIA Inception, Google for Startups, and Microsoft for Startups.
+  
+  
+We're building the foundational infrastructure for the next wave of AI companies, enabling frontier AI developers to build products powered by enormous networks of highly capable next-generation AI agents. As an Engineering Intern, you'll work directly with our technical team on real projects that impact our core platform.
+  
+  
+What You'll Do
+  
+  
 
-Over the course of 10 weeks, G-Research Summer Research Programme interns gain a unique insight into life as a Machine Learning (ML) practitioner at a leading quantitative finance research firm.
+* Build and improve components of our agent infrastructure
+* Work on real features that ship to production
+* Collaborate with experienced engineers and researchers
+* Learn about large-scale AI systems and infrastructure
+* Contribute to our agent development platform
+* Gain experience with cutting-edge AI tools and frameworks
 
-Our full-time ML researchers use a wide range of tools and techniques in an applied setting, putting their expertise to use in direct, production-ready applications with immediate results. They have access to vast computing resources and are limited only by their imagination.
+Technical Areas
+  
+  
 
-As an ML intern, you will have the opportunity to experience some of this as part of a 10-week programme working on a meaningful and challenging research project that demands the application of innovative yet pragmatic mathematical and computational analysis.
+* Backend development with Python and modern frameworks
+* Agent system implementation and testing
+* API development and integration
+* Performance optimization and monitoring
+* Infrastructure and tooling development
+* Testing and deployment automation
 
-You will be paired with a mentor who will supervise your work and provide ongoing feedback to help you improve and develop, as well as access to senior staff who are leaders in their fields. Your internship will culminate in a final presentation of your research ideas to senior management.
+**Requirements**
 
-Taking part in G-Research's Summer Internship Programme will give you an in-depth insight into our academic approach to the world of quantitative finance and allow you to explore the thriving city of London, while you get to know your fellow interns and colleagues through a full itinerary of fun social events.
+* Currently pursuing BS/MS in Computer Science or related field
+* Strong programming skills, particularly in Python
+* Basic understanding of AI/ML concepts
+* Experience with software development practices
+* Ability to work independently and learn quickly
+* Strong problem-solving abilities
 
-Top performers on the programme will be considered for full-time opportunities on completion of their studies.
+Nice to Have
+  
+  
 
-Who are we looking for?
+* Experience with AI frameworks or tools
+* Familiarity with distributed systems
+* Open source contributions
+* Experience with developer tools
+* Interest in AI infrastructure
 
-The ideal candidate will, at a minimum, have experience in the following areas:
+**About The Internship**
 
-* A post-graduate degree in Machine Learning or a related discipline, or commercial experience developing novel machine learning algorithms. We will also consider exceptional candidates with a proven record of success in online data science competitions, such as Kaggle. PhD level study is preferred
-* Experience in one or more of deep learning, reinforcement learning, non-convex optimisation, Bayesian non-parametrics, NLP or approximate inference
-* Excellent reasoning skills and mathematical ability are crucial: off-the-shelf methods don't always work with our data, so you will need to understand how to develop your own models
-* Strong programming skills and experience working with Python, scikit-learn, SciPy, NumPy, Pandas and Jupyter
+* Duration: 12-16 weeks
+* Location: Remote
+* Competitive compensation
+* Real-world project ownership
+* Mentorship from experienced engineers
+* Opportunity for return offers
 
-Previous experience in finance is not required, although an interest in finance and the motivation to rapidly learn more is a prerequisite for working here.
+This internship offers a unique opportunity to work on cutting-edge AI infrastructure while learning from experienced technical leaders. You'll gain practical experience building systems that power the next generation of AI applications.","Software Development","https://www.linkedin.com/company/napthaai","","","","","",""
+"li-4085602965","linkedin","https://www.linkedin.com/jobs/view/4085602965","https://jobs.ashbyhq.com/deductive/ad89510a-6a8d-4376-8bc1-32d409e30c09/application?utm_source=9bJyQ38oy5&urlHash=7FP-","Software Engineer Intern, London","Deductive AI","London, England, UK","2024-11-26","fulltime","","","","","","","internship","","","[]","**Company Description**
+Deductive AI is building the world's first real-time reasoning engine that can help root cause and mitigate large-scale software outages by reasoning about distributed systems, code, and statistical anomalies in real-time across unprecedented volumes of telemetry data (metrics, logs, traces, and events). Our team has decades of experience in building and maintaining large-scale production systems at Databricks, Facebook, Thoughtspot, Google, Splunk, and Amazon. As a company, we are extremely well-funded by some of the top VCs in the valley and are fortunate to have the backing of stellar investors and advisors.
+  
+  
+**Role Description**
+We are seeking interns to work with us on cutting edge technology. We are solving some very interesting problems at the intersection of AI, code understanding, data analytics. Our work involves distributed systems, building AI agents and fine tuning and benchmarking LLMs.
+  
+  
+This is a paid, on-site internship role at Deductive AI located in Camden, London. As a Software Engineering Intern at Deductive AI, you will have the opportunity to build the next generation of foundational code and data processing systems that can reason on extremely large amounts of structured and unstructured data. We are able to match projects based on the skill set and preference of the intern.
+  
+  
+**Qualifications:**
 
-Why should you apply?
+* Enrolled in a Master’s, or PhD program in Computer Science, or a related technical field, with a strong academic record.
+* Strong foundation in computer science with competencies in data structures, algorithms, and system design.
+* Familiarity with advanced programming languages such as Java, Scala, Python, Javascript or C++, with a strong grasp of algorithm optimization.
+* Familiarity with machine learning frameworks and libraries, and a keen interest in applying ML techniques to real-world problems.
+* Previous experience or knowledge of code and observability tools, real-time analytics, and large-scale system design is highly desirable.
+* Strong analytical and problem-solving skills, and attention to detail.
 
-* Highly competitive compensation plus accommodation
-* G-Research community with weekly intern activities
-* Lunch provided (via Just Eat for Business) and dedicated barista bar
-* 30 days’ annual leave pro-rated
-* Informal dress code and excellent work/life balance
-* Central London office close to 5 stations and 6 tube lines","","https://uk.indeed.com/cmp/G--research","https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/256x256/bc467438c3991fec10ae0d0a8fc9fc96","https://www.gresearch.com/","London, England","501 to 1,000","Decline to state","G-Research is a leading quantitative research and technology firm, based in London and Dallas."
-"in-a6469927849467ac","indeed","https://uk.indeed.com/viewjob?jk=a6469927849467ac","https://www.gresearch.com/vacancies/internship-in-quantitative-research/","Internship in Quantitative Research","G-Research","London, ENG, GB","2025-08-21","[]","","","","","",False,"","","","[]","Do you want to tackle the biggest questions in finance with near infinite compute power at your fingertips?
+**Applicants must be authorized to work in the UK, as Deductive AI is not sponsoring UK visas at this time**
+**What we offer:**
 
-G-Research is a leading quantitative research and technology firm, with offices in London and Dallas. We are proud to employ some of the best people in their field and to nurture their talent in a dynamic, flexible and highly stimulating culture where world-beating ideas are cultivated and rewarded.
+* Hands-on experience in a fast-growing startup with a disruptive product.
+* Direct mentorship from highly experienced engineers and interaction with our renowned advisors and investors.
+* A collaborative, inclusive, and dynamic work environment.
+* Competitive compensation and potential for full-time opportunities.
+* Opportunities to attend, publish, and speak at leading academic and industry conferences","Software Development","https://www.linkedin.com/company/deductive-ai","","","","","",""
+"li-3955668958","linkedin","https://www.linkedin.com/jobs/view/3955668958","https://www.ycombinator.com/companies/humaans/jobs/BM2L6rb-software-engineer-full-stack?utm_source=syn_li&urlHash=FoMG","Software Engineer (Full Stack)","Humaans","London, England, UK","2024-06-21","fulltime","","","","","","","mid-senior level","","","[]","**About Us**
+Hi, we’re Humaans! We help globally scaling organisations transform their HR processes with a human-centric approach.
+  
+  
+At Humaans, we want to empower People teams to create a customisable HR stack by offering flexibility and scalability to seamlessly integrate with other best in class platforms and point solutions, such as Google Workplace, Slack, Okta, Greenhouse, Lattice, DocuSign and more. The stack enables companies to manage employee data, documents, contracts, reporting, and people processes that power your entire HR structure.
+  
+  
+We have raised $20 million in VC funding to date. Investors include major tech players such as Lachy Groom; Slack founder Stewart Butterfield; Shopify founder Tobias Lütke; Figma Founder Dylan Field; Linkedin ex-CEO Jeff Weiner; Stripe COO Claire Johnson; Y Combinator; Moonfire; Frontline Ventures; Exor and more.
+  
+  
+Our journey is only at the beginning, and we’re looking for people excited about driving real impact. As a human centred company (quite literally), every team member counts - and that’s where you come in.
+  
+  
+Our tech stack
+  
+  
+Our tech stack today consists of TypeScript, JavaScript, ReScript, React.js, Node.js, Postgres and Redis. We use GitHub for code and continuous integration to deploy to Kubernetes on Google Cloud Platform. We have a public REST API and our browser client uses a realtime WebSocket API. We obsess over details and quality of the user facing features and their implementation. Yet we move fast by creating focus and leveraging high quality foundations. Clojure, ReScript, Melange and OCaml are some of the languages that get us excited which is why we’ve ventured into exploring ReScript in our frontend stack.
+  
+  
+Your day to day
+  
+  
 
-This role is based in our new Soho Place office – opened in 2023 - in the heart of Central London and home to our Research Lab.
+* Help us shape the product from definition to release
+* Build end to end features, fix bugs, improve infra, support customers
+* Write backend TypeScript in Node.js, Postgres, Redis, Kubernetes
+* Write frontend ReScript / JavaScript in React.js
+* Expand our 3rd party integration marketplace
+* Contribute to our technical architecture planning
+* Support sales and marketing teams
 
-The role
+**Skills**
 
-* 10-week summer programme (22nd June to 28th August 2026)
-* 09:00-17:30 working hours
-* Based in Central London
+* Multiple years of industry experience in a full stack web app development role (ideally in SaaS)
+* Great knowledge of TypeScript / JavaScript and an appreciation for the language
+* Appreciation for design and digital product craftsmanship
+* Experience collaborating directly with product teams and designers, and a proven track record of delivering value to customers or users
 
-Over the course of 10 weeks, G-Research Summer Research Programme interns gain a unique insight into life as a Quantitative Researcher at a leading quantitative finance research firm.
+This is an in-person role based at our Central London office (Chancery Lane). Our team comes together in the office on Tuesdays, Wednesdays, and Thursdays to fuel collaboration and connection.
+  
+  
+Package & Benefits
+  
+  
+Early stage startups can be messy – we know that. We're putting effort in providing you with the best employee experience and a quality driven environment in exchange for trusting us.
+  
+  
+💰
+**Salary.**
+Competitive compensation.
+  
+  
+📈
+**Equity.**
+Meaningful equity so that you own part of the company.
+  
+  
+🏝️
+**Time off.**
+25 days of paid time off per year plus public holidays.
+  
+  
+🆘
+**Health.**
+Bupa Private health and dental insurance.
+  
+  
+💻
+**Technology.**
+A brand new MacBook.
+  
+  
+🎒
+**Learning and development.**
+Budget for books and other resources you need.
+  
+  
+Why Join Humaans Today?
+  
+  
+🚀
+**Transform an Entire Industry.**
+HR tech is ripe for disruption, and we're leading the charge. Traditional HR products are clunky, slow, and fail to deliver a seamless experience. Businesses are tired of outdated, fragmented solutions that don’t scale. Humaans is here to disrupt that status quo with powerful, scalable solutions that work for every part of the organization.
+  
+  
+🌍
+**Tackle a Game-Changing Challenge.**
+HR Tech used to be overlooked – not anymore. The way people work is evolving faster than ever, and the needs of global companies are changing in real-time. Humaans is at the forefront of this change, reshaping how businesses operate and empowering teams everywhere.
+  
+  
+🔥
+**Work in a Quality-First Culture.**
+At Humaans, we’re obsessed with delivering top-notch user experiences. Every decision we make is guided by our dedication to design, performance, and customer experience.
+  
+  
+⚡
+**Accelerate Your Career.**
+Joining us at this stage means you’ll be growing alongside the company. We’re learning together, shaping the future of HR tech, and offering you an unmatched opportunity for personal and professional growth.
+  
+  
+💎
+**Backed by the Best.**
+We’re proud to have the support of legendary investors and tech leaders, including Y Combinator and Lachy Groom, the founders of Slack, Shopify, and Figma, Asana’s former CRO, the former CEO of LinkedIn and more. With this powerhouse backing, we’re set to building something truly special.
+  
+  
+Our Commitment to Diversity
+  
+  
+At Humaans we’re looking for genuinely good people that are transparent and emphatic. We’re committed to providing equal opportunities, a diverse and inclusive work environment, and ensuring a fair interview process for everyone. You’re welcome to apply no matter your gender, ethnicity, sexual orientation, religion, civil or family status, age, disability, or race.
+  
+  
+Privacy notice
+  
+  
+We care about your privacy. When you apply for a role at Humaans, we’ll collect and process your personal data as part of our recruitment process. This includes things like your CV, contact details, and any other information you choose to share. We may also contact you about future opportunities. You can ask us to delete your data at any time. For more details, see our Privacy Policy.","Software Development","https://uk.linkedin.com/company/humaans","","","","","",""
+"li-3318538834","linkedin","https://www.linkedin.com/jobs/view/3318538834","https://jobs.lever.co/Yassir/13c90265-5c71-492d-a570-9c3af60282b0/apply?lever-source=LinkedIn&urlHash=_Nb4","Backend Software Engineer","Yassir","London, England, UK","2022-09-24","fulltime","","","","","","","not applicable","","","[]","**Yassir**
+is the leading super App in the Maghreb region set to changing the way daily services are provided. It currently operates in
+**45 cities across Algeria, Morocco and Tunisia with recent expansions into France, Canada and Sub-Saharan Africa**
+. It is backed (:
+**$200M in funding**
+) by VCs from Silicon Valley, Europe and other parts of the world.
+  
+  
+We offer on-demand services such as ride-hailing and last-mile delivery. Building on this infrastructure, we are now introducing financial services to help our users pay, save and borrow digitally.
+  
+  
+Helping usher the continent into a digital economy era. We’re not just about serving people - we’re about creating a marketplace to bring people what they need while infusing social values.
+  
+  
+**About The Role**
+In this role, you will be part of our engineering team, working with a high-quality code base and the latest tools, where you will promote your skills to be an expert in complex backend development, including microservices architecture, using Node.js, Python or Go. You will own and build large scale backend systems and micro-services. You will design, develop, and deliver powerful server-side applications in a highly dynamic environment, where root cause analysis and rapid problem-solving are required.
+  
+  
+**TASKS**
 
-You will be given a meaningful and challenging research project that demands the application of innovative yet pragmatic mathematical and computational analysis.
+* Build robust and scalable software in Node.js, Python or Go
+* Design and create (micro)services and system architecture for projects, and contribute and provide feedback to other team members
+* Help improve existing code quality through writing unit tests, automation and performing code reviews
+* Participate in brainstorming sessions and contribute ideas to our technology, algorithms and products
+* Work with the engineering and design teams to understand end-user requirements, formulate use cases, and then translate that into a pragmatic and effective technical solution
+* Dive into difficult problems and successfully deliver results on schedule
 
-Using rigorous scientific methodology, robust statistical analysis, and pattern recognition, you will extract meaningful predictive signals from financial time-series and use these to predict future dynamics.
+**Requirements**
 
-Your project will give you the opportunity to use a wide range of techniques in areas such as mathematical modelling, deep learning, optimisation, and machine learning in a practical and challenging context. Additional work may involve the implementation of back-testing frameworks to ensure signal robustness, or the creation of a pipeline which constructs and simulates the performance of a portfolio derived from various input signals.
+* Technical Skills :
+* A BS degree in computer or any equivalent experience
+* MS degree and above preferred
+* Solid OOP and software design knowledge – you should know how to create software that is extensible, reusable and meets desired architectural objectives
+* Must have technical skills with at least 1 year experience
+* Language: Node.js, Python or Go
+* Data base: Mongodb or other
+* Framework: Express.js or other.
+* Web architecture: Rest and restful APIs, micro-services
+* Master source version control: GIT
+* Nice to have technical skills (Strongly advised for senior profiles)
+* Containers: Docker, kubernetes
+* Caching, Redis server
+* Web load balancing
+* Scaling
+* OS administration
+* Encryption : https//, digital signing
 
-For the duration of the internship, you will collaborate with one of our Quantitative Researchers who will act as a mentor as you work on your independent project. You will receive structured feedback and reviews to help you to improve and develop, culminating in a final presentation of your research ideas to senior management.
+**Other key skills and traits :**
 
-Taking part in G-Research's Summer Internship Programme will give you an in-depth insight into our academic approach to the world of quantitative finance and allow you to explore the thriving city of London, while you get to know your fellow interns and colleagues through a full itinerary of fun social events.
+* Outstanding written & verbal communication skills
+* Outstanding project management skills
+* Demonstrated ability to prioritize, self-start, contribute under pressure and meet tight deadlines
+* Highly organized, creative and critical thinker
+* Comfortable working in an entrepreneurial environment
+* Procurement or legal background is a big plus
+* Excellent judgment, communication and interpersonal skills
+* Organized and obsessive about details
+* Hard working, passionate and looking to embrace the challenge
+* Thrive in high impact/high profile situations
+* Enthusiastic about Yassir!
 
-Top performers on the internship will be considered for full-time opportunities on completion of their studies.
+**Benefits**
 
-Who are we looking for?
+* Great compensation and bonuses including stock options
+* Ground floor opportunity with the team; shape the strategic direction of the company
+* Sharp, motivated co-workers in a fun office environment or in remote
+* Paid company holidays
+* Full social coverage
 
-The ideal candidate will, at a minimum, have experience in the following areas:
+**WHY YOU SHOULD JOIN YASSIR**
 
-* Strong background in mathematics
-* Intermediate level of programming in at least one OO language (Python/C# desirable)
-* An interest in applying data science, machine learning and optimisation techniques to real-world problems
-* You should be in the final or penultimate year of a Masters or PhD in a highly technical or quantitative subject such as Mathematics, Physics, Statistics, Engineering or Computer Science. PhD preferred
-* We also like to see active GitHub/Kaggle profiles, but these aren't a prerequisite
-* Previous experience in finance is not required, although an interest in finance and the motivation to rapidly learn more is a prerequisite for working here.
+* Join one of the fastest-growing tech companies in North Africa
+* Have a lasting impact on our company's culture
+* Make a real impact on the world by helping us bring affordable financial and on-demand services to millions of Africans
+* Work on some really hard technical challenges from identity infrastructure for Africans, digital payment networks to complex mapping and routing systems across the continent
+* We are the first Algerian startup to go through Y Combinator program and we’re backed by top investors including Unpopular Ventures, Rebel Fund and DainTree.VC
 
-Why should you apply?
+At Yassir, we believe in the power of diversity and the importance of an inclusive culture. So, if you're ready to bring your unique perspective and experiences to the table, then we're excited to listen.
+  
+  
+Don't just apply for a job, come and be a part of our journey. Let's create a better tomorrow together.
+  
+  
+We look forward to receiving your application!
+  
+  
+Best of luck,
+  
+  
+Your Yassir TA Team","IT Services and IT Consulting","https://www.linkedin.com/company/yassir","","","","","",""
+"li-4187789771","linkedin","https://www.linkedin.com/jobs/view/4187789771","https://www.hackajob.com/job/61b03787-5956-11ef-8dee-0233fbd1aab3-backend-software-engineer?utm_source=LinkedIn&utm_medium=JobAds&utm_term=Automated&utm_campaign=virgin-media-backend-software-engineer&job_name=backend-software-engineer&company=virgin-media&workplace_type=hybrid&city=uxbridge&country=united-kingdom&urlHash=zOtG","Backend Software Engineer","hackajob","Uxbridge, England, UK","","fulltime","","","","","","","entry level","","","[]","***hackajob**
+is collaborating with
+**Virgin Media**
+to connect them with exceptional tech professionals for this role.*
+**Job title:**
+Software Engineer
+  
+  
+**Location:**
+Uxbridge but mostly remote (monthly or quarterly visits)
+  
+  
+**A Bit About Giffgaff**
+Do you want to join a telecoms company that’s up to good? At giffgaff we do mobile differently. We call out the bad and find a better way. We’re laser-focused on flexibility, value and mutual good.
+  
+  
+And we’re so proud to be a certified B Corp. This means we've joined a network of more than 1,000 UK companies, who want to make a positive impact on people and the planet. Working at giffgaff is something you could be proud of too.
+  
+  
+You’ll get the best of both worlds, the energy and fast pace of giffgaff, plus all the benefits that come with being part of our parent company, Virgin Media O2.
+  
+  
+Our business model is unique. We work with our members (our customers) to understand their needs in all areas of the business. We love this highly collaborative approach. Over the past few years our member base has grown steadily, and we’re still going. We’re always looking to acquire new members, and to do that we need the best people in our team.
+  
+  
+Our bright and modern gaff is in Uxbridge, in leafy West London. But if commuting isn’t your favourite, most of our roles can be hybrid or work from home, or anywhere in between. If you like coming in, you’ll always find some office buddies. And if you like big occasions, we really bring the office to life monthly for our themed culture days. Plus all our giffgaffers come together at our legendary giffgaff summer, birthday and Christmas celebrations.
+  
+  
+**The Role And The Team**
+Software engineering is at the heart of what we do here at giffgaff - our agile engineering teams build and support a set of applications and services that combined create our unique user experience on the giffgaff website, enable our internal teams to work in the most productive and efficient ways and enable a whole range of awesome features via modern APIs.
+  
+  
+The quality and maintainability of our software is very important for us, we are looking for engineers with real world experience, especially in terms of the whole development lifecycle.
+  
+  
+You will help us design and implement tightly focussed APIs, services and user interfaces and, together with your team, you will support them in production. We want you to share your opinions on how we are doing things - and help us get better!
+  
+  
+**Key Responsibilities**
 
-* Highly competitive compensation plus accommodation
-* G-Research community with weekly intern activities
-* Lunch provided (via Just Eat for Business) and dedicated barista bar
-* 30 days’ annual leave pro-rated
-* Informal dress code and excellent work/life balance
-* Central London office close to 5 stations and 6 tube lines","","https://uk.indeed.com/cmp/G--research","https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/256x256/bc467438c3991fec10ae0d0a8fc9fc96","https://www.gresearch.com/","London, England","501 to 1,000","Decline to state","G-Research is a leading quantitative research and technology firm, based in London and Dallas."
+* Work with a full-stack attitude within a self-organising, cross functional product engineering team using extreme programming practices - notably pair programming and test-driven development
+* Build, support and maintain automated, fault-tolerant, scalable products and solutions that are continuously delivered into our production environment
+* Be technically curious, tackling problems without giving up, and producing solutions that less-experienced engineers can use, maintain, and learn from
+
+**Accountable For**
+You’ll have to make tough decisions, implement best practice and provide compromises when situations are not ideal. Oh and you’ll need to explain that to people. Not just the technical ones. Because we work in product teams where not everyone is a techie. It’s fun, you get closer to the business and know more about why we do what we do, not just how.
+  
+  
+Our core technologies are
+**Java, PHP & Python & React**
+, and we like our engineers to be XP developers with a full-stack attitude. We’re looking for passionate programmers who are comfortable with using a variety of frameworks, languages & tools and are happy to pick up new skills when the need arises.
+  
+  
+**Skills, Experience And Attitudes**
+
+* Essential Skills: Reading & Writing Code, Debugging & Troubleshooting, IDE & OS Basics, Test Driven Development, Pair Programming, Clean Code & Refactoring, Version Control
+* Desirable Skills: CI / CD, Algorithms & Data Structures,DI / IoC, Mocks & Stubs, Alerting & Monitoring, Functional & Non-Functional Testing, SOLID Principles, Containerisation & Networking Basics, Twelve Factor App Design, Solution Architecture
+
+**Plus Competency In 3 Or More Of The Following**
+
+* Client-Side Engineering: CSS3, Cypress, ECMAScript (ES6+), HTML5, Jest, React & React Native, SASS, TypeScript
+* Server-Side Engineering: Java 8 with Maven & Spring, JUnit, NodeJS, PHP with Laravel or Zend, Python
+* Additional Technology: Apache & NGINX, AWS, Jenkins, DynamoDB, PostgreSQL, Redis & Oracle, Docker & Kubernetes, ElasticSearch & Kibana, Grafana & Prometheus, Kinesis
+
+**Our commitment to equity, diversity and inclusion**
+At giffgaff we want to challenge the old way of doing things. People, and the way they work, define our culture and we encourage everyone to bring their whole selves to the gaff. That's why we believe in creating an equitable, fairer, more inclusive business that champions different ideas and perspectives. We may be sort-of-small but we're big on that caring, sharing thing & strive to create a supportive culture.
+  
+  
+As a lean organisation, our team is built of a diverse, spirited range of people who are multi-skilled, highly motivated and flexible.
+  
+  
+In return for your outstanding efforts, you'll be rewarded with a competitive salary and excellent benefits. We believe that hard work should be supported and recognised.
+  
+  
+If this sounds like you, we’d love to hear from you.","Software Development","https://uk.linkedin.com/company/hackajob","","","","","",""

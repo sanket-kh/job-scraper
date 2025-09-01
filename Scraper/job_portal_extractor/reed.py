@@ -10,6 +10,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.support import expected_conditions as ec
 
+from Scraper.job_portal_extractor.filter_jobs import apply_all_filters
 from Scraper.job_portal_extractor.utils.common_utils import html_to_text_with_breaks
 
 API_KEY = "e46182fc-639e-432a-9a9b-60fb9ab6bd7b"
@@ -144,6 +145,7 @@ def scrape_reed_jobs():
 
 if __name__ == "__main__":
     jobs = scrape_reed_jobs()
+    matched_jobs = apply_all_filters(jobs)
     print(f"✅ Found {len(jobs)} jobs from Reed")
     print(jobs)
     inserted, deleted = insert_jobs(jobs, data_source="reed")

@@ -2,6 +2,7 @@
 import argparse
 import asyncio
 
+from Scraper.job_portal_extractor.filter_jobs import apply_all_filters
 from Scraper.job_portal_extractor.utils import notification, database
 from Scraper.job_portal_extractor.utils.common_utils import remove_duplicate_jobs
 # Import scrapers
@@ -34,7 +35,7 @@ async def run_cv_library_scraper(company_list=None, max_workers=None, max_pages=
         
         # Run the scraper
         job_listings = await scraper.get_job_listings_async()
-        job_listings = remove_duplicate_jobs(job_listings)
+        job_listings = apply_all_filters(job_listings)
         
         if not job_listings:
             notify_failure("No job listings returned from CV Library scraper", "run_cv_library_scraper")

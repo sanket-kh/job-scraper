@@ -13,6 +13,7 @@ from selenium.webdriver.support import expected_conditions as ec
 from selenium.webdriver.support.wait import WebDriverWait
 from webdriver_manager.chrome import ChromeDriverManager
 
+from Scraper.job_portal_extractor.filter_jobs import apply_all_filters
 from Scraper.job_portal_extractor.utils.common_utils import remove_duplicate_jobs
 from Scraper.job_portal_extractor.utils.notification import notify_success
 from Scraper.job_portal_extractor.utils.supaDb import insert_jobs
@@ -122,7 +123,7 @@ try:
 except Exception as e:
     print(f"Error in Scraping Linkedin: {e}")
 
-transformed_results = remove_duplicate_jobs(transformed_results)
+transformed_results = apply_all_filters(transformed_results)
 print(transformed_results)
 print(f"Found {len(transformed_results)} jobs from Linkedin")
 if (len(transformed_results) > 0):

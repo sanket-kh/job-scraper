@@ -24,7 +24,7 @@ def get_session():
 
 
 class Job(Base):
-    __tablename__ = 'jobs'
+    __tablename__ = 'jobs_duplicate'
     
     id = Column(Integer, primary_key=True)
     job_title = Column(String(255), nullable=False)
@@ -50,7 +50,8 @@ def init_db():
         
         # Check if table exists, create if not
         inspector = inspect(engine)
-        if not inspector.has_table('jobs'):
+        # todo main table
+        if not inspector.has_table('jobs_duplicate'):
             print("Creating jobs table...")
             Base.metadata.create_all(engine)
             print("Table created successfully")
@@ -110,7 +111,7 @@ def delete_jobs_by_source(source):
         init_db()
     if not source:
         print("No Source given, returning... ")
-        return;
+        return
     
     session = get_session()
     try:
