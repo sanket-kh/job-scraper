@@ -15,7 +15,8 @@ def insert_jobs(jobs, data_source: str):
 
     try:
         print(f"🗑️ Deleting existing jobs for data source: {data_source}")
-        delete_response = supabase.table("jobs").delete().eq("data_source", data_source).execute()
+        #Todo main table
+        delete_response = supabase.table("jobs_duplicate").delete().eq("data_source", data_source).execute()
 
         deleted_count = len(delete_response["data"]) if "data" in delete_response else 0
 

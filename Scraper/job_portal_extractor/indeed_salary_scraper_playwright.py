@@ -48,7 +48,7 @@ def _attempt_scrape(job_url, attempt_num=0):
         ]
         
         # Alternate between headless and headed mode
-        headless = (attempt_num % 2 == 0)
+        headless = True
         
         # Launch browser with stealth settings
         browser = p.chromium.launch(

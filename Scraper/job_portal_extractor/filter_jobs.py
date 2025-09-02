@@ -2,6 +2,11 @@ import regex as re
 from Scraper.job_portal_extractor.utils.config import load_company_list
 from Scraper.job_portal_extractor.utils.match_company import is_company_match_above_70
 
+def clean_text(text: str) -> str:
+    if not text:
+        return ""
+    # Strip invalid surrogate characters
+    return text.encode("utf-8", "ignore").decode("utf-8", "ignore")
 
 def parse_salary(salary_text: str) -> float | None:
     """
@@ -50,8 +55,8 @@ def apply_all_filters(input_arr, exclude_per_day_salary=True, minimum_salary=335
 
     for job in input_arr:
         # Skip duplicates (existing logic)
-        desc_key = (job.get("description") or "")[:200]
-        company_name = (job.get("company_name") or "").lower().strip()
+        desc_key = clean_text((job.get("description") or ""))[:200]
+        company_name = clean_text((job.get("company_name") or "")).lower().strip()
 
         if desc_key in seen:
             continue

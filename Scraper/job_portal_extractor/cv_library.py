@@ -22,7 +22,7 @@ async def run_cv_library_scraper(company_list=None, max_workers=None, max_pages=
         # max_workers = max_workers or settings.MAX_WORKERS
         # max_pages = max_pages if max_pages is not None else settings.MAX_PAGES
         max_workers = 2
-        max_pages = 20
+        max_pages = 30
 
         notify_success("Started", "CV Library")
         

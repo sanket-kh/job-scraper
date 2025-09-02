@@ -87,7 +87,7 @@ try:
         linkedin_fetch_description=True,
         distance=25,
         # results_wanted=2500,
-        results_wanted=20,  # For Testing
+        results_wanted=60,  # For Testing
         # hours_old=168,
         # enforce_annual_salary = True,
         country_indeed='UK',

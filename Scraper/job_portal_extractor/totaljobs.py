@@ -255,7 +255,7 @@ if __name__ == "__main__":
         get_company_list()
         
         # Set maximum pages to scrape (as a safety measure)
-        max_pages = 10
+        max_pages = 25
         
         # Set initial URL
         current_url = 'https://www.totaljobs.com/jobs/sponsorship/in-united-kingdom?salary=30000&salarytypeid=1'
