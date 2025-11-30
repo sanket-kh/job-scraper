@@ -33,7 +33,7 @@ JOB_COLUMNS = [
 
 class Job(Base):
     """Database model for job listings"""
-    __tablename__ = 'jobs_duplicate'
+    __tablename__ = 'jobs'
     
     id = Column(Integer, primary_key=True)
     job_title = Column(String(255), nullable=False)

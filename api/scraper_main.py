@@ -44,7 +44,7 @@ def fetch_jobs(
         "endpoint": "/fetch_jobs",
     }).execute()
 
-    query = supabase.table("jobs_duplicate").select("*")
+    query = supabase.table("jobs").select("*")
 
     # Apply filters conditionally
     if job_title:

@@ -1,4 +1,4 @@
 class TableNames:
     users = 'users'
-    job = 'jobs_duplicate'
+    job = 'jobs'
     logs = 'api_logs'

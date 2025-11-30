@@ -24,7 +24,7 @@ def get_session():
 
 
 class Job(Base):
-    __tablename__ = 'jobs_duplicate'
+    __tablename__ = 'jobs'
     
     id = Column(Integer, primary_key=True)
     job_title = Column(String(255), nullable=False)
@@ -51,7 +51,7 @@ def init_db():
         # Check if table exists, create if not
         inspector = inspect(engine)
         # todo main table
-        if not inspector.has_table('jobs_duplicate'):
+        if not inspector.has_table('jobs'):
             print("Creating jobs table...")
             Base.metadata.create_all(engine)
             print("Table created successfully")
