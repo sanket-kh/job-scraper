@@ -9,12 +9,11 @@ from bs4 import BeautifulSoup
 from playwright.async_api import async_playwright
 from rapidfuzz import process
 
-from utils.database import Job
-from utils.notification import notify_failure
-from utils.logger import logger
-from utils.config import Settings
+from Scraper.job_portal_extractor.utils.config import Settings
+from Scraper.job_portal_extractor.utils.notification import notify_failure
+from Scraper.job_portal_extractor.utils.logger import logger
+from Scraper.job_portal_extractor.utils.match_company import is_company_match_above_70
 
-from utils.match_company import is_company_match_above_70
 
 BASE_URL = "https://www.cv-library.co.uk/permanent-jobs?distance=750&page={page_num}&perpage=100&posted=7&salary_annual=4&salary_annual=7&salary_annual=3&salary_annual=8&salary_annual=6&salary_annual=5"
 
@@ -48,14 +47,14 @@ class CVLibraryScraper:
     async def get_total_jobs(self):
         try:
             await self.page.goto(BASE_URL.replace("&page={page_num}", ""), wait_until="domcontentloaded")
-            await self.page.wait_for_selector("div.search-nav-actions__left p", timeout=10000)
+            # await self.page.wait_for_selector("div.search-nav-actions__left p", timeout=20000)
             content = await self.page.content()
 
             soup = BeautifulSoup(content, 'html.parser')
             total_jobs_text = soup.select_one(".search-header__results").get_text()
             match = re.search(r"of ([\d,]+) jobs", total_jobs_text)
             if match:
-                total_jobs = int(match.group(1).replace(",", ""));
+                total_jobs = int(match.group(1).replace(",", ""))
                 print("Total Jobs Found :", total_jobs)
                 return total_jobs
             return 0

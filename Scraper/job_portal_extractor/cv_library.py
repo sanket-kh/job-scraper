@@ -3,8 +3,6 @@ import argparse
 import asyncio
 
 from Scraper.job_portal_extractor.filter_jobs import apply_all_filters
-from Scraper.job_portal_extractor.utils import notification, database
-from Scraper.job_portal_extractor.utils.common_utils import remove_duplicate_jobs
 # Import scrapers
 from portals.cvlibrary import CVLibraryScraper
 from utils.config import Settings, load_company_list

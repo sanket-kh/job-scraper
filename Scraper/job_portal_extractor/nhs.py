@@ -16,7 +16,7 @@ import time
 from rapidfuzz import process
 
 from Scraper.job_portal_extractor.filter_jobs import apply_all_filters
-from Scraper.job_portal_extractor.utils.common_utils import remove_duplicate_jobs
+from Scraper.job_portal_extractor.utils.common_utils import remove_duplicate_jobs, html_to_text_with_breaks
 from utils.notification import notify_success, notify_failure
 from utils.dbUtils import Job, init_db, insert_jobs_to_db, delete_jobs_by_source;
 
@@ -231,13 +231,13 @@ def scrape_all_pages():
                     if not 'Certificate of Sponsorship' in description:
                         continue
 
-                    job['description'] = description
+                    job['description'] = html_to_text_with_breaks(description)
                 matched_jobs.append(job)
 
             page += 1
 
             # Break after first page for testing
-            if page > 3:
+            if page > 10:
                 break
 
         except requests.RequestException as e:

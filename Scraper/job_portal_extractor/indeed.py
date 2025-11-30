@@ -16,7 +16,7 @@ try:
         location="London,UK",
         distance=25,
         # results_wanted=2500,
-        results_wanted=60,  # For Testing
+        results_wanted=50,  # For Testing
         # hours_old=72,
         country_indeed='UK',
         
